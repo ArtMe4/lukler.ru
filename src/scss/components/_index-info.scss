@@ -1,0 +1,181 @@
+.info {
+
+  background: linear-gradient(107.2deg, #372321 7.64%, #816965 86.11%);
+  border-radius: 0px 80px 0px 0px;
+  text-align: center;
+  font-style: normal;
+  color: #FFFFFF;
+
+  &__title {
+
+    @include laptop {
+
+      font-size: 20px;
+      line-height: 28px;
+      margin-bottom: 0;
+
+    }
+
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: normal;
+    margin-bottom: 3px;
+
+  }
+
+  &__name {
+
+    @include laptop {
+
+      font-size: 30px;
+      line-height: 40px;
+      margin-bottom: 20px;
+
+    }
+
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 52px;
+    margin-bottom: 30px;
+
+  }
+
+  &__hr {
+
+    @include laptop {
+
+      margin-bottom: 20px;
+
+    }
+
+    margin-bottom: 30px;
+
+  }
+
+  &__description {
+
+    @include laptop {
+
+      font-size: 16px;
+      line-height: 24px;
+      margin-bottom: 20px;
+
+    }
+
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 32px;
+    margin-bottom: 30px;
+
+  }
+
+  &__site {
+
+    @include laptop {
+
+      margin-bottom: 20px;
+
+    }
+
+    margin-bottom: 30px;
+
+    a {
+
+      @include laptop {
+
+        font-size: 16px;
+        line-height: 24px;
+
+      }
+
+      font-weight: normal;
+      font-size: 22px;
+      line-height: 32px;
+      color: #F3D3D7;
+      text-decoration: none;
+
+      &:hover {
+        color: #F3D3D7;
+      }
+
+    }
+
+  }
+
+  &__buttons {
+
+    a {
+
+      @include laptop {
+
+        font-size: 16px;
+        line-height: 24px;
+
+      }
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 26px;
+      color: #FFFFFF;
+      text-decoration: none;
+
+      &:hover {
+        color: #FFFFFF;
+      }
+
+      img {
+
+        margin-right: 20px;
+        background: #E26776;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 19px;
+        border-radius: 50%;
+
+      }
+
+    }
+
+  }
+
+  &__img {
+
+    position: relative;
+
+    img {
+
+      @include tablet {
+
+        position: relative;
+        text-align: center;
+        margin: auto;
+
+      }
+
+      position: absolute;
+      bottom: 0;
+      left: 0;
+
+    }
+
+  }
+
+  &__text {
+
+    @include laptop {
+      padding: 50px 0 32px;
+    }
+
+    @include tablet {
+      padding: 40px 0 20px;
+    }
+
+    padding: 79px 0 108px;
+
+  }
+
+}

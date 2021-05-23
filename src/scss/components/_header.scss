@@ -1,0 +1,124 @@
+body {
+  overflow-x: hidden;
+}
+
+header {
+
+  position: absolute;
+  width: 100%;
+
+}
+
+.header {
+
+  @include laptop {
+    padding: 14px 0;
+  }
+
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__logo {
+
+
+
+  }
+
+  &__right {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+
+  &__menu {
+
+    &-nav {
+
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+
+      .nav__item {
+
+        padding-right: 30px;
+
+        a {
+
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 24px;
+          text-transform: uppercase;
+          color: #45180E;
+          text-decoration: none;
+
+        }
+
+        &-children {
+
+          display: none;
+
+          ul {
+
+            padding: 0;
+            list-style: none;
+
+          }
+
+        }
+
+      }
+
+    }
+
+  }
+
+  &__cart {
+
+    cursor: pointer;
+
+  }
+
+  &__mobile {
+
+    &-menu {
+
+      @include tablet {
+
+        margin-left: 10px;
+
+      }
+
+      margin-left: 16px;
+
+    }
+
+  }
+
+}
+
+.nav__item.has-child {
+
+    a {
+
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+
+      &::after {
+
+        content: url("/assets/img/header-iamges/menu-arrow.png");
+        display: block;
+        margin-left: 9px;
+
+      }
+
+    }
+
+}

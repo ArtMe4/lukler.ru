@@ -1,5 +1,84 @@
 .new {
 
+  @include laptop {
+    padding: 80px 0;
+  }
+
+  @include tablet {
+    padding: 60px 0;
+  }
+
+  padding: 100px 0;
+  background: #FAEBE9;
+  opacity: 0.8;
+
+  &__title {
+
+    @include laptop {
+
+      font-size: 30px;
+      line-height: 40px
+
+    }
+
+    @include tablet {
+      
+      text-align: center;
+      position: relative;
+      
+    }
+
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 52px;
+    color: #45180E;
+
+    img {
+      
+      @include tablet {
+
+        margin-left: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 70px;
+        
+      }
+
+      margin-left: 21px;
+
+    }
+
+  }
+
+  &__subtitle {
+
+    @include laptop {
+
+      font-size: 20px;
+      line-height: 28px;
+      margin-bottom: 37px;
+
+    }
+
+    @include tablet {
+
+      text-align: center;
+      margin-bottom: 18px;
+
+    }
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+    color: #45180E;
+    margin-bottom: 112px;
+
+  }
+
   &__body {
 
     display: flex;
@@ -10,7 +89,25 @@
 
   &__tabs {
 
+    @include tablet {
+
+      width: 100%;
+      padding: 0;
+      margin-bottom: 40px;
+
+    }
+
+    width: 25%;
+    padding-right: 20px;
+
     &-items {
+
+      @include tablet {
+
+        display: flex;
+        flex-wrap: wrap;
+
+      }
 
       padding: 0;
       margin: 0;
@@ -18,6 +115,21 @@
       display: block;
 
       li {
+
+        @include laptop {
+
+          font-size: 16px;
+          line-height: 24px;
+
+        }
+
+        @include tablet {
+
+          font-size: 20px;
+          line-height: 28px;
+          font-weight: 500;
+
+        }
 
         cursor: pointer;
         font-style: normal;
@@ -27,18 +139,44 @@
         color: #E26776;
 
         &:not(:last-child) {
+
+          @include laptop {
+            margin-bottom: 12px;
+          }
+
+          @include tablet {
+            margin-right: 10px;
+          }
+
           margin-bottom: 24px;
+
         }
 
       }
 
       li.active {
 
+        @include tablet {
+          text-decoration: underline;
+        }
+
         display: flex;
         justify-content: flex-start;
-        align-items: center;
+        align-items: flex-start;
 
         &:before {
+
+          @include laptop {
+
+            margin-right: 5px;
+
+          }
+
+          @include tablet {
+
+            content: none;
+
+          }
 
           content: url("/assets/img/index-new/arrow.png");
           display: flex;
@@ -53,7 +191,134 @@
 
     &-content {
 
+      @include tablet {
+
+        width: 100%;
+        flex-wrap: wrap-reverse;
+
+      }
+
       display: none;
+      width: 75%;
+
+      &-text {
+
+        @include tablet {
+
+          width: 100%;
+          padding: 0;
+          margin-top: 15px;
+
+        }
+
+        width: 60%;
+        padding-right: 25px;
+
+        p {
+
+          @include laptop {
+
+            font-size: 16px;
+            line-height: 24px;
+
+          }
+
+          font-style: normal;
+          font-weight: normal;
+          font-size: 20px;
+          line-height: 28px;
+          color: #663E35;
+
+        }
+
+        a {
+
+          @include tablet {
+
+            font-size: 16px;
+            line-height: 24px;
+            width: auto;
+            text-align: center;
+
+          }
+
+          font-style: normal;
+          font-weight: normal;
+          font-size: 20px;
+          line-height: 20px;
+          color: #FFFFFF;
+          padding: 18px 44px;
+          background: #E26776;
+          box-shadow: 0px 5px 20px rgba(232, 131, 131, 0.3);
+          border-radius: 30px;
+          text-decoration: none;
+          display: block;
+          margin-top: 40px;
+          width: fit-content;
+
+          &:hover {
+            color: #FFFFFF;
+          }
+
+        }
+
+      }
+
+      &-slider {
+
+        @include tablet {
+          width: 100%;
+        }
+
+        width: 40%;
+        //padding-left: 25px!important;
+
+        &-bg {
+
+          @include tablet {
+
+            width: calc(100% - 28px);
+
+          }
+
+          position: relative;
+
+          &:after {
+
+            @include laptop {
+
+              top: -14.62px;
+              right: -16.63px;
+
+            }
+
+            @include tablet {
+
+              top: -25px;
+              right: -28px;
+
+            }
+
+            content: "";
+            display: block;
+            position: absolute;
+            border: 2px solid #E26776;
+            width: 100%;
+            height: 100%;
+            background: none;
+            top: -29px;
+            right: -33px;
+            opacity: 0.2;
+
+          }
+
+        }
+
+        img {
+          width: 100%;
+        }
+
+      }
 
     }
 
@@ -61,6 +326,69 @@
 
       display: flex;
       justify-content: flex-start;
+      align-items: self-start;
+
+    }
+
+  }
+
+  &__slider {
+
+    &-buttons {
+
+      @include tablet {
+
+        margin-top: 20px;
+        justify-content: center;
+
+      }
+
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      margin-top: 40px;
+
+    }
+
+    &-pagination {
+
+      width: fit-content!important;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 22px;
+      color: #816965;
+      padding: 0 15px;
+
+      span {
+
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 22px;
+        color: #816965;
+
+      }
+
+    }
+
+    &-prev {
+
+      display: flex;
+      align-items: center;
+
+      img {
+
+        transform: rotate(180deg);
+
+      }
+
+    }
+
+    &-next {
+
+      display: flex;
+      align-items: center;
 
     }
 

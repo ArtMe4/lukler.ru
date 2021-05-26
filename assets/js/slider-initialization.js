@@ -24,3 +24,24 @@ var new_swiper = new Swiper(".new__tabs-content.active .new__tabs-content-slider
         prevEl: '.new__tabs-content.active .new__slider-prev',
     }
 });
+
+var catering_swiper = new Swiper(".catering__slider-slider .swiper-container", {
+    slidesPerView: 4,
+    spaceBetween: 6,
+    breakpoints: {
+        0: {
+            slidesPerView: 2
+        },
+        768: {
+            slidesPerView: 3
+        },
+        992: {
+            slidesPerView: 4
+        }
+    },
+    // Navigation arrows
+    navigation: {
+        nextEl: '.catering-slider-next',
+        prevEl: '.catering-slider-prev',
+    }
+});

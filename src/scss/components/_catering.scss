@@ -1,0 +1,228 @@
+.catering {
+
+  @include laptop {
+    margin-top: 80px;
+  }
+
+  @include tablet {
+
+    text-align: center;
+    margin-top: 60px;
+
+  }
+
+  margin-top: 182px;
+
+  &__bg {
+
+    @include laptop {
+
+      padding: 40px 38px 100px;
+      border-radius: 40px 0px;
+
+    }
+
+    @include tablet {
+
+      padding: 40px 20px 60px;
+
+    }
+
+    background: linear-gradient(90deg, #F0CBD8 16.67%, #FBE2E8 61.46%);
+    border-radius: 80px 0px;
+    padding: 60px 98px 100px;
+    position: relative;
+
+  }
+
+  &__text {
+
+    @include laptop {
+
+      font-size: 20px;
+      line-height: 28px;
+
+    }
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 32px;
+    color: #45180E;
+    position: relative;
+    z-index: 1;
+
+  }
+
+  &__title {
+
+    @include laptop {
+
+      font-size: 30px;
+      line-height: 40px;
+
+    }
+
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 52px;
+    color: #45180E;
+    position: relative;
+    z-index: 1;
+
+  }
+
+  &__hr {
+
+    @include laptop {
+      margin: 15px 0;
+    }
+
+    @include tablet {
+
+      margin: 5px 0;
+
+    }
+
+    margin: 25px 0;
+    position: relative;
+    z-index: 1;
+
+  }
+
+  &__description {
+
+    @include laptop {
+
+      font-size: 16px;
+      line-height: 24px;
+
+    }
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 32px;
+    color: #663E35;
+    position: relative;
+    z-index: 1;
+
+  }
+
+  &__link {
+
+    @include laptop {
+      margin-top: 20px;
+    }
+
+    margin-top: 30px;
+    position: relative;
+    z-index: 1;
+
+    a {
+
+      @include laptop {
+
+        font-size: 16px;
+        line-height: 24px;
+        padding: 13px 34px;
+
+      }
+
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 20px;
+      color: #FFFFFF;
+      background: #E26776;
+      box-shadow: 0px 5px 20px rgba(232, 131, 131, 0.3);
+      border-radius: 30px;
+      padding: 18px 44px;
+      display: inline-block;
+      text-decoration: none;
+
+      &:hover {
+        color: #FFFFFF;
+      }
+
+    }
+
+  }
+
+  &__slider {
+
+    @include laptop {
+      margin-top: 30px;
+    }
+
+    @include tablet {
+      margin-top: 20px;
+    }
+
+    margin-top: 60px;
+    position: relative;
+    z-index: 1;
+
+    &-title {
+
+      @include laptop {
+
+        font-size: 26px;
+        line-height: 40px;
+        width: 65%;
+        margin-bottom: 10px;
+
+      }
+
+      @include tablet {
+
+        width: 100%;
+        margin-bottom: 15px;
+
+      }
+
+      font-family: Playfair Display;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 32px;
+      line-height: 52px;
+      color: #45180E;
+      margin-bottom: 20px;
+
+    }
+
+    .swiper-slide {
+
+      height: 110px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #FFFFFF;
+      border-radius: 6px;
+      border: 1px solid #FAEBE9;
+      box-sizing: border-box;
+
+    }
+
+  }
+
+  &__girl {
+
+    @include laptop {
+
+      bottom: unset;
+      top: -13px;
+      right: 40px;
+
+    }
+
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 0;
+
+  }
+
+}

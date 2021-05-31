@@ -1,0 +1,183 @@
+.contacts {
+
+  @include laptop {
+    margin-top: 80px;
+  }
+
+  @include tablet {
+    margin-top: 60px;
+  }
+
+  margin-top: 120px;
+
+  &__title {
+
+    @include laptop {
+
+      font-size: 26px;
+      line-height: 40px;
+      margin-bottom: 5px;
+
+    }
+
+    @include tablet {
+
+      font-size: 30px;
+      line-height: 40px;
+      text-align: center;
+
+    }
+
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 52px;
+    color: #45180E;
+    margin-bottom: 20px;
+
+  }
+
+  &__description {
+
+    @include laptop {
+
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 28px;
+
+    }
+
+    @include tablet {
+      text-align: center;
+    }
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+    color: #663E35;
+    margin-bottom: 40px;
+
+  }
+
+  &__address {
+
+    @include laptop {
+      margin-top: 30px;
+    }
+
+    @include tablet {
+      margin-top: 20px;
+    }
+
+    &:not(:last-child) {
+
+      margin-bottom: 40px;
+
+    }
+
+    &-item {
+
+      display: flex;
+      align-items: flex-start;
+      justify-content: flex-start;
+
+      &-icon {
+
+        @include laptop {
+          margin-right: 10px;
+        }
+
+        margin-right: 16px;
+
+      }
+
+      &-body {
+
+        &-title {
+
+          @include laptop {
+
+            font-size: 16px;
+            line-height: 24px;
+
+          }
+
+          font-style: normal;
+          font-weight: bold;
+          font-size: 20px;
+          line-height: 28px;
+          color: #45180E;
+          margin-bottom: 10px;
+
+        }
+
+        &-phone {
+
+          @include laptop {
+            margin-bottom: 2px;
+          }
+
+          margin-bottom: 4px;
+
+          a {
+
+            @include laptop {
+
+              font-size: 16px;
+              line-height: 24px;
+
+            }
+
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 28px;
+            color: #663E35;
+            text-decoration: none;
+
+            &:hover {
+              color: #663E35;
+            }
+
+          }
+
+        }
+
+        &-time {
+
+          @include laptop {
+
+            font-size: 16px;
+            line-height: 24px;
+
+          }
+
+          font-style: normal;
+          font-weight: normal;
+          font-size: 20px;
+          line-height: 28px;
+          color: #663E35;
+
+        }
+
+      }
+
+    }
+
+  }
+
+  iframe {
+
+    @include laptop {
+      height: 230px;
+    }
+
+    @include tablet {
+      height: 161px;
+    }
+
+  }
+
+}

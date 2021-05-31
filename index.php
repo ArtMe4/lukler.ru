@@ -956,6 +956,210 @@
     </div>
 </section>
 
+
+<section class="contacts">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5">
+                <div class="contacts__title">
+                    Уютные кафе-кондитерские в г. Омске
+                </div>
+                <div class="contacts__description">
+                    Встречайся, отдыхай, наслаждайся...
+                </div>
+                <div class="contacts__address d-none d-lg-block">
+                    <div class="contacts__address-item">
+                        <div class="contacts__address-item-icon">
+                            <img src="/assets/img/contacts-index/icon.svg" alt="">
+                        </div>
+                        <div class="contacts__address-item-body">
+                            <div class="contacts__address-item-body-title">
+                                Ленина, 11
+                            </div>
+                            <div class="contacts__address-item-body-phone">
+                                <a href="">+7 (950) 334 - 33 - 53</a>
+                            </div>
+                            <div class="contacts__address-item-body-time">
+                                пн-вс 10:00 - 20:00
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contacts__address d-none d-lg-block">
+                    <div class="contacts__address-item">
+                        <div class="contacts__address-item-icon">
+                            <img src="/assets/img/contacts-index/icon.svg" alt="">
+                        </div>
+                        <div class="contacts__address-item-body">
+                            <div class="contacts__address-item-body-title">
+                                Красный Путь, 101
+                            </div>
+                            <div class="contacts__address-item-body-phone">
+                                <a href="">+7 (950) 334 - 33 - 53</a>
+                            </div>
+                            <div class="contacts__address-item-body-time">
+                                пн-вс 09:00 - 19:00
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-7">
+                <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A9bb52edcff6800f3d7b14463ddce25634385e24e1e372511a9296485d3109172&amp;source=constructor" width="100%" height="557" frameborder="0"></iframe>
+            </div>
+            <div class="phone__address d-block d-lg-none">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="contacts__address">
+                            <div class="contacts__address-item">
+                                <div class="contacts__address-item-icon">
+                                    <img src="/assets/img/contacts-index/icon.svg" alt="">
+                                </div>
+                                <div class="contacts__address-item-body">
+                                    <div class="contacts__address-item-body-title">
+                                        Ленина, 11
+                                    </div>
+                                    <div class="contacts__address-item-body-phone">
+                                        <a href="">+7 (950) 334 - 33 - 53</a>
+                                    </div>
+                                    <div class="contacts__address-item-body-time">
+                                        пн-вс 10:00 - 20:00
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="contacts__address">
+                            <div class="contacts__address-item">
+                                <div class="contacts__address-item-icon">
+                                    <img src="/assets/img/contacts-index/icon.svg" alt="">
+                                </div>
+                                <div class="contacts__address-item-body">
+                                    <div class="contacts__address-item-body-title">
+                                        Красный Путь, 101
+                                    </div>
+                                    <div class="contacts__address-item-body-phone">
+                                        <a href="">+7 (950) 334 - 33 - 53</a>
+                                    </div>
+                                    <div class="contacts__address-item-body-time">
+                                        пн-вс 09:00 - 19:00
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="organization">
+    <div class="container">
+        <div class="organization__slider">
+            <div class="organization__button-prev"></div>
+            <div class="organization__button-next"></div>
+            <div class="swiper-container">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <?php for($i = 0; $i < 20; $i++) { ?>
+                        <div class="swiper-slide">
+                            <img src="/assets/img/index-organization/image.png" alt="">
+                        </div>
+                    <?php } ?>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="organization__body">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7 col-lg-6">
+                    <div class="organization__body-text">
+                        Сделай клиента лояльным
+                    </div>
+                    <div class="organization__body-title">
+                        Десерты для организаций
+                    </div>
+                    <div class="organization__body-hr">
+                        <img src="/assets/img/index-organization/hr.png" alt="">
+                    </div>
+                    <div class="organization__body-description">
+                        Люклер представляет поставку сладкой группы под ключ. Что отлично подойдет театрам, кофейням, ресторанам и любым организациям.
+                        Брендированные десерты - это то, чем вы можете удивить клиента, и быть уверенным в его лояльности.
+                    </div>
+                    <div class="organization__body-link">
+                        <a href="">Подробнее</a>
+                    </div>
+                </div>
+                <div class="col-md-5 col-lg-6 organization__right-flex">
+                    <div class="organization__body-image">
+                        <div class="organization__body-image-img">
+                            <img src="/assets/img/index-organization/img.png" alt="">
+                            <div class="organization__body-image-border"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="review">
+    <div class="container">
+        <div class="review__head">
+            Отзывы о «Люклер»
+        </div>
+        <div class="review__thumb">
+            <div thumbsSlider="" class="swiper-container">
+                <div class="swiper-wrapper">
+                    <?php for($i = 0; $i < 20; $i++) { ?>
+                        <div class="swiper-slide">
+                            <div class="review__thumb-image" style="background-image: url('/assets/img/index-review/people.png');">
+                            </div>
+                        </div>
+                    <?php } ?>
+                </div>
+            </div>
+        </div>
+        <div class="review__relative">
+            <div class="review__body">
+                <div class="review__button-prev d-none d-md-flex">
+                    <img src="/assets/img/catalog-slider/slider-arrow.png" alt="">
+                </div>
+                <div class="review__button-next d-none d-md-flex">
+                    <img src="/assets/img/catalog-slider/slider-arrow.png" alt="">
+                </div>
+                <div class="swiper-container">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <?php for($i = 0; $i < 20; $i++) { ?>
+                            <div class="swiper-slide">
+                                <div class="review__slide-body">
+                                    <div class="review__slide-body-name">
+                                        Roma Sharafutdinov
+                                    </div>
+                                    <div class="review__slide-body-text">
+                                        Вот и дошел до вас, а то парень вчера сбил меня (листовкой) со своей пиццей.
+                                        Небольшое, но уютное место, девушка - добра и улыбчева, все бы так
+                                        <a href="">подробнее...</a>
+                                    </div>
+                                </div>
+                            </div>
+                        <?php } ?>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="review__body-button">
+            <a href="">Оставить отзыв</a>
+        </div>
+    </div>
+</section>
+
 <?php
     require 'footer.php';
 ?>

@@ -45,3 +45,58 @@ var catering_swiper = new Swiper(".catering__slider-slider .swiper-container", {
         prevEl: '.catering-slider-prev',
     }
 });
+
+var organization_swiper = new Swiper(".organization__slider .swiper-container", {
+    slidesPerView: 'auto',
+    spaceBetween: 4,
+    // Navigation arrows
+    navigation: {
+        nextEl: '.organization__slider-next',
+        prevEl: '.organization__slider-prev',
+    }
+});
+
+var review_swiper_thumb = new Swiper(".review__thumb .swiper-container", {
+    slidesPerView: "auto",
+    spaceBetween: 20,
+    centeredSlides: true,
+    slideToClickedSlide: true,
+    loop: true,
+    loopedSlides: 4,
+});
+
+var review_swiper = new Swiper(".review__body .swiper-container", {
+    loop: true,
+    loopedSlides: 4,
+    navigation: {
+        nextEl: '.review__button-next',
+        prevEl: '.review__button-prev',
+    },
+});
+
+review_swiper.controller.control = review_swiper_thumb;
+review_swiper_thumb.controller.control = review_swiper;
+
+var product_swiper_thumb = new Swiper(".product__thumb .swiper-container", {
+    slidesPerView: "auto",
+    spaceBetween: 10,
+    direction: 'horizontal',
+    breakpoints: {
+        0: {
+            direction: 'horizontal'
+        },
+        768: {
+            direction: 'vertical'
+        },
+        992: {
+            direction: 'horizontal'
+        }
+    }
+});
+
+var product_swiper = new Swiper(".product__image .swiper-container", {
+    slidesPerView: 1,
+    thumbs: {
+        swiper: product_swiper_thumb,
+    },
+});

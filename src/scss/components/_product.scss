@@ -1,0 +1,378 @@
+.product {
+
+  @include laptop {
+    margin-bottom: 80px;
+  }
+
+  @include tablet {
+    margin-bottom: 60px;
+  }
+
+  margin-bottom: 88px;
+
+  .padding {
+
+    &__left-0 {
+
+      @include laptop {
+        padding-left: 0;
+      }
+
+      @include tablet {
+        padding-left: calc(var(--bs-gutter-x)/ 2);
+      }
+
+    }
+
+    &__right-0 {
+
+      @include laptop {
+        padding-right: 0;
+      }
+
+      @include tablet {
+        padding-right: calc(var(--bs-gutter-x)/ 2);
+      }
+
+    }
+
+  }
+
+  &__image {
+
+    &-slide {
+
+      @include laptop {
+        height: 325px;
+      }
+
+      @include tablet {
+        height: 328px;
+      }
+
+      height: 460px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+
+    }
+
+  }
+
+  &__thumb {
+
+    @include laptop {
+
+      padding-left: 10px;
+      margin-left: 10px;
+      border-left: 2px solid #FAEBE9;
+      padding-top: 0;
+      margin-top: 0;
+      border-top: 0;
+
+    }
+
+    @include tablet {
+
+      padding-top: 20px;
+      margin-top: 20px;
+      border-top: 2px solid #FAEBE9;
+      padding-left: 0;
+      margin-left: 0;
+      border-left: 0;
+
+    }
+
+    .swiper-container {
+
+      @include laptop {
+        max-height: 325px;
+      }
+
+      @include tablet {
+        max-height: unset;
+      }
+
+    }
+
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 2px solid #FAEBE9;
+
+    .swiper-slide {
+
+      width: 100px;
+      height: 100px;
+
+    }
+
+    &-slide {
+
+      height: 100%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+
+    }
+
+  }
+
+  &__info {
+
+    &-name {
+
+      @include laptop {
+
+        font-size: 30px;
+        line-height: 40px;
+
+      }
+
+      font-family: Playfair Display;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 42px;
+      line-height: 52px;
+      color: #45180E;
+
+    }
+
+    &-hr {
+
+      @include tablet {
+        margin: 10px 0 20px;
+      }
+
+      margin: 20px 0;
+
+    }
+
+    &-description {
+
+      @include laptop {
+
+        font-size: 20px;
+        line-height: 28px;
+        margin-bottom: 20px;
+
+      }
+
+      @include tablet {
+
+        margin-top: 20px;
+        margin-bottom: 30px;
+
+      }
+
+      font-style: normal;
+      font-weight: normal;
+      font-size: 22px;
+      line-height: 32px;
+      color: #816965;
+      margin-bottom: 20px;
+
+    }
+
+    &-price {
+
+      @include laptop {
+        margin-bottom: 20px;
+      }
+
+      @include tablet {
+        margin-bottom: 22px;
+      }
+
+      display: flex;
+      align-items: center;
+      margin-bottom: 22px;
+
+      .price {
+
+        &__old {
+
+          font-style: normal;
+          font-weight: 500;
+          font-size: 25px;
+          line-height: 40px;
+          text-decoration-line: line-through;
+          color: #666575;
+          margin-right: 30px;
+
+        }
+
+        &__new {
+
+          font-style: normal;
+          font-weight: bold;
+          font-size: 30px;
+          line-height: 38px;
+          color: #663E35;
+
+        }
+
+      }
+
+    }
+
+    &-buttons {
+
+      display: flex;
+      align-items: center;
+      margin-bottom: 30px;
+
+      .buttons {
+
+        &__count {
+
+          display: flex;
+          align-items: center;
+          background: #FFFFFF;
+          border: 1px solid #FAEBE9;
+          box-sizing: border-box;
+          border-radius: 3px;
+          padding: 15px 20px;
+          margin-right: 20px;
+
+          &-label {
+
+            font-style: normal;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 22px;
+            color: #816965;
+            margin-right: 25px;
+
+          }
+
+          &-number {
+
+            font-style: normal;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 22px;
+            color: #A3A3AC;
+            display: flex;
+            align-items: center;
+
+          }
+
+          &-minus {
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+
+          }
+
+          &-plus {
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+
+          }
+
+          &-quantity {
+
+            font-style: normal;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 22px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: #816965;
+            border: 0;
+            background: #FFFFFF;
+            width: 30px;
+
+            &:focus {
+              outline: none;
+            }
+
+          }
+
+        }
+
+        &__cart {
+
+          button {
+
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 20px;
+            color: #FFFFFF;
+            background: #E26776;
+            box-shadow: 0px 5px 20px rgba(232, 131, 131, 0.3);
+            border-radius: 30px;
+            padding: 18px 44px;
+            border: 0;
+
+          }
+
+        }
+
+      }
+
+    }
+
+    &-structure {
+
+      @include laptop {
+
+        font-size: 12px;
+        line-height: 16px;
+
+      }
+
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 20px;
+      color: #816965;
+
+    }
+
+    &-star {
+
+      position: relative;
+      width: 120px;
+      height: 20px;
+      margin-bottom: 25px;
+      margin-left: 5px;
+
+      > div {
+
+        position: absolute;
+        background-repeat: no-repeat;
+        background-size: 120px;
+        height: 20px;
+
+      }
+
+      &-rating {
+
+        background-position: 0 0;
+        width: 100%;
+        z-index: 1;
+        background-image: url("/assets/img/product/stars.svg");
+
+      }
+
+      &-mask {
+
+        background-position: 0 0;
+        z-index: 99;
+        background-image: url("/assets/img/product/star.svg");
+
+      }
+
+    }
+
+  }
+
+}

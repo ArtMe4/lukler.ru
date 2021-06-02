@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'Muller';
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("/assets/fonts/MullerRegular.ttf") format("ttf"), url("/assets/fonts/MullerRegular.ttf") format("ttf");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
 @import "vars";
 @import "header";
 @import "indexBaner";
@@ -10,4 +17,6 @@
 @import "index-review";
 @import "catalog";
 @import "product";
+@import "static";
+@import "main-catalog";
 @import "footer";

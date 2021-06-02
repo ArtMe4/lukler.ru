@@ -16,12 +16,28 @@
 
   &-title {
 
+    @include laptop {
+
+      font-size: 30px;
+      line-height: 40px;
+      margin-bottom: 30px;
+
+    }
+
+    @include tablet {
+
+      text-align: center;
+      margin-bottom: 20px;
+
+    }
+
+    font-family: Playfair Display;
     font-style: normal;
     font-weight: bold;
     font-size: 42px;
     line-height: 52px;
     color: #663E35;
-    margin-bottom: 46px;
+    margin-bottom: 40px;
 
   }
 
@@ -82,6 +98,14 @@
     position: relative;
 
     .catalog__slide {
+
+      @include laptop {
+        height: 293px;
+      }
+
+      @include tablet {
+        height: 334px;
+      }
 
       background-repeat: no-repeat;
       background-size: cover;

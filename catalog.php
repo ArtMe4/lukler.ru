@@ -3,11 +3,13 @@ require 'header.php';
 ?>
 
 <div class="catalog__banner">
+    <div class="catalog__banner-img" style="background-image: url('/assets/img/catalog/banner.png');">
+    </div>
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-lg-7">
             </div>
-            <div class="col-md-6 col-lg-5">
+            <div class="col-md-6 col-lg-5 catalog__banner-bg">
                 <div class="catalog__banner-text">
                     Делаем клиента лояльным
                 </div>

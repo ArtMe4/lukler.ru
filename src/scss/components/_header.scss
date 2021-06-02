@@ -6,6 +6,76 @@ header {
 
   position: absolute;
   width: 100%;
+  z-index: 99;
+
+  a {
+
+    color: #45180E;
+
+  }
+
+}
+
+header.product {
+
+  background: #FFFFFF;
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.05);
+  position: relative;
+  margin-bottom: 0;
+
+}
+
+header.catalog {
+
+  a {
+
+    color: #FFFFFF;
+
+  }
+
+  .nav__item.has-child {
+
+    a {
+
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+
+      &::after {
+
+        content: url("/assets/img/header-iamges/menu-arrow-white.png");
+        display: block;
+        margin-left: 9px;
+
+      }
+
+    }
+
+  }
+
+  .header__logo {
+    display: none;
+  }
+
+  .header__logo-white {
+    display: block;
+  }
+
+  .header__cart {
+    display: none;
+  }
+
+  .header__cart-white {
+    display: block;
+  }
+
+  .header__mobile-menu {
+    display: none;
+  }
+
+  .header__mobile-menu.white {
+    display: block;
+  }
 
 }
 
@@ -22,7 +92,9 @@ header {
 
   &__logo {
 
-
+    &-white {
+      display: none;
+    }
 
   }
 
@@ -55,7 +127,6 @@ header {
           font-size: 14px;
           line-height: 24px;
           text-transform: uppercase;
-          color: #45180E;
           text-decoration: none;
 
         }
@@ -83,6 +154,12 @@ header {
 
     cursor: pointer;
 
+    &-white {
+
+      display: none;
+
+    }
+
   }
 
   &__mobile {
@@ -97,6 +174,10 @@ header {
 
       margin-left: 16px;
 
+    }
+
+    &-menu.white {
+      display: none;
     }
 
   }

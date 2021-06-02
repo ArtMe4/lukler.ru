@@ -14,9 +14,21 @@
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 </head>
 <body>
-    <header>
+    <?php
+        if($_SERVER['REQUEST_URI'] == '/product.php') {
+            echo '<header class="product">';
+        } else if ($_SERVER['REQUEST_URI'] == '/catalog.php' || $_SERVER['REQUEST_URI'] == '/catalogtwo.php') {
+            echo '<header class="catalog">';
+        } else {
+            echo '<header>';
+        }
+    ?>
         <div class="container">
             <div class="header">
+                <div class="header__logo-white">
+                    <img class="d-none d-lg-block" src="assets/img/logo-white.png" alt="">
+                    <img class="d-block d-lg-none" src="assets/img/logo-tablet-white.png" alt="">
+                </div>
                 <div class="header__logo">
                     <img class="d-none d-lg-block" src="assets/img/logo.png" alt="">
                     <img class="d-block d-lg-none" src="assets/img/logo-tablet.png" alt="">
@@ -52,10 +64,16 @@
                             </li>
                         </ul>
                     </div>
+                    <div class="header__cart-white">
+                        <img src="assets/img/header-iamges/header-cart-white.png" alt="">
+                    </div>
                     <div class="header__cart">
                         <img src="assets/img/header-iamges/header-cart.png" alt="">
                     </div>
-                    <div class="header__mobile-menu d-block d-lg-none">
+                    <div class="header__mobile-menu white d-lg-none">
+                        <img src="assets/img/header-iamges/mobile-menu-white.png" alt="">
+                    </div>
+                    <div class="header__mobile-menu d-lg-none">
                         <img src="assets/img/header-iamges/mobile-menu.png" alt="">
                     </div>
                 </div>

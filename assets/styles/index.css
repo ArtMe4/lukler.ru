@@ -2,7 +2,7 @@
   font-family: 'Muller';
   font-style: normal;
   font-weight: 400;
-  src: local(""), url("/assets/fonts/MullerRegular.ttf") format("ttf"), url("/assets/fonts/MullerRegular.ttf") format("ttf");
+  src: local(""), url("../fonts/MullerRegular.ttf") format("ttf"), url("../fonts/MullerRegular.ttf") format("ttf");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
@@ -38,7 +38,7 @@ header.catalog .nav__item.has-child a {
 }
 
 header.catalog .nav__item.has-child a::after {
-  content: url("/assets/img/header-iamges/menu-arrow-white.png");
+  content: url("../img/header-iamges/menu-arrow-white.png");
   display: block;
   margin-left: 9px;
 }
@@ -137,13 +137,13 @@ header.catalog .header__mobile-menu.white {
 }
 
 .nav__item.has-child a::after {
-  content: url("/assets/img/header-iamges/menu-arrow.png");
+  content: url("../img/header-iamges/menu-arrow.png");
   display: block;
   margin-left: 9px;
 }
 
 .cakeUp {
-  background-image: url("/assets/img/banner-bg.png");
+  background-image: url("../img/banner-bg.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -601,7 +601,7 @@ header.catalog .header__mobile-menu.white {
 }
 
 .new__tabs-items li.active:before {
-  content: url("/assets/img/index-new/arrow.png");
+  content: url("../img/index-new/arrow.png");
   display: flex;
   margin-right: 10px;
   height: 28px;
@@ -1574,13 +1574,13 @@ header.catalog .header__mobile-menu.white {
   background-position: 0 0;
   width: 100%;
   z-index: 1;
-  background-image: url("/assets/img/product/stars.svg");
+  background-image: url("../img/product/stars.svg");
 }
 
 .product__info-star-mask {
   background-position: 0 0;
   z-index: 99;
-  background-image: url("/assets/img/product/star.svg");
+  background-image: url("../img/product/star.svg");
 }
 
 .static {
@@ -1649,7 +1649,7 @@ header.catalog .header__mobile-menu.white {
 
 .static__image:after {
   content: '';
-  background-image: url("/assets/img/product/static-img.png");
+  background-image: url("../img/product/static-img.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1854,7 +1854,7 @@ footer .address__icon {
   }
 
   .cakeUp {
-    background-image: url("/assets/img/banner-bg-tablet.png");
+    background-image: url("../img/banner-bg-tablet.png");
     padding: 100px 0 85px;
   }
 
@@ -2844,7 +2844,7 @@ footer .address__icon {
 
 @media screen and (max-width: 575.98px) {
   .cakeUp {
-    background-image: url("/assets/img/banner-bg-phone.png");
+    background-image: url("../img/banner-bg-phone.png");
     padding: 313px 0 40px;
   }
 

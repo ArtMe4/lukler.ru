@@ -6,13 +6,13 @@
                     <div class="col-12 col-md-4">
                         <div class="footer__logo">
                             <a href="/">
-                                <img src="/assets/img/white-logo.png" alt="">
+                                <img src="./assets/img/white-logo.png" alt="">
                             </a>
                         </div>
                     </div>
                     <div class="col-12 col-md-4 d-none d-md-flex d-lg-none">
                         <div class="address__icon">
-                            <img src="/assets/img/address-ico.svg" alt="">
+                            <img src="./assets/img/address-ico.svg" alt="">
                         </div>
                         <div class="address__body">
                             <div class="footer__address-name">
@@ -28,7 +28,7 @@
                     </div>
                     <div class="col-12 col-md-4 d-none d-md-flex d-lg-none">
                         <div class="address__icon">
-                            <img src="/assets/img/address-ico.svg" alt="">
+                            <img src="./assets/img/address-ico.svg" alt="">
                         </div>
                         <div class="address__body">
                             <div class="footer__address-name">
@@ -191,7 +191,7 @@
 
 
         <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-        <script defer src="/assets/js/slider-initialization.js"></script>
-        <script defer src="/assets/js/main.js"></script>
+        <script defer src="./assets/js/slider-initialization.js"></script>
+        <script defer src="./assets/js/main.js"></script>
     </body>
 </html>

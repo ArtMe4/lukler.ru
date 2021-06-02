@@ -53,17 +53,17 @@
             <div class="for__buttons">
                 <!-- If we need navigation buttons -->
                 <div class="catalog__slider-prev d-none d-lg-flex">
-                    <img src="/assets/img/catalog-slider/slider-arrow.png" alt="">
+                    <img src="./assets/img/catalog-slider/slider-arrow.png" alt="">
                 </div>
                 <div class="catalog__slider-next d-none d-lg-flex">
-                    <img src="/assets/img/catalog-slider/slider-arrow.png" alt="">
+                    <img src="./assets/img/catalog-slider/slider-arrow.png" alt="">
                 </div>
                 <div class="catalog__slider-slider">
                     <div class="swiper-container">
                         <!-- Additional required wrapper -->
                         <div class="swiper-wrapper tabs__content active">
                             <!-- Slides -->
-                            <div class="swiper-slide catalog__slide" style="background-image: url('/assets/img/catalog-slider/product1.png');">
+                            <div class="swiper-slide catalog__slide" style="background-image: url('./assets/img/catalog-slider/product1.png');">
                                 <div class="catalog__slide-bg"></div>
                                 <div class="catalog__slide-body">
                                     <div class="catalog__slide-body-name">
@@ -77,16 +77,16 @@
                                             69 ₽
                                         </div>
                                         <div class="body__price-cart d-flex d-lg-none">
-                                            <img src="/assets/img/catalog-slider/cart.png" alt="">
+                                            <img src="./assets/img/catalog-slider/cart.png" alt="">
                                         </div>
                                     </div>
                                     <div class="catalog__slide-body-cart d-none d-lg-flex">
                                         Добавить
-                                        <img src="/assets/img/catalog-slider/cart.png" alt="">
+                                        <img src="./assets/img/catalog-slider/cart.png" alt="">
                                     </div>
                                 </div>
                             </div>
-                            <div class="swiper-slide catalog__slide" style="background-image: url('/assets/img/catalog-slider/product2.png');">
+                            <div class="swiper-slide catalog__slide" style="background-image: url('./assets/img/catalog-slider/product2.png');">
                                 <div class="catalog__slide-bg"></div>
                                 <div class="catalog__slide-body">
                                     <div class="catalog__slide-body-name">
@@ -100,16 +100,16 @@
                                             69 ₽
                                         </div>
                                         <div class="body__price-cart d-flex d-lg-none">
-                                            <img src="/assets/img/catalog-slider/cart.png" alt="">
+                                            <img src="./assets/img/catalog-slider/cart.png" alt="">
                                         </div>
                                     </div>
                                     <div class="catalog__slide-body-cart d-none d-lg-flex">
                                         Добавить
-                                        <img src="/assets/img/catalog-slider/cart.png" alt="">
+                                        <img src="./assets/img/catalog-slider/cart.png" alt="">
                                     </div>
                                 </div>
                             </div>
-                            <div class="swiper-slide catalog__slide" style="background-image: url('/assets/img/catalog-slider/product3.png');">
+                            <div class="swiper-slide catalog__slide" style="background-image: url('./assets/img/catalog-slider/product3.png');">
                                 <div class="catalog__slide-bg"></div>
                                 <div class="catalog__slide-body">
                                     <div class="catalog__slide-body-name">
@@ -123,16 +123,16 @@
                                             69 ₽
                                         </div>
                                         <div class="body__price-cart d-flex d-lg-none">
-                                            <img src="/assets/img/catalog-slider/cart.png" alt="">
+                                            <img src="./assets/img/catalog-slider/cart.png" alt="">
                                         </div>
                                     </div>
                                     <div class="catalog__slide-body-cart d-none d-lg-flex">
                                         Добавить
-                                        <img src="/assets/img/catalog-slider/cart.png" alt="">
+                                        <img src="./assets/img/catalog-slider/cart.png" alt="">
                                     </div>
                                 </div>
                             </div>
-                            <div class="swiper-slide catalog__slide" style="background-image: url('/assets/img/catalog-slider/product4.png');">
+                            <div class="swiper-slide catalog__slide" style="background-image: url('./assets/img/catalog-slider/product4.png');">
                                 <div class="catalog__slide-bg"></div>
                                 <div class="catalog__slide-body">
                                     <div class="catalog__slide-body-name">
@@ -146,16 +146,16 @@
                                             69 ₽
                                         </div>
                                         <div class="body__price-cart d-flex d-lg-none">
-                                            <img src="/assets/img/catalog-slider/cart.png" alt="">
+                                            <img src="./assets/img/catalog-slider/cart.png" alt="">
                                         </div>
                                     </div>
                                     <div class="catalog__slide-body-cart d-none d-lg-flex">
                                         Добавить
-                                        <img src="/assets/img/catalog-slider/cart.png" alt="">
+                                        <img src="./assets/img/catalog-slider/cart.png" alt="">
                                     </div>
                                 </div>
                             </div>
-                            <div class="swiper-slide catalog__slide" style="background-image: url('/assets/img/catalog-slider/product5.png');">
+                            <div class="swiper-slide catalog__slide" style="background-image: url('./assets/img/catalog-slider/product5.png');">
                                 <div class="catalog__slide-bg"></div>
                                 <div class="catalog__slide-body">
                                     <div class="catalog__slide-body-name">
@@ -169,16 +169,16 @@
                                             69 ₽
                                         </div>
                                         <div class="body__price-cart d-flex d-lg-none">
-                                            <img src="/assets/img/catalog-slider/cart.png" alt="">
+                                            <img src="./assets/img/catalog-slider/cart.png" alt="">
                                         </div>
                                     </div>
                                     <div class="catalog__slide-body-cart d-none d-lg-flex">
                                         Добавить
-                                        <img src="/assets/img/catalog-slider/cart.png" alt="">
+                                        <img src="./assets/img/catalog-slider/cart.png" alt="">
                                     </div>
                                 </div>
                             </div>
-                            <div class="swiper-slide catalog__slide" style="background-image: url('/assets/img/catalog-slider/product1.png');">
+                            <div class="swiper-slide catalog__slide" style="background-image: url('./assets/img/catalog-slider/product1.png');">
                                 <div class="catalog__slide-bg"></div>
                                 <div class="catalog__slide-body">
                                     <div class="catalog__slide-body-name">
@@ -192,16 +192,16 @@
                                             69 ₽
                                         </div>
                                         <div class="body__price-cart d-flex d-lg-none">
-                                            <img src="/assets/img/catalog-slider/cart.png" alt="">
+                                            <img src="./assets/img/catalog-slider/cart.png" alt="">
                                         </div>
                                     </div>
                                     <div class="catalog__slide-body-cart d-none d-lg-flex">
                                         Добавить
-                                        <img src="/assets/img/catalog-slider/cart.png" alt="">
+                                        <img src="./assets/img/catalog-slider/cart.png" alt="">
                                     </div>
                                 </div>
                             </div>
-                            <div class="swiper-slide catalog__slide" style="background-image: url('/assets/img/catalog-slider/product2.png');">
+                            <div class="swiper-slide catalog__slide" style="background-image: url('./assets/img/catalog-slider/product2.png');">
                                 <div class="catalog__slide-bg"></div>
                                 <div class="catalog__slide-body">
                                     <div class="catalog__slide-body-name">
@@ -215,16 +215,16 @@
                                             69 ₽
                                         </div>
                                         <div class="body__price-cart d-flex d-lg-none">
-                                            <img src="/assets/img/catalog-slider/cart.png" alt="">
+                                            <img src="./assets/img/catalog-slider/cart.png" alt="">
                                         </div>
                                     </div>
                                     <div class="catalog__slide-body-cart d-none d-lg-flex">
                                         Добавить
-                                        <img src="/assets/img/catalog-slider/cart.png" alt="">
+                                        <img src="./assets/img/catalog-slider/cart.png" alt="">
                                     </div>
                                 </div>
                             </div>
-                            <div class="swiper-slide catalog__slide" style="background-image: url('/assets/img/catalog-slider/product3.png');">
+                            <div class="swiper-slide catalog__slide" style="background-image: url('./assets/img/catalog-slider/product3.png');">
                                 <div class="catalog__slide-bg"></div>
                                 <div class="catalog__slide-body">
                                     <div class="catalog__slide-body-name">
@@ -238,12 +238,12 @@
                                             69 ₽
                                         </div>
                                         <div class="body__price-cart d-flex d-lg-none">
-                                            <img src="/assets/img/catalog-slider/cart.png" alt="">
+                                            <img src="./assets/img/catalog-slider/cart.png" alt="">
                                         </div>
                                     </div>
                                     <div class="catalog__slide-body-cart d-none d-lg-flex">
                                         Добавить
-                                        <img src="/assets/img/catalog-slider/cart.png" alt="">
+                                        <img src="./assets/img/catalog-slider/cart.png" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -253,7 +253,7 @@
                     <div class="swiper-container">
                         <div class="swiper-wrapper tabs__content">
                             <!-- Slides -->
-                            <div class="swiper-slide catalog__slide" style="background-image: url('/assets/img/catalog-slider/product1.png');">
+                            <div class="swiper-slide catalog__slide" style="background-image: url('./assets/img/catalog-slider/product1.png');">
                                 <div class="catalog__slide-bg"></div>
                                 <div class="catalog__slide-body">
                                     <div class="catalog__slide-body-name">
@@ -267,16 +267,16 @@
                                             69 ₽
                                         </div>
                                         <div class="body__price-cart d-flex d-lg-none">
-                                            <img src="/assets/img/catalog-slider/cart.png" alt="">
+                                            <img src="./assets/img/catalog-slider/cart.png" alt="">
                                         </div>
                                     </div>
                                     <div class="catalog__slide-body-cart d-none d-lg-flex">
                                         Добавить
-                                        <img src="/assets/img/catalog-slider/cart.png" alt="">
+                                        <img src="./assets/img/catalog-slider/cart.png" alt="">
                                     </div>
                                 </div>
                             </div>
-                            <div class="swiper-slide catalog__slide" style="background-image: url('/assets/img/catalog-slider/product2.png');">
+                            <div class="swiper-slide catalog__slide" style="background-image: url('./assets/img/catalog-slider/product2.png');">
                                 <div class="catalog__slide-bg"></div>
                                 <div class="catalog__slide-body">
                                     <div class="catalog__slide-body-name">
@@ -290,16 +290,16 @@
                                             69 ₽
                                         </div>
                                         <div class="body__price-cart d-flex d-lg-none">
-                                            <img src="/assets/img/catalog-slider/cart.png" alt="">
+                                            <img src="./assets/img/catalog-slider/cart.png" alt="">
                                         </div>
                                     </div>
                                     <div class="catalog__slide-body-cart d-none d-lg-flex">
                                         Добавить
-                                        <img src="/assets/img/catalog-slider/cart.png" alt="">
+                                        <img src="./assets/img/catalog-slider/cart.png" alt="">
                                     </div>
                                 </div>
                             </div>
-                            <div class="swiper-slide catalog__slide" style="background-image: url('/assets/img/catalog-slider/product3.png');">
+                            <div class="swiper-slide catalog__slide" style="background-image: url('./assets/img/catalog-slider/product3.png');">
                                 <div class="catalog__slide-bg"></div>
                                 <div class="catalog__slide-body">
                                     <div class="catalog__slide-body-name">
@@ -313,16 +313,16 @@
                                             69 ₽
                                         </div>
                                         <div class="body__price-cart d-flex d-lg-none">
-                                            <img src="/assets/img/catalog-slider/cart.png" alt="">
+                                            <img src="./assets/img/catalog-slider/cart.png" alt="">
                                         </div>
                                     </div>
                                     <div class="catalog__slide-body-cart d-none d-lg-flex">
                                         Добавить
-                                        <img src="/assets/img/catalog-slider/cart.png" alt="">
+                                        <img src="./assets/img/catalog-slider/cart.png" alt="">
                                     </div>
                                 </div>
                             </div>
-                            <div class="swiper-slide catalog__slide" style="background-image: url('/assets/img/catalog-slider/product4.png');">
+                            <div class="swiper-slide catalog__slide" style="background-image: url('./assets/img/catalog-slider/product4.png');">
                                 <div class="catalog__slide-bg"></div>
                                 <div class="catalog__slide-body">
                                     <div class="catalog__slide-body-name">
@@ -336,16 +336,16 @@
                                             69 ₽
                                         </div>
                                         <div class="body__price-cart d-flex d-lg-none">
-                                            <img src="/assets/img/catalog-slider/cart.png" alt="">
+                                            <img src="./assets/img/catalog-slider/cart.png" alt="">
                                         </div>
                                     </div>
                                     <div class="catalog__slide-body-cart d-none d-lg-flex">
                                         Добавить
-                                        <img src="/assets/img/catalog-slider/cart.png" alt="">
+                                        <img src="./assets/img/catalog-slider/cart.png" alt="">
                                     </div>
                                 </div>
                             </div>
-                            <div class="swiper-slide catalog__slide" style="background-image: url('/assets/img/catalog-slider/product5.png');">
+                            <div class="swiper-slide catalog__slide" style="background-image: url('./assets/img/catalog-slider/product5.png');">
                                 <div class="catalog__slide-bg"></div>
                                 <div class="catalog__slide-body">
                                     <div class="catalog__slide-body-name">
@@ -359,16 +359,16 @@
                                             69 ₽
                                         </div>
                                         <div class="body__price-cart d-flex d-lg-none">
-                                            <img src="/assets/img/catalog-slider/cart.png" alt="">
+                                            <img src="./assets/img/catalog-slider/cart.png" alt="">
                                         </div>
                                     </div>
                                     <div class="catalog__slide-body-cart d-none d-lg-flex">
                                         Добавить
-                                        <img src="/assets/img/catalog-slider/cart.png" alt="">
+                                        <img src="./assets/img/catalog-slider/cart.png" alt="">
                                     </div>
                                 </div>
                             </div>
-                            <div class="swiper-slide catalog__slide" style="background-image: url('/assets/img/catalog-slider/product1.png');">
+                            <div class="swiper-slide catalog__slide" style="background-image: url('./assets/img/catalog-slider/product1.png');">
                                 <div class="catalog__slide-bg"></div>
                                 <div class="catalog__slide-body">
                                     <div class="catalog__slide-body-name">
@@ -382,16 +382,16 @@
                                             69 ₽
                                         </div>
                                         <div class="body__price-cart d-flex d-lg-none">
-                                            <img src="/assets/img/catalog-slider/cart.png" alt="">
+                                            <img src="./assets/img/catalog-slider/cart.png" alt="">
                                         </div>
                                     </div>
                                     <div class="catalog__slide-body-cart d-none d-lg-flex">
                                         Добавить
-                                        <img src="/assets/img/catalog-slider/cart.png" alt="">
+                                        <img src="./assets/img/catalog-slider/cart.png" alt="">
                                     </div>
                                 </div>
                             </div>
-                            <div class="swiper-slide catalog__slide" style="background-image: url('/assets/img/catalog-slider/product2.png');">
+                            <div class="swiper-slide catalog__slide" style="background-image: url('./assets/img/catalog-slider/product2.png');">
                                 <div class="catalog__slide-bg"></div>
                                 <div class="catalog__slide-body">
                                     <div class="catalog__slide-body-name">
@@ -405,16 +405,16 @@
                                             69 ₽
                                         </div>
                                         <div class="body__price-cart d-flex d-lg-none">
-                                            <img src="/assets/img/catalog-slider/cart.png" alt="">
+                                            <img src="./assets/img/catalog-slider/cart.png" alt="">
                                         </div>
                                     </div>
                                     <div class="catalog__slide-body-cart d-none d-lg-flex">
                                         Добавить
-                                        <img src="/assets/img/catalog-slider/cart.png" alt="">
+                                        <img src="./assets/img/catalog-slider/cart.png" alt="">
                                     </div>
                                 </div>
                             </div>
-                            <div class="swiper-slide catalog__slide" style="background-image: url('/assets/img/catalog-slider/product3.png');">
+                            <div class="swiper-slide catalog__slide" style="background-image: url('./assets/img/catalog-slider/product3.png');">
                                 <div class="catalog__slide-bg"></div>
                                 <div class="catalog__slide-body">
                                     <div class="catalog__slide-body-name">
@@ -428,12 +428,12 @@
                                             69 ₽
                                         </div>
                                         <div class="body__price-cart d-flex d-lg-none">
-                                            <img src="/assets/img/catalog-slider/cart.png" alt="">
+                                            <img src="./assets/img/catalog-slider/cart.png" alt="">
                                         </div>
                                     </div>
                                     <div class="catalog__slide-body-cart d-none d-lg-flex">
                                         Добавить
-                                        <img src="/assets/img/catalog-slider/cart.png" alt="">
+                                        <img src="./assets/img/catalog-slider/cart.png" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -442,7 +442,7 @@
                     <div class="swiper-container">
                         <div class="swiper-wrapper tabs__content">
                             <!-- Slides -->
-                            <div class="swiper-slide catalog__slide" style="background-image: url('/assets/img/catalog-slider/product5.png');">
+                            <div class="swiper-slide catalog__slide" style="background-image: url('./assets/img/catalog-slider/product5.png');">
                                 <div class="catalog__slide-bg"></div>
                                 <div class="catalog__slide-body">
                                     <div class="catalog__slide-body-name">
@@ -456,16 +456,16 @@
                                             69 ₽
                                         </div>
                                         <div class="body__price-cart d-flex d-lg-none">
-                                            <img src="/assets/img/catalog-slider/cart.png" alt="">
+                                            <img src="./assets/img/catalog-slider/cart.png" alt="">
                                         </div>
                                     </div>
                                     <div class="catalog__slide-body-cart d-none d-lg-flex">
                                         Добавить
-                                        <img src="/assets/img/catalog-slider/cart.png" alt="">
+                                        <img src="./assets/img/catalog-slider/cart.png" alt="">
                                     </div>
                                 </div>
                             </div>
-                            <div class="swiper-slide catalog__slide" style="background-image: url('/assets/img/catalog-slider/product1.png');">
+                            <div class="swiper-slide catalog__slide" style="background-image: url('./assets/img/catalog-slider/product1.png');">
                                 <div class="catalog__slide-bg"></div>
                                 <div class="catalog__slide-body">
                                     <div class="catalog__slide-body-name">
@@ -479,12 +479,12 @@
                                             69 ₽
                                         </div>
                                         <div class="body__price-cart d-flex d-lg-none">
-                                            <img src="/assets/img/catalog-slider/cart.png" alt="">
+                                            <img src="./assets/img/catalog-slider/cart.png" alt="">
                                         </div>
                                     </div>
                                     <div class="catalog__slide-body-cart d-none d-lg-flex">
                                         Добавить
-                                        <img src="/assets/img/catalog-slider/cart.png" alt="">
+                                        <img src="./assets/img/catalog-slider/cart.png" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -493,7 +493,7 @@
                     <div class="swiper-container">
                         <div class="swiper-wrapper tabs__content">
                             <!-- Slides -->
-                            <div class="swiper-slide catalog__slide" style="background-image: url('/assets/img/catalog-slider/product1.png');">
+                            <div class="swiper-slide catalog__slide" style="background-image: url('./assets/img/catalog-slider/product1.png');">
                                 <div class="catalog__slide-bg"></div>
                                 <div class="catalog__slide-body">
                                     <div class="catalog__slide-body-name">
@@ -507,16 +507,16 @@
                                             69 ₽
                                         </div>
                                         <div class="body__price-cart d-flex d-lg-none">
-                                            <img src="/assets/img/catalog-slider/cart.png" alt="">
+                                            <img src="./assets/img/catalog-slider/cart.png" alt="">
                                         </div>
                                     </div>
                                     <div class="catalog__slide-body-cart d-none d-lg-flex">
                                         Добавить
-                                        <img src="/assets/img/catalog-slider/cart.png" alt="">
+                                        <img src="./assets/img/catalog-slider/cart.png" alt="">
                                     </div>
                                 </div>
                             </div>
-                            <div class="swiper-slide catalog__slide" style="background-image: url('/assets/img/catalog-slider/product2.png');">
+                            <div class="swiper-slide catalog__slide" style="background-image: url('./assets/img/catalog-slider/product2.png');">
                                 <div class="catalog__slide-bg"></div>
                                 <div class="catalog__slide-body">
                                     <div class="catalog__slide-body-name">
@@ -530,16 +530,16 @@
                                             69 ₽
                                         </div>
                                         <div class="body__price-cart d-flex d-lg-none">
-                                            <img src="/assets/img/catalog-slider/cart.png" alt="">
+                                            <img src="./assets/img/catalog-slider/cart.png" alt="">
                                         </div>
                                     </div>
                                     <div class="catalog__slide-body-cart d-none d-lg-flex">
                                         Добавить
-                                        <img src="/assets/img/catalog-slider/cart.png" alt="">
+                                        <img src="./assets/img/catalog-slider/cart.png" alt="">
                                     </div>
                                 </div>
                             </div>
-                            <div class="swiper-slide catalog__slide" style="background-image: url('/assets/img/catalog-slider/product3.png');">
+                            <div class="swiper-slide catalog__slide" style="background-image: url('./assets/img/catalog-slider/product3.png');">
                                 <div class="catalog__slide-bg"></div>
                                 <div class="catalog__slide-body">
                                     <div class="catalog__slide-body-name">
@@ -553,16 +553,16 @@
                                             69 ₽
                                         </div>
                                         <div class="body__price-cart d-flex d-lg-none">
-                                            <img src="/assets/img/catalog-slider/cart.png" alt="">
+                                            <img src="./assets/img/catalog-slider/cart.png" alt="">
                                         </div>
                                     </div>
                                     <div class="catalog__slide-body-cart d-none d-lg-flex">
                                         Добавить
-                                        <img src="/assets/img/catalog-slider/cart.png" alt="">
+                                        <img src="./assets/img/catalog-slider/cart.png" alt="">
                                     </div>
                                 </div>
                             </div>
-                            <div class="swiper-slide catalog__slide" style="background-image: url('/assets/img/catalog-slider/product4.png');">
+                            <div class="swiper-slide catalog__slide" style="background-image: url('./assets/img/catalog-slider/product4.png');">
                                 <div class="catalog__slide-bg"></div>
                                 <div class="catalog__slide-body">
                                     <div class="catalog__slide-body-name">
@@ -576,12 +576,12 @@
                                             69 ₽
                                         </div>
                                         <div class="body__price-cart d-flex d-lg-none">
-                                            <img src="/assets/img/catalog-slider/cart.png" alt="">
+                                            <img src="./assets/img/catalog-slider/cart.png" alt="">
                                         </div>
                                     </div>
                                     <div class="catalog__slide-body-cart d-none d-lg-flex">
                                         Добавить
-                                        <img src="/assets/img/catalog-slider/cart.png" alt="">
+                                        <img src="./assets/img/catalog-slider/cart.png" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -611,7 +611,7 @@
                         Кирилл Родин
                     </div>
                     <div class="info__hr">
-                        <img src="/assets/img/index-about/info-hr.png" alt="">
+                        <img src="./assets/img/index-about/info-hr.png" alt="">
                     </div>
                     <div class="info__description">
                         Автор и создатель ваших любимых десертов и эксклюзивный шеф-кондитер
@@ -621,16 +621,16 @@
                     </div>
                     <div class="info__buttons">
                         <a href="">
-                            <img src="/assets/img/index-about/info-arrow.png" alt="">
+                            <img src="./assets/img/index-about/info-arrow.png" alt="">
                             О Шефе-кондитере
                         </a>
                     </div>
                 </div>
                 <div class="col-xl-1 d-none d-xl-block"></div>
                 <div class="col-xl-5 col-md-6 info__img">
-                    <img class="d-none d-lg-block" src="/assets/img/index-about/autor.png" alt="">
-                    <img class="d-none d-md-block d-lg-none" src="/assets/img/index-about/autor-tablet.png" alt="">
-                    <img class="d-block d-md-none" src="/assets/img/index-about/autor-phone.png" alt="">
+                    <img class="d-none d-lg-block" src="./assets/img/index-about/autor.png" alt="">
+                    <img class="d-none d-md-block d-lg-none" src="./assets/img/index-about/autor-tablet.png" alt="">
+                    <img class="d-block d-md-none" src="./assets/img/index-about/autor-phone.png" alt="">
                 </div>
             </div>
         </div>
@@ -642,7 +642,7 @@
         <div class="container">
             <div class="new__title">
                 Новенькие <br class="d-block d-sm-none"> авторские десерты
-                <img src="/assets/img/index-new/zapyataya.png" alt="">
+                <img src="./assets/img/index-new/zapyataya.png" alt="">
             </div>
             <div class="new__subtitle">
                 Пробуй, чувствуй, влюбляйся...
@@ -687,30 +687,30 @@
                             <div class="swiper-container">
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide">
-                                        <img src="/assets/img/index-new/new-image.png" alt="">
+                                        <img src="./assets/img/index-new/new-image.png" alt="">
                                     </div>
                                     <div class="swiper-slide">
-                                        <img src="/assets/img/index-new/new-image.png" alt="">
+                                        <img src="./assets/img/index-new/new-image.png" alt="">
                                     </div>
                                     <div class="swiper-slide">
-                                        <img src="/assets/img/index-new/new-image.png" alt="">
+                                        <img src="./assets/img/index-new/new-image.png" alt="">
                                     </div>
                                     <div class="swiper-slide">
-                                        <img src="/assets/img/index-new/new-image.png" alt="">
+                                        <img src="./assets/img/index-new/new-image.png" alt="">
                                     </div>
                                     <div class="swiper-slide">
-                                        <img src="/assets/img/index-new/new-image.png" alt="">
+                                        <img src="./assets/img/index-new/new-image.png" alt="">
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="new__slider-buttons">
                             <div class="new__slider-prev">
-                                <img src="/assets/img/index-new/arrow-next.png" alt="">
+                                <img src="./assets/img/index-new/arrow-next.png" alt="">
                             </div>
                             <div class="new__slider-pagination"></div>
                             <div class="new__slider-next">
-                                <img src="/assets/img/index-new/arrow-next.png" alt="">
+                                <img src="./assets/img/index-new/arrow-next.png" alt="">
                             </div>
                         </div>
                     </div>
@@ -747,30 +747,30 @@
                             <div class="swiper-container">
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide">
-                                        <img src="/assets/img/index-new/new-image.png" alt="">
+                                        <img src="./assets/img/index-new/new-image.png" alt="">
                                     </div>
                                     <div class="swiper-slide">
-                                        <img src="/assets/img/index-new/new-image.png" alt="">
+                                        <img src="./assets/img/index-new/new-image.png" alt="">
                                     </div>
                                     <div class="swiper-slide">
-                                        <img src="/assets/img/index-new/new-image.png" alt="">
+                                        <img src="./assets/img/index-new/new-image.png" alt="">
                                     </div>
                                     <div class="swiper-slide">
-                                        <img src="/assets/img/index-new/new-image.png" alt="">
+                                        <img src="./assets/img/index-new/new-image.png" alt="">
                                     </div>
                                     <div class="swiper-slide">
-                                        <img src="/assets/img/index-new/new-image.png" alt="">
+                                        <img src="./assets/img/index-new/new-image.png" alt="">
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="new__slider-buttons">
                             <div class="new__slider-prev">
-                                <img src="/assets/img/index-new/arrow-next.png" alt="">
+                                <img src="./assets/img/index-new/arrow-next.png" alt="">
                             </div>
                             <div class="new__slider-pagination"></div>
                             <div class="new__slider-next">
-                                <img src="/assets/img/index-new/arrow-next.png" alt="">
+                                <img src="./assets/img/index-new/arrow-next.png" alt="">
                             </div>
                         </div>
                     </div>
@@ -807,30 +807,30 @@
                             <div class="swiper-container">
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide">
-                                        <img src="/assets/img/index-new/new-image.png" alt="">
+                                        <img src="./assets/img/index-new/new-image.png" alt="">
                                     </div>
                                     <div class="swiper-slide">
-                                        <img src="/assets/img/index-new/new-image.png" alt="">
+                                        <img src="./assets/img/index-new/new-image.png" alt="">
                                     </div>
                                     <div class="swiper-slide">
-                                        <img src="/assets/img/index-new/new-image.png" alt="">
+                                        <img src="./assets/img/index-new/new-image.png" alt="">
                                     </div>
                                     <div class="swiper-slide">
-                                        <img src="/assets/img/index-new/new-image.png" alt="">
+                                        <img src="./assets/img/index-new/new-image.png" alt="">
                                     </div>
                                     <div class="swiper-slide">
-                                        <img src="/assets/img/index-new/new-image.png" alt="">
+                                        <img src="./assets/img/index-new/new-image.png" alt="">
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="new__slider-buttons">
                             <div class="new__slider-prev">
-                                <img src="/assets/img/index-new/arrow-next.png" alt="">
+                                <img src="./assets/img/index-new/arrow-next.png" alt="">
                             </div>
                             <div class="new__slider-pagination"></div>
                             <div class="new__slider-next">
-                                <img src="/assets/img/index-new/arrow-next.png" alt="">
+                                <img src="./assets/img/index-new/arrow-next.png" alt="">
                             </div>
                         </div>
                     </div>
@@ -867,30 +867,30 @@
                             <div class="swiper-container">
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide">
-                                        <img src="/assets/img/index-new/new-image.png" alt="">
+                                        <img src="./assets/img/index-new/new-image.png" alt="">
                                     </div>
                                     <div class="swiper-slide">
-                                        <img src="/assets/img/index-new/new-image.png" alt="">
+                                        <img src="./assets/img/index-new/new-image.png" alt="">
                                     </div>
                                     <div class="swiper-slide">
-                                        <img src="/assets/img/index-new/new-image.png" alt="">
+                                        <img src="./assets/img/index-new/new-image.png" alt="">
                                     </div>
                                     <div class="swiper-slide">
-                                        <img src="/assets/img/index-new/new-image.png" alt="">
+                                        <img src="./assets/img/index-new/new-image.png" alt="">
                                     </div>
                                     <div class="swiper-slide">
-                                        <img src="/assets/img/index-new/new-image.png" alt="">
+                                        <img src="./assets/img/index-new/new-image.png" alt="">
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="new__slider-buttons">
                             <div class="new__slider-prev">
-                                <img src="/assets/img/index-new/arrow-next.png" alt="">
+                                <img src="./assets/img/index-new/arrow-next.png" alt="">
                             </div>
                             <div class="new__slider-pagination"></div>
                             <div class="new__slider-next">
-                                <img src="/assets/img/index-new/arrow-next.png" alt="">
+                                <img src="./assets/img/index-new/arrow-next.png" alt="">
                             </div>
                         </div>
                     </div>
@@ -913,7 +913,7 @@
                         Сладкий контейнер
                     </div>
                     <div class="catering__hr">
-                        <img src="/assets/img/catering-images/hr.png" alt="">
+                        <img src="./assets/img/catering-images/hr.png" alt="">
                     </div>
                     <div class="catering__description">
                         Организовать сладкий фуршет стало с Люклером очень просто. Ваши гости оценят глубину вкуса авторских десертов.
@@ -949,8 +949,8 @@
                 </div>
             </div>
             <div class="catering__girl">
-                <img class="d-none d-lg-block" src="/assets/img/catering-images/girl.png" alt="">
-                <img class="d-none d-md-block d-lg-none" src="/assets/img/catering-images/girl-tablet.png" alt="">
+                <img class="d-none d-lg-block" src="./assets/img/catering-images/girl.png" alt="">
+                <img class="d-none d-md-block d-lg-none" src="./assets/img/catering-images/girl-tablet.png" alt="">
             </div>
         </div>
     </div>
@@ -970,7 +970,7 @@
                 <div class="contacts__address d-none d-lg-block">
                     <div class="contacts__address-item">
                         <div class="contacts__address-item-icon">
-                            <img src="/assets/img/contacts-index/icon.svg" alt="">
+                            <img src="./assets/img/contacts-index/icon.svg" alt="">
                         </div>
                         <div class="contacts__address-item-body">
                             <div class="contacts__address-item-body-title">
@@ -988,7 +988,7 @@
                 <div class="contacts__address d-none d-lg-block">
                     <div class="contacts__address-item">
                         <div class="contacts__address-item-icon">
-                            <img src="/assets/img/contacts-index/icon.svg" alt="">
+                            <img src="./assets/img/contacts-index/icon.svg" alt="">
                         </div>
                         <div class="contacts__address-item-body">
                             <div class="contacts__address-item-body-title">
@@ -1013,7 +1013,7 @@
                         <div class="contacts__address">
                             <div class="contacts__address-item">
                                 <div class="contacts__address-item-icon">
-                                    <img src="/assets/img/contacts-index/icon.svg" alt="">
+                                    <img src="./assets/img/contacts-index/icon.svg" alt="">
                                 </div>
                                 <div class="contacts__address-item-body">
                                     <div class="contacts__address-item-body-title">
@@ -1033,7 +1033,7 @@
                         <div class="contacts__address">
                             <div class="contacts__address-item">
                                 <div class="contacts__address-item-icon">
-                                    <img src="/assets/img/contacts-index/icon.svg" alt="">
+                                    <img src="./assets/img/contacts-index/icon.svg" alt="">
                                 </div>
                                 <div class="contacts__address-item-body">
                                     <div class="contacts__address-item-body-title">
@@ -1066,7 +1066,7 @@
                     <!-- Slides -->
                     <?php for($i = 0; $i < 20; $i++) { ?>
                         <div class="swiper-slide">
-                            <img src="/assets/img/index-organization/image.png" alt="">
+                            <img src="./assets/img/index-organization/image.png" alt="">
                         </div>
                     <?php } ?>
                 </div>
@@ -1084,7 +1084,7 @@
                         Десерты для организаций
                     </div>
                     <div class="organization__body-hr">
-                        <img src="/assets/img/index-organization/hr.png" alt="">
+                        <img src="./assets/img/index-organization/hr.png" alt="">
                     </div>
                     <div class="organization__body-description">
                         Люклер представляет поставку сладкой группы под ключ. Что отлично подойдет театрам, кофейням, ресторанам и любым организациям.
@@ -1097,7 +1097,7 @@
                 <div class="col-md-5 col-lg-6 organization__right-flex">
                     <div class="organization__body-image">
                         <div class="organization__body-image-img">
-                            <img src="/assets/img/index-organization/img.png" alt="">
+                            <img src="./assets/img/index-organization/img.png" alt="">
                             <div class="organization__body-image-border"></div>
                         </div>
                     </div>
@@ -1117,7 +1117,7 @@
                 <div class="swiper-wrapper">
                     <?php for($i = 0; $i < 20; $i++) { ?>
                         <div class="swiper-slide">
-                            <div class="review__thumb-image" style="background-image: url('/assets/img/index-review/people.png');">
+                            <div class="review__thumb-image" style="background-image: url('./assets/img/index-review/people.png');">
                             </div>
                         </div>
                     <?php } ?>
@@ -1127,10 +1127,10 @@
         <div class="review__relative">
             <div class="review__body">
                 <div class="review__button-prev d-none d-md-flex">
-                    <img src="/assets/img/catalog-slider/slider-arrow.png" alt="">
+                    <img src="./assets/img/catalog-slider/slider-arrow.png" alt="">
                 </div>
                 <div class="review__button-next d-none d-md-flex">
-                    <img src="/assets/img/catalog-slider/slider-arrow.png" alt="">
+                    <img src="./assets/img/catalog-slider/slider-arrow.png" alt="">
                 </div>
                 <div class="swiper-container">
                     <!-- Additional required wrapper -->

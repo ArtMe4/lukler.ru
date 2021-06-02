@@ -3,7 +3,7 @@ require 'header.php';
 ?>
 
 <div class="catalog__banner">
-    <div class="catalog__banner-img" style="background-image: url('/assets/img/catalog/banner.png');">
+    <div class="catalog__banner-img" style="background-image: url('./assets/img/catalog/banner.png');">
     </div>
     <div class="container">
         <div class="row">
@@ -17,7 +17,7 @@ require 'header.php';
                     Десерты для организацйи
                 </div>
                 <div class="catalog__banner-hr">
-                    <img src="/assets/img/index-organization/hr.png" alt="">
+                    <img src="./assets/img/index-organization/hr.png" alt="">
                 </div>
                 <div class="catalog__banner-description">
                     Поставка десертов для театров, кофеен, ресторанов и других организаций малого и среднего бизнеса
@@ -61,17 +61,17 @@ require 'header.php';
                 <div class="for__buttons">
                     <!-- If we need navigation buttons -->
                     <div class="catalog__slider-prev d-none d-lg-flex">
-                        <img src="/assets/img/catalog-slider/slider-arrow.png" alt="">
+                        <img src="./assets/img/catalog-slider/slider-arrow.png" alt="">
                     </div>
                     <div class="catalog__slider-next d-none d-lg-flex">
-                        <img src="/assets/img/catalog-slider/slider-arrow.png" alt="">
+                        <img src="./assets/img/catalog-slider/slider-arrow.png" alt="">
                     </div>
                     <div class="catalog__slider-slider">
                         <div class="swiper-container">
                             <!-- Additional required wrapper -->
                             <div class="swiper-wrapper tabs__content active">
                                 <!-- Slides -->
-                                <div class="swiper-slide catalog__slide" style="background-image: url('/assets/img/catalog-slider/product1.png');">
+                                <div class="swiper-slide catalog__slide" style="background-image: url('./assets/img/catalog-slider/product1.png');">
                                     <div class="catalog__slide-bg"></div>
                                     <div class="catalog__slide-body">
                                         <div class="catalog__slide-body-name">
@@ -85,16 +85,16 @@ require 'header.php';
                                                 69 ₽
                                             </div>
                                             <div class="body__price-cart d-flex d-lg-none">
-                                                <img src="/assets/img/catalog-slider/cart.png" alt="">
+                                                <img src="./assets/img/catalog-slider/cart.png" alt="">
                                             </div>
                                         </div>
                                         <div class="catalog__slide-body-cart d-none d-lg-flex">
                                             Добавить
-                                            <img src="/assets/img/catalog-slider/cart.png" alt="">
+                                            <img src="./assets/img/catalog-slider/cart.png" alt="">
                                         </div>
                                     </div>
                                 </div>
-                                <div class="swiper-slide catalog__slide" style="background-image: url('/assets/img/catalog-slider/product2.png');">
+                                <div class="swiper-slide catalog__slide" style="background-image: url('./assets/img/catalog-slider/product2.png');">
                                     <div class="catalog__slide-bg"></div>
                                     <div class="catalog__slide-body">
                                         <div class="catalog__slide-body-name">
@@ -108,16 +108,16 @@ require 'header.php';
                                                 69 ₽
                                             </div>
                                             <div class="body__price-cart d-flex d-lg-none">
-                                                <img src="/assets/img/catalog-slider/cart.png" alt="">
+                                                <img src="./assets/img/catalog-slider/cart.png" alt="">
                                             </div>
                                         </div>
                                         <div class="catalog__slide-body-cart d-none d-lg-flex">
                                             Добавить
-                                            <img src="/assets/img/catalog-slider/cart.png" alt="">
+                                            <img src="./assets/img/catalog-slider/cart.png" alt="">
                                         </div>
                                     </div>
                                 </div>
-                                <div class="swiper-slide catalog__slide" style="background-image: url('/assets/img/catalog-slider/product3.png');">
+                                <div class="swiper-slide catalog__slide" style="background-image: url('./assets/img/catalog-slider/product3.png');">
                                     <div class="catalog__slide-bg"></div>
                                     <div class="catalog__slide-body">
                                         <div class="catalog__slide-body-name">
@@ -131,16 +131,16 @@ require 'header.php';
                                                 69 ₽
                                             </div>
                                             <div class="body__price-cart d-flex d-lg-none">
-                                                <img src="/assets/img/catalog-slider/cart.png" alt="">
+                                                <img src="./assets/img/catalog-slider/cart.png" alt="">
                                             </div>
                                         </div>
                                         <div class="catalog__slide-body-cart d-none d-lg-flex">
                                             Добавить
-                                            <img src="/assets/img/catalog-slider/cart.png" alt="">
+                                            <img src="./assets/img/catalog-slider/cart.png" alt="">
                                         </div>
                                     </div>
                                 </div>
-                                <div class="swiper-slide catalog__slide" style="background-image: url('/assets/img/catalog-slider/product4.png');">
+                                <div class="swiper-slide catalog__slide" style="background-image: url('./assets/img/catalog-slider/product4.png');">
                                     <div class="catalog__slide-bg"></div>
                                     <div class="catalog__slide-body">
                                         <div class="catalog__slide-body-name">
@@ -154,16 +154,16 @@ require 'header.php';
                                                 69 ₽
                                             </div>
                                             <div class="body__price-cart d-flex d-lg-none">
-                                                <img src="/assets/img/catalog-slider/cart.png" alt="">
+                                                <img src="./assets/img/catalog-slider/cart.png" alt="">
                                             </div>
                                         </div>
                                         <div class="catalog__slide-body-cart d-none d-lg-flex">
                                             Добавить
-                                            <img src="/assets/img/catalog-slider/cart.png" alt="">
+                                            <img src="./assets/img/catalog-slider/cart.png" alt="">
                                         </div>
                                     </div>
                                 </div>
-                                <div class="swiper-slide catalog__slide" style="background-image: url('/assets/img/catalog-slider/product5.png');">
+                                <div class="swiper-slide catalog__slide" style="background-image: url('./assets/img/catalog-slider/product5.png');">
                                     <div class="catalog__slide-bg"></div>
                                     <div class="catalog__slide-body">
                                         <div class="catalog__slide-body-name">
@@ -177,16 +177,16 @@ require 'header.php';
                                                 69 ₽
                                             </div>
                                             <div class="body__price-cart d-flex d-lg-none">
-                                                <img src="/assets/img/catalog-slider/cart.png" alt="">
+                                                <img src="./assets/img/catalog-slider/cart.png" alt="">
                                             </div>
                                         </div>
                                         <div class="catalog__slide-body-cart d-none d-lg-flex">
                                             Добавить
-                                            <img src="/assets/img/catalog-slider/cart.png" alt="">
+                                            <img src="./assets/img/catalog-slider/cart.png" alt="">
                                         </div>
                                     </div>
                                 </div>
-                                <div class="swiper-slide catalog__slide" style="background-image: url('/assets/img/catalog-slider/product1.png');">
+                                <div class="swiper-slide catalog__slide" style="background-image: url('./assets/img/catalog-slider/product1.png');">
                                     <div class="catalog__slide-bg"></div>
                                     <div class="catalog__slide-body">
                                         <div class="catalog__slide-body-name">
@@ -200,16 +200,16 @@ require 'header.php';
                                                 69 ₽
                                             </div>
                                             <div class="body__price-cart d-flex d-lg-none">
-                                                <img src="/assets/img/catalog-slider/cart.png" alt="">
+                                                <img src="./assets/img/catalog-slider/cart.png" alt="">
                                             </div>
                                         </div>
                                         <div class="catalog__slide-body-cart d-none d-lg-flex">
                                             Добавить
-                                            <img src="/assets/img/catalog-slider/cart.png" alt="">
+                                            <img src="./assets/img/catalog-slider/cart.png" alt="">
                                         </div>
                                     </div>
                                 </div>
-                                <div class="swiper-slide catalog__slide" style="background-image: url('/assets/img/catalog-slider/product2.png');">
+                                <div class="swiper-slide catalog__slide" style="background-image: url('./assets/img/catalog-slider/product2.png');">
                                     <div class="catalog__slide-bg"></div>
                                     <div class="catalog__slide-body">
                                         <div class="catalog__slide-body-name">
@@ -223,16 +223,16 @@ require 'header.php';
                                                 69 ₽
                                             </div>
                                             <div class="body__price-cart d-flex d-lg-none">
-                                                <img src="/assets/img/catalog-slider/cart.png" alt="">
+                                                <img src="./assets/img/catalog-slider/cart.png" alt="">
                                             </div>
                                         </div>
                                         <div class="catalog__slide-body-cart d-none d-lg-flex">
                                             Добавить
-                                            <img src="/assets/img/catalog-slider/cart.png" alt="">
+                                            <img src="./assets/img/catalog-slider/cart.png" alt="">
                                         </div>
                                     </div>
                                 </div>
-                                <div class="swiper-slide catalog__slide" style="background-image: url('/assets/img/catalog-slider/product3.png');">
+                                <div class="swiper-slide catalog__slide" style="background-image: url('./assets/img/catalog-slider/product3.png');">
                                     <div class="catalog__slide-bg"></div>
                                     <div class="catalog__slide-body">
                                         <div class="catalog__slide-body-name">
@@ -246,12 +246,12 @@ require 'header.php';
                                                 69 ₽
                                             </div>
                                             <div class="body__price-cart d-flex d-lg-none">
-                                                <img src="/assets/img/catalog-slider/cart.png" alt="">
+                                                <img src="./assets/img/catalog-slider/cart.png" alt="">
                                             </div>
                                         </div>
                                         <div class="catalog__slide-body-cart d-none d-lg-flex">
                                             Добавить
-                                            <img src="/assets/img/catalog-slider/cart.png" alt="">
+                                            <img src="./assets/img/catalog-slider/cart.png" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -261,7 +261,7 @@ require 'header.php';
                         <div class="swiper-container">
                             <div class="swiper-wrapper tabs__content">
                                 <!-- Slides -->
-                                <div class="swiper-slide catalog__slide" style="background-image: url('/assets/img/catalog-slider/product1.png');">
+                                <div class="swiper-slide catalog__slide" style="background-image: url('./assets/img/catalog-slider/product1.png');">
                                     <div class="catalog__slide-bg"></div>
                                     <div class="catalog__slide-body">
                                         <div class="catalog__slide-body-name">
@@ -275,16 +275,16 @@ require 'header.php';
                                                 69 ₽
                                             </div>
                                             <div class="body__price-cart d-flex d-lg-none">
-                                                <img src="/assets/img/catalog-slider/cart.png" alt="">
+                                                <img src="./assets/img/catalog-slider/cart.png" alt="">
                                             </div>
                                         </div>
                                         <div class="catalog__slide-body-cart d-none d-lg-flex">
                                             Добавить
-                                            <img src="/assets/img/catalog-slider/cart.png" alt="">
+                                            <img src="./assets/img/catalog-slider/cart.png" alt="">
                                         </div>
                                     </div>
                                 </div>
-                                <div class="swiper-slide catalog__slide" style="background-image: url('/assets/img/catalog-slider/product2.png');">
+                                <div class="swiper-slide catalog__slide" style="background-image: url('./assets/img/catalog-slider/product2.png');">
                                     <div class="catalog__slide-bg"></div>
                                     <div class="catalog__slide-body">
                                         <div class="catalog__slide-body-name">
@@ -298,16 +298,16 @@ require 'header.php';
                                                 69 ₽
                                             </div>
                                             <div class="body__price-cart d-flex d-lg-none">
-                                                <img src="/assets/img/catalog-slider/cart.png" alt="">
+                                                <img src="./assets/img/catalog-slider/cart.png" alt="">
                                             </div>
                                         </div>
                                         <div class="catalog__slide-body-cart d-none d-lg-flex">
                                             Добавить
-                                            <img src="/assets/img/catalog-slider/cart.png" alt="">
+                                            <img src="./assets/img/catalog-slider/cart.png" alt="">
                                         </div>
                                     </div>
                                 </div>
-                                <div class="swiper-slide catalog__slide" style="background-image: url('/assets/img/catalog-slider/product3.png');">
+                                <div class="swiper-slide catalog__slide" style="background-image: url('./assets/img/catalog-slider/product3.png');">
                                     <div class="catalog__slide-bg"></div>
                                     <div class="catalog__slide-body">
                                         <div class="catalog__slide-body-name">
@@ -321,16 +321,16 @@ require 'header.php';
                                                 69 ₽
                                             </div>
                                             <div class="body__price-cart d-flex d-lg-none">
-                                                <img src="/assets/img/catalog-slider/cart.png" alt="">
+                                                <img src="./assets/img/catalog-slider/cart.png" alt="">
                                             </div>
                                         </div>
                                         <div class="catalog__slide-body-cart d-none d-lg-flex">
                                             Добавить
-                                            <img src="/assets/img/catalog-slider/cart.png" alt="">
+                                            <img src="./assets/img/catalog-slider/cart.png" alt="">
                                         </div>
                                     </div>
                                 </div>
-                                <div class="swiper-slide catalog__slide" style="background-image: url('/assets/img/catalog-slider/product4.png');">
+                                <div class="swiper-slide catalog__slide" style="background-image: url('./assets/img/catalog-slider/product4.png');">
                                     <div class="catalog__slide-bg"></div>
                                     <div class="catalog__slide-body">
                                         <div class="catalog__slide-body-name">
@@ -344,16 +344,16 @@ require 'header.php';
                                                 69 ₽
                                             </div>
                                             <div class="body__price-cart d-flex d-lg-none">
-                                                <img src="/assets/img/catalog-slider/cart.png" alt="">
+                                                <img src="./assets/img/catalog-slider/cart.png" alt="">
                                             </div>
                                         </div>
                                         <div class="catalog__slide-body-cart d-none d-lg-flex">
                                             Добавить
-                                            <img src="/assets/img/catalog-slider/cart.png" alt="">
+                                            <img src="./assets/img/catalog-slider/cart.png" alt="">
                                         </div>
                                     </div>
                                 </div>
-                                <div class="swiper-slide catalog__slide" style="background-image: url('/assets/img/catalog-slider/product5.png');">
+                                <div class="swiper-slide catalog__slide" style="background-image: url('./assets/img/catalog-slider/product5.png');">
                                     <div class="catalog__slide-bg"></div>
                                     <div class="catalog__slide-body">
                                         <div class="catalog__slide-body-name">
@@ -367,16 +367,16 @@ require 'header.php';
                                                 69 ₽
                                             </div>
                                             <div class="body__price-cart d-flex d-lg-none">
-                                                <img src="/assets/img/catalog-slider/cart.png" alt="">
+                                                <img src="./assets/img/catalog-slider/cart.png" alt="">
                                             </div>
                                         </div>
                                         <div class="catalog__slide-body-cart d-none d-lg-flex">
                                             Добавить
-                                            <img src="/assets/img/catalog-slider/cart.png" alt="">
+                                            <img src="./assets/img/catalog-slider/cart.png" alt="">
                                         </div>
                                     </div>
                                 </div>
-                                <div class="swiper-slide catalog__slide" style="background-image: url('/assets/img/catalog-slider/product1.png');">
+                                <div class="swiper-slide catalog__slide" style="background-image: url('./assets/img/catalog-slider/product1.png');">
                                     <div class="catalog__slide-bg"></div>
                                     <div class="catalog__slide-body">
                                         <div class="catalog__slide-body-name">
@@ -390,16 +390,16 @@ require 'header.php';
                                                 69 ₽
                                             </div>
                                             <div class="body__price-cart d-flex d-lg-none">
-                                                <img src="/assets/img/catalog-slider/cart.png" alt="">
+                                                <img src="./assets/img/catalog-slider/cart.png" alt="">
                                             </div>
                                         </div>
                                         <div class="catalog__slide-body-cart d-none d-lg-flex">
                                             Добавить
-                                            <img src="/assets/img/catalog-slider/cart.png" alt="">
+                                            <img src="./assets/img/catalog-slider/cart.png" alt="">
                                         </div>
                                     </div>
                                 </div>
-                                <div class="swiper-slide catalog__slide" style="background-image: url('/assets/img/catalog-slider/product2.png');">
+                                <div class="swiper-slide catalog__slide" style="background-image: url('./assets/img/catalog-slider/product2.png');">
                                     <div class="catalog__slide-bg"></div>
                                     <div class="catalog__slide-body">
                                         <div class="catalog__slide-body-name">
@@ -413,16 +413,16 @@ require 'header.php';
                                                 69 ₽
                                             </div>
                                             <div class="body__price-cart d-flex d-lg-none">
-                                                <img src="/assets/img/catalog-slider/cart.png" alt="">
+                                                <img src="./assets/img/catalog-slider/cart.png" alt="">
                                             </div>
                                         </div>
                                         <div class="catalog__slide-body-cart d-none d-lg-flex">
                                             Добавить
-                                            <img src="/assets/img/catalog-slider/cart.png" alt="">
+                                            <img src="./assets/img/catalog-slider/cart.png" alt="">
                                         </div>
                                     </div>
                                 </div>
-                                <div class="swiper-slide catalog__slide" style="background-image: url('/assets/img/catalog-slider/product3.png');">
+                                <div class="swiper-slide catalog__slide" style="background-image: url('./assets/img/catalog-slider/product3.png');">
                                     <div class="catalog__slide-bg"></div>
                                     <div class="catalog__slide-body">
                                         <div class="catalog__slide-body-name">
@@ -436,12 +436,12 @@ require 'header.php';
                                                 69 ₽
                                             </div>
                                             <div class="body__price-cart d-flex d-lg-none">
-                                                <img src="/assets/img/catalog-slider/cart.png" alt="">
+                                                <img src="./assets/img/catalog-slider/cart.png" alt="">
                                             </div>
                                         </div>
                                         <div class="catalog__slide-body-cart d-none d-lg-flex">
                                             Добавить
-                                            <img src="/assets/img/catalog-slider/cart.png" alt="">
+                                            <img src="./assets/img/catalog-slider/cart.png" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -450,7 +450,7 @@ require 'header.php';
                         <div class="swiper-container">
                             <div class="swiper-wrapper tabs__content">
                                 <!-- Slides -->
-                                <div class="swiper-slide catalog__slide" style="background-image: url('/assets/img/catalog-slider/product5.png');">
+                                <div class="swiper-slide catalog__slide" style="background-image: url('./assets/img/catalog-slider/product5.png');">
                                     <div class="catalog__slide-bg"></div>
                                     <div class="catalog__slide-body">
                                         <div class="catalog__slide-body-name">
@@ -464,16 +464,16 @@ require 'header.php';
                                                 69 ₽
                                             </div>
                                             <div class="body__price-cart d-flex d-lg-none">
-                                                <img src="/assets/img/catalog-slider/cart.png" alt="">
+                                                <img src="./assets/img/catalog-slider/cart.png" alt="">
                                             </div>
                                         </div>
                                         <div class="catalog__slide-body-cart d-none d-lg-flex">
                                             Добавить
-                                            <img src="/assets/img/catalog-slider/cart.png" alt="">
+                                            <img src="./assets/img/catalog-slider/cart.png" alt="">
                                         </div>
                                     </div>
                                 </div>
-                                <div class="swiper-slide catalog__slide" style="background-image: url('/assets/img/catalog-slider/product1.png');">
+                                <div class="swiper-slide catalog__slide" style="background-image: url('./assets/img/catalog-slider/product1.png');">
                                     <div class="catalog__slide-bg"></div>
                                     <div class="catalog__slide-body">
                                         <div class="catalog__slide-body-name">
@@ -487,12 +487,12 @@ require 'header.php';
                                                 69 ₽
                                             </div>
                                             <div class="body__price-cart d-flex d-lg-none">
-                                                <img src="/assets/img/catalog-slider/cart.png" alt="">
+                                                <img src="./assets/img/catalog-slider/cart.png" alt="">
                                             </div>
                                         </div>
                                         <div class="catalog__slide-body-cart d-none d-lg-flex">
                                             Добавить
-                                            <img src="/assets/img/catalog-slider/cart.png" alt="">
+                                            <img src="./assets/img/catalog-slider/cart.png" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -501,7 +501,7 @@ require 'header.php';
                         <div class="swiper-container">
                             <div class="swiper-wrapper tabs__content">
                                 <!-- Slides -->
-                                <div class="swiper-slide catalog__slide" style="background-image: url('/assets/img/catalog-slider/product1.png');">
+                                <div class="swiper-slide catalog__slide" style="background-image: url('./assets/img/catalog-slider/product1.png');">
                                     <div class="catalog__slide-bg"></div>
                                     <div class="catalog__slide-body">
                                         <div class="catalog__slide-body-name">
@@ -515,16 +515,16 @@ require 'header.php';
                                                 69 ₽
                                             </div>
                                             <div class="body__price-cart d-flex d-lg-none">
-                                                <img src="/assets/img/catalog-slider/cart.png" alt="">
+                                                <img src="./assets/img/catalog-slider/cart.png" alt="">
                                             </div>
                                         </div>
                                         <div class="catalog__slide-body-cart d-none d-lg-flex">
                                             Добавить
-                                            <img src="/assets/img/catalog-slider/cart.png" alt="">
+                                            <img src="./assets/img/catalog-slider/cart.png" alt="">
                                         </div>
                                     </div>
                                 </div>
-                                <div class="swiper-slide catalog__slide" style="background-image: url('/assets/img/catalog-slider/product2.png');">
+                                <div class="swiper-slide catalog__slide" style="background-image: url('./assets/img/catalog-slider/product2.png');">
                                     <div class="catalog__slide-bg"></div>
                                     <div class="catalog__slide-body">
                                         <div class="catalog__slide-body-name">
@@ -538,16 +538,16 @@ require 'header.php';
                                                 69 ₽
                                             </div>
                                             <div class="body__price-cart d-flex d-lg-none">
-                                                <img src="/assets/img/catalog-slider/cart.png" alt="">
+                                                <img src="./assets/img/catalog-slider/cart.png" alt="">
                                             </div>
                                         </div>
                                         <div class="catalog__slide-body-cart d-none d-lg-flex">
                                             Добавить
-                                            <img src="/assets/img/catalog-slider/cart.png" alt="">
+                                            <img src="./assets/img/catalog-slider/cart.png" alt="">
                                         </div>
                                     </div>
                                 </div>
-                                <div class="swiper-slide catalog__slide" style="background-image: url('/assets/img/catalog-slider/product3.png');">
+                                <div class="swiper-slide catalog__slide" style="background-image: url('./assets/img/catalog-slider/product3.png');">
                                     <div class="catalog__slide-bg"></div>
                                     <div class="catalog__slide-body">
                                         <div class="catalog__slide-body-name">
@@ -561,16 +561,16 @@ require 'header.php';
                                                 69 ₽
                                             </div>
                                             <div class="body__price-cart d-flex d-lg-none">
-                                                <img src="/assets/img/catalog-slider/cart.png" alt="">
+                                                <img src="./assets/img/catalog-slider/cart.png" alt="">
                                             </div>
                                         </div>
                                         <div class="catalog__slide-body-cart d-none d-lg-flex">
                                             Добавить
-                                            <img src="/assets/img/catalog-slider/cart.png" alt="">
+                                            <img src="./assets/img/catalog-slider/cart.png" alt="">
                                         </div>
                                     </div>
                                 </div>
-                                <div class="swiper-slide catalog__slide" style="background-image: url('/assets/img/catalog-slider/product4.png');">
+                                <div class="swiper-slide catalog__slide" style="background-image: url('./assets/img/catalog-slider/product4.png');">
                                     <div class="catalog__slide-bg"></div>
                                     <div class="catalog__slide-body">
                                         <div class="catalog__slide-body-name">
@@ -584,12 +584,12 @@ require 'header.php';
                                                 69 ₽
                                             </div>
                                             <div class="body__price-cart d-flex d-lg-none">
-                                                <img src="/assets/img/catalog-slider/cart.png" alt="">
+                                                <img src="./assets/img/catalog-slider/cart.png" alt="">
                                             </div>
                                         </div>
                                         <div class="catalog__slide-body-cart d-none d-lg-flex">
                                             Добавить
-                                            <img src="/assets/img/catalog-slider/cart.png" alt="">
+                                            <img src="./assets/img/catalog-slider/cart.png" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -613,11 +613,11 @@ require 'header.php';
                     <div class="info__item">
                         <div class="row">
                             <div class="info__item-icon d-block d-md-none">
-                                <img src="/assets/img/catalog/icon1.png" alt="">
+                                <img src="./assets/img/catalog/icon1.png" alt="">
                             </div>
                             <div class="col-md-6 d-none d-md-block">
                                 <div class="info__item-img left">
-                                    <img src="/assets/img/catalog/banner1.png" alt="">
+                                    <img src="./assets/img/catalog/banner1.png" alt="">
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -630,7 +630,7 @@ require 'header.php';
                     <div class="info__item">
                         <div class="row">
                             <div class="info__item-icon d-block d-md-none">
-                                <img src="/assets/img/catalog/icon2.png" alt="">
+                                <img src="./assets/img/catalog/icon2.png" alt="">
                             </div>
                             <div class="col-md-6">
                                 <div class="info__item-text">
@@ -639,8 +639,8 @@ require 'header.php';
                             </div>
                             <div class="col-md-6 d-none d-md-block">
                                 <div class="info__item-img right">
-                                    <img class="d-none d-lg-block" src="/assets/img/catalog/banner2.png" alt="">
-                                    <img class="d-block d-lg-none" src="/assets/img/catalog/banner2-tablet.png" alt="">
+                                    <img class="d-none d-lg-block" src="./assets/img/catalog/banner2.png" alt="">
+                                    <img class="d-block d-lg-none" src="./assets/img/catalog/banner2-tablet.png" alt="">
                                 </div>
                             </div>
                         </div>
@@ -648,11 +648,11 @@ require 'header.php';
                     <div class="info__item">
                         <div class="row">
                             <div class="info__item-icon d-block d-md-none">
-                                <img src="/assets/img/catalog/icon3.png" alt="">
+                                <img src="./assets/img/catalog/icon3.png" alt="">
                             </div>
                             <div class="col-md-6 d-none d-md-block">
                                 <div class="info__item-img left">
-                                    <img src="/assets/img/catalog/banner3.png" alt="">
+                                    <img src="./assets/img/catalog/banner3.png" alt="">
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -700,7 +700,7 @@ require 'header.php';
                         </form>
                     </div>
                     <div class="col-lg-6 col-md-3 d-none d-md-block catalog__form-image">
-                        <img src="/assets/img/catalog/feedback-image.png" alt="">
+                        <img src="./assets/img/catalog/feedback-image.png" alt="">
                     </div>
                 </div>
             </div>

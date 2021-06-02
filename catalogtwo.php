@@ -3,7 +3,7 @@ require 'header.php';
 ?>
 
 <div class="catalog__banner">
-    <div class="catalog__banner-img" style="background-image: url('/assets/img/catalog-two.png');">
+    <div class="catalog__banner-img" style="background-image: url('./assets/img/catalog-two.png');">
     </div>
     <div class="container">
         <div class="row">
@@ -17,7 +17,7 @@ require 'header.php';
                     Ароматные эклеры
                 </div>
                 <div class="catalog__banner-hr">
-                    <img src="/assets/img/index-organization/hr.png" alt="">
+                    <img src="./assets/img/index-organization/hr.png" alt="">
                 </div>
                 <div class="catalog__banner-description">
                     Поставка десертов для театров, кофеен, ресторанов и других организаций малого и среднего бизнеса
@@ -55,7 +55,7 @@ require 'header.php';
                                     История эклера
                                 </div>
                                 <div class="static__label-hr">
-                                    <img src="/assets/img/index-organization/hr.png" alt="">
+                                    <img src="./assets/img/index-organization/hr.png" alt="">
                                 </div>
                                 <div class="static__label-description">
                                     Небольшой текст про опыт и заслуги. Ну и обязательно что МЫ влюбляем в каждый десерт

@@ -2,19 +2,19 @@
 
   @include laptop {
 
-    background-image: url("/assets/img/banner-bg-tablet.png");
+    background-image: url("../img/banner-bg-tablet.png");
     padding: 100px 0 85px;
 
   }
 
   @include phone {
 
-    background-image: url("/assets/img/banner-bg-phone.png");
+    background-image: url("../img/banner-bg-phone.png");
     padding: 313px 0 40px;
 
   }
 
-  background-image: url("/assets/img/banner-bg.png");
+  background-image: url("../img/banner-bg.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

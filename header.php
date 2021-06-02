@@ -6,7 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Lukler</title>
-    <link rel="stylesheet" href="assets/styles/index.css">
+    <link rel="stylesheet" href="./assets/styles/index.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -26,12 +26,12 @@
         <div class="container">
             <div class="header">
                 <div class="header__logo-white">
-                    <img class="d-none d-lg-block" src="assets/img/logo-white.png" alt="">
-                    <img class="d-block d-lg-none" src="assets/img/logo-tablet-white.png" alt="">
+                    <img class="d-none d-lg-block" src="./assets/img/logo-white.png" alt="">
+                    <img class="d-block d-lg-none" src="./assets/img/logo-tablet-white.png" alt="">
                 </div>
                 <div class="header__logo">
-                    <img class="d-none d-lg-block" src="assets/img/logo.png" alt="">
-                    <img class="d-block d-lg-none" src="assets/img/logo-tablet.png" alt="">
+                    <img class="d-none d-lg-block" src="./assets/img/logo.png" alt="">
+                    <img class="d-block d-lg-none" src="./assets/img/logo-tablet.png" alt="">
                 </div>
                 <div class="header__right">
                     <div class="header__menu d-none d-lg-block">
@@ -65,16 +65,16 @@
                         </ul>
                     </div>
                     <div class="header__cart-white">
-                        <img src="assets/img/header-iamges/header-cart-white.png" alt="">
+                        <img src="./assets/img/header-iamges/header-cart-white.png" alt="">
                     </div>
                     <div class="header__cart">
-                        <img src="assets/img/header-iamges/header-cart.png" alt="">
+                        <img src="./assets/img/header-iamges/header-cart.png" alt="">
                     </div>
                     <div class="header__mobile-menu white d-lg-none">
-                        <img src="assets/img/header-iamges/mobile-menu-white.png" alt="">
+                        <img src="./assets/img/header-iamges/mobile-menu-white.png" alt="">
                     </div>
                     <div class="header__mobile-menu d-lg-none">
-                        <img src="assets/img/header-iamges/mobile-menu.png" alt="">
+                        <img src="./assets/img/header-iamges/mobile-menu.png" alt="">
                     </div>
                 </div>
             </div>

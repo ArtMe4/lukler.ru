@@ -42,7 +42,234 @@ require 'header.php';
         </div>
     </div>
 
+    <section class="catalog__slider mainCatalog">
+        <div class="container">
+            <div class="catalog__slider-title">
+                Ароматные эклеры
+            </div>
+            <div class="for__buttons">
+                <div class="catalog__slider-slider">
+<!--                    <div class="row">-->
+                        <div class="tabs__content row">
+                            <div class="col-md-4 col-lg-3">
+                                <div class="catalog__slide" style="background-image: url('./assets/img/catalog-slider/product1.png');">
+                                    <div class="catalog__slide-bg"></div>
+                                    <div class="catalog__slide-body">
+                                        <div class="catalog__slide-body-name">
+                                            <a href="">Эклер</a>
+                                        </div>
+                                        <div class="catalog__slide-body-description">
+                                            С мякотью банана и пюре маракуйя
+                                        </div>
+                                        <div class="catalog__slide-body-price">
+                                            <div class="body__price-price">
+                                                69 ₽
+                                            </div>
+                                            <div class="body__price-cart d-flex d-lg-none">
+                                                <img src="./assets/img/catalog-slider/cart.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="catalog__slide-body-cart d-none d-lg-flex">
+                                            Добавить
+                                            <img src="./assets/img/catalog-slider/cart.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-lg-3">
+                                <div class="catalog__slide" style="background-image: url('./assets/img/catalog-slider/product2.png');">
+                                    <div class="catalog__slide-bg"></div>
+                                    <div class="catalog__slide-body">
+                                        <div class="catalog__slide-body-name">
+                                            <a href="">Эклер в два ряда для проверки</a>
+                                        </div>
+                                        <div class="catalog__slide-body-description">
+                                            С мякотью банана и пюре маракуйя
+                                        </div>
+                                        <div class="catalog__slide-body-price">
+                                            <div class="body__price-price">
+                                                69 ₽
+                                            </div>
+                                            <div class="body__price-cart d-flex d-lg-none">
+                                                <img src="./assets/img/catalog-slider/cart.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="catalog__slide-body-cart d-none d-lg-flex">
+                                            Добавить
+                                            <img src="./assets/img/catalog-slider/cart.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-lg-3">
+                                <div class="catalog__slide" style="background-image: url('./assets/img/catalog-slider/product3.png');">
+                                    <div class="catalog__slide-bg"></div>
+                                    <div class="catalog__slide-body">
+                                        <div class="catalog__slide-body-name">
+                                            <a href="">Эклер</a>
+                                        </div>
+                                        <div class="catalog__slide-body-description">
+                                            С мякотью банана и пюре маракуйя
+                                        </div>
+                                        <div class="catalog__slide-body-price">
+                                            <div class="body__price-price">
+                                                69 ₽
+                                            </div>
+                                            <div class="body__price-cart d-flex d-lg-none">
+                                                <img src="./assets/img/catalog-slider/cart.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="catalog__slide-body-cart d-none d-lg-flex">
+                                            Добавить
+                                            <img src="./assets/img/catalog-slider/cart.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-lg-3">
+                                <div class="catalog__slide" style="background-image: url('./assets/img/catalog-slider/product4.png');">
+                                    <div class="catalog__slide-bg"></div>
+                                    <div class="catalog__slide-body">
+                                        <div class="catalog__slide-body-name">
+                                            <a href="">Эклер</a>
+                                        </div>
+                                        <div class="catalog__slide-body-description">
+                                            С мякотью банана и пюре маракуйя
+                                        </div>
+                                        <div class="catalog__slide-body-price">
+                                            <div class="body__price-price">
+                                                69 ₽
+                                            </div>
+                                            <div class="body__price-cart d-flex d-lg-none">
+                                                <img src="./assets/img/catalog-slider/cart.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="catalog__slide-body-cart d-none d-lg-flex">
+                                            Добавить
+                                            <img src="./assets/img/catalog-slider/cart.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-lg-3">
+                                <div class="catalog__slide" style="background-image: url('./assets/img/catalog-slider/product5.png');">
+                                    <div class="catalog__slide-bg"></div>
+                                    <div class="catalog__slide-body">
+                                        <div class="catalog__slide-body-name">
+                                            <a href="">Эклер</a>
+                                        </div>
+                                        <div class="catalog__slide-body-description">
+                                            С мякотью банана и пюре маракуйя
+                                        </div>
+                                        <div class="catalog__slide-body-price">
+                                            <div class="body__price-price">
+                                                69 ₽
+                                            </div>
+                                            <div class="body__price-cart d-flex d-lg-none">
+                                                <img src="./assets/img/catalog-slider/cart.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="catalog__slide-body-cart d-none d-lg-flex">
+                                            Добавить
+                                            <img src="./assets/img/catalog-slider/cart.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-lg-3">
+                                <div class="catalog__slide" style="background-image: url('./assets/img/catalog-slider/product1.png');">
+                                    <div class="catalog__slide-bg"></div>
+                                    <div class="catalog__slide-body">
+                                        <div class="catalog__slide-body-name">
+                                            <a href="">Эклер</a>
+                                        </div>
+                                        <div class="catalog__slide-body-description">
+                                            С мякотью банана и пюре маракуйя
+                                        </div>
+                                        <div class="catalog__slide-body-price">
+                                            <div class="body__price-price">
+                                                69 ₽
+                                            </div>
+                                            <div class="body__price-cart d-flex d-lg-none">
+                                                <img src="./assets/img/catalog-slider/cart.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="catalog__slide-body-cart d-none d-lg-flex">
+                                            Добавить
+                                            <img src="./assets/img/catalog-slider/cart.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-lg-3">
+                                <div class="catalog__slide" style="background-image: url('./assets/img/catalog-slider/product2.png');">
+                                    <div class="catalog__slide-bg"></div>
+                                    <div class="catalog__slide-body">
+                                        <div class="catalog__slide-body-name">
+                                            <a href="">Эклер</a>
+                                        </div>
+                                        <div class="catalog__slide-body-description">
+                                            С мякотью банана и пюре маракуйя
+                                        </div>
+                                        <div class="catalog__slide-body-price">
+                                            <div class="body__price-price">
+                                                69 ₽
+                                            </div>
+                                            <div class="body__price-cart d-flex d-lg-none">
+                                                <img src="./assets/img/catalog-slider/cart.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="catalog__slide-body-cart d-none d-lg-flex">
+                                            Добавить
+                                            <img src="./assets/img/catalog-slider/cart.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-lg-3">
+                                <div class="catalog__slide" style="background-image: url('./assets/img/catalog-slider/product3.png');">
+                                    <div class="catalog__slide-bg"></div>
+                                    <div class="catalog__slide-body">
+                                        <div class="catalog__slide-body-name">
+                                            <a href="">Эклер</a>
+                                        </div>
+                                        <div class="catalog__slide-body-description">
+                                            С мякотью банана и пюре маракуйя
+                                        </div>
+                                        <div class="catalog__slide-body-price">
+                                            <div class="body__price-price">
+                                                69 ₽
+                                            </div>
+                                            <div class="body__price-cart d-flex d-lg-none">
+                                                <img src="./assets/img/catalog-slider/cart.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="catalog__slide-body-cart d-none d-lg-flex">
+                                            Добавить
+                                            <img src="./assets/img/catalog-slider/cart.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-lg-6 d-none d-md-block">
+                                <div class="catalog__slide last">
+                                    <div class="catalog__slide-body">
+                                        <div class="body__title">
+                                            Приятного аппетита!
+                                        </div>
+                                        <div class="body__subtitle">
+                                            Спасибо за заказ
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
 
+                        </div>
+<!--                    </div>-->
+                </div>
+            </div>
+        </div>
+    </section>
 
     <div class="static">
         <div class="container">

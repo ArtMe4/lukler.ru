@@ -19,10 +19,10 @@
                         </div>
                         <div class="cakeUp__all-buttons">
                             <div class="cakeUp__all-buttons-need">
-                                Хочу!
+                                <a href="">Хочу!</a>
                             </div>
                             <div class="cakeUp__all-buttons-all">
-                                Все тортики
+                                <a href="">Все тортики</a>
                             </div>
                         </div>
                     </div>
@@ -930,8 +930,12 @@
                     Уже оценили авторские десерты
                 </div>
                 <div class="catering__slider-slider">
-                    <div class="catering-button-prev"></div>
-                    <div class="catering-button-next"></div>
+                    <div class="catering-button-prev d-none d-lg-flex">
+                        <img src="./assets/img/catalog-slider/slider-arrow.png" alt="">
+                    </div>
+                    <div class="catering-button-next d-none d-lg-flex">
+                        <img src="./assets/img/catalog-slider/slider-arrow.png" alt="">
+                    </div>
                     <div class="swiper-container">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">Slide 1</div>
@@ -1058,8 +1062,12 @@
 <section class="organization">
     <div class="container">
         <div class="organization__slider">
-            <div class="organization__button-prev"></div>
-            <div class="organization__button-next"></div>
+            <div class="organization-button-prev d-none d-lg-flex">
+                <img src="./assets/img/catalog-slider/slider-arrow.png" alt="">
+            </div>
+            <div class="organization-button-next d-none d-lg-flex">
+                <img src="./assets/img/catalog-slider/slider-arrow.png" alt="">
+            </div>
             <div class="swiper-container">
                 <!-- Additional required wrapper -->
                 <div class="swiper-wrapper">

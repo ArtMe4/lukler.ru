@@ -180,4 +180,18 @@
 
   }
 
+  &-main {
+
+    @include laptop {
+      margin-bottom: 80px;
+    }
+
+    @include tablet {
+      margin-bottom: 60px;
+    }
+
+    margin-bottom: 100px;
+
+  }
+
 }

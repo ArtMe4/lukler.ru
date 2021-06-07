@@ -9,8 +9,7 @@
   }
 
   padding: 100px 0;
-  background: #FAEBE9;
-  opacity: 0.8;
+  background: #FAEBE980;
 
   &__title {
 
@@ -255,9 +254,13 @@
           display: block;
           margin-top: 40px;
           width: fit-content;
+          transition: .3s all ease;
 
           &:hover {
-            color: #FFFFFF;
+
+            color: #E26776;
+            background: #FFFFFF;
+
           }
 
         }

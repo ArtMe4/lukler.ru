@@ -15,7 +15,7 @@
 </head>
 <body>
     <?php
-        if($_SERVER['REQUEST_URI'] == '/product.php') {
+        if($_SERVER['REQUEST_URI'] == '/product.php' || $_SERVER['REQUEST_URI'] == '/contacts.php' || $_SERVER['REQUEST_URI'] == '/cart.php') {
             echo '<header class="product">';
         } else if ($_SERVER['REQUEST_URI'] == '/catalog.php' || $_SERVER['REQUEST_URI'] == '/catalogtwo.php') {
             echo '<header class="catalog">';
@@ -40,9 +40,14 @@
                                 <a href="">Меню</a>
                                 <div class="nav__item-children">
                                     <ul>
-                                        <li>Что-то</li>
-                                        <li>Что-то</li>
-                                        <li>Что-то</li>
+                                        <li><a href="">Все сразу</a></li>
+                                        <li><a href="">Ароматные эклеры</a></li>
+                                        <li><a href="">Свежая выпечка</a></li>
+                                        <li><a href="">Классические десерты</a></li>
+                                        <li><a href="">Свежемолотый кофе</a></li>
+                                        <li><a href="">Конфетыу</a></li>
+                                        <li><a href="">Муссы</a></li>
+                                        <li><a href="">Авторские десерты</a></li>
                                     </ul>
                                 </div>
                             </li>
@@ -65,16 +70,50 @@
                         </ul>
                     </div>
                     <div class="header__cart-white">
+                        <div class="header__cart-count">
+                            1
+                        </div>
                         <img src="./assets/img/header-iamges/header-cart-white.png" alt="">
                     </div>
                     <div class="header__cart">
+                        <div class="header__cart-count">
+                            1
+                        </div>
                         <img src="./assets/img/header-iamges/header-cart.png" alt="">
                     </div>
                     <div class="header__mobile-menu white d-lg-none">
                         <img src="./assets/img/header-iamges/mobile-menu-white.png" alt="">
+                        <div class="mobile-menu__body">
+                            <div class="mobile-menu__item">
+                                <a href="">Меню</a>
+                            </div>
+                            <div class="mobile-menu__item">
+                                <a href="">Шеф-кондитер</a>
+                            </div>
+                            <div class="mobile-menu__item">
+                                <a href="">О кафе</a>
+                            </div>
+                            <div class="mobile-menu__item">
+                                <a href="">Контакты</a>
+                            </div>
+                        </div>
                     </div>
                     <div class="header__mobile-menu d-lg-none">
                         <img src="./assets/img/header-iamges/mobile-menu.png" alt="">
+                        <div class="mobile-menu__body">
+                            <div class="mobile-menu__item">
+                                <a href="">Меню</a>
+                            </div>
+                            <div class="mobile-menu__item">
+                                <a href="">Шеф-кондитер</a>
+                            </div>
+                            <div class="mobile-menu__item">
+                                <a href="">О кафе</a>
+                            </div>
+                            <div class="mobile-menu__item">
+                                <a href="">Контакты</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

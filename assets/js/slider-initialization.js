@@ -41,8 +41,8 @@ var catering_swiper = new Swiper(".catering__slider-slider .swiper-container", {
     },
     // Navigation arrows
     navigation: {
-        nextEl: '.catering-slider-next',
-        prevEl: '.catering-slider-prev',
+        nextEl: '.catering-button-next',
+        prevEl: '.catering-button-prev',
     }
 });
 
@@ -51,8 +51,8 @@ var organization_swiper = new Swiper(".organization__slider .swiper-container", 
     spaceBetween: 4,
     // Navigation arrows
     navigation: {
-        nextEl: '.organization__slider-next',
-        prevEl: '.organization__slider-prev',
+        nextEl: '.organization-button-next',
+        prevEl: '.organization-button-prev',
     }
 });
 

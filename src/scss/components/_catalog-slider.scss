@@ -339,11 +339,13 @@
       display: block;
       width: fit-content;
       text-align: center;
+      transition: .3s all ease;
 
       &:hover {
 
         text-decoration: none;
-        color: #FFFFFF;
+        color: #E26776;
+        background: #FFFFFF;
 
       }
 

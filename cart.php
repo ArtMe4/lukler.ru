@@ -249,9 +249,11 @@ require 'header.php';
                             </form>
                         </div>
                     </div>
-                    <div class="col-lg-5">
-                        <div class="cart__order-img">
-                            <img src="./assets/img/cart/form-bg.png" alt="">
+                    <div class="col-lg-5 d-none d-lg-block">
+                        <div class="cart__order-img-rel">
+                            <div class="cart__order-img">
+                                <img src="./assets/img/cart/form-bg.png" alt="">
+                            </div>
                         </div>
                     </div>
                 </div>

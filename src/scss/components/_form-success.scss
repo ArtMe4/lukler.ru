@@ -1,0 +1,98 @@
+.form__success {
+
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: #FAEBE970;
+  top: 0;
+  left: 0;
+  padding-top: 100px;
+  z-index: 999;
+  display: none;
+
+  &-title {
+
+    @include laptop {
+
+      font-size: 30px;
+      line-height: 40px;
+
+    }
+
+    @include tablet {
+      text-align: center;
+    }
+
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 52px;
+    color: #45180E;
+
+  }
+
+  &-body {
+
+    @include tablet {
+
+      width: calc(100% - 32px);
+      box-shadow: 20px 34px 34px rgba(95, 67, 64, 0.2);
+      border-radius: 0px 40px;
+
+    }
+
+    margin: auto;
+    width: 474px;
+    background: linear-gradient(90deg, #F0CBD8 16.67%, #FBE2E8 61.46%);
+    box-shadow: 20px 34px 34px rgba(95, 67, 64, 0.2);
+    border-radius: 0px 80px;
+    padding: 30px 60px 45px;
+    position: relative;
+
+  }
+
+  &-hr {
+
+    margin: 15px 0;
+
+  }
+
+  &-text {
+
+    @include tablet {
+      text-align: center;
+    }
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    color: #663E35;
+
+  }
+
+  &-close {
+
+    @include laptop {
+
+      top: 40px;
+      right: 40px;
+
+    }
+
+    @include tablet {
+
+      top: 20px;
+      right: 20px;
+
+    }
+
+    position: absolute;
+    top: 45px;
+    right: 45px;
+    cursor: pointer;
+
+  }
+
+}

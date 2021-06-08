@@ -189,6 +189,63 @@
     </div>
 </footer>
 
+<div class="feedback__form">
+    <div class="feedback__form-body">
+        <div class="feedback__form-close">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path opacity="0.7" fill-rule="evenodd" clip-rule="evenodd" d="M19 6.4L17.6 5L12 10.6L6.4 5L5 6.4L10.6 12L5 17.6L6.4 19L12 13.4L17.6 19L19 17.6L13.4 12L19 6.4Z" fill="#E26776"/>
+            </svg>
+        </div>
+        <div class="feedback__form-title">
+            Ваш отзыв
+        </div>
+        <form action="">
+            <div class="feedback__form-name">
+                <input type="text" name="name" placeholder="Ваше имя">
+            </div>
+            <div class="feedback__form-phone">
+                <input type="tel" name="phone" placeholder="Контактный телефон">
+            </div>
+            <div class="feedback__form-text">
+                <textarea name="message" placeholder="Ваш текст"></textarea>
+            </div>
+            <div class="feedback__form-down">
+                <div class="feedback__form-button">
+                    <button>
+                        Отправить
+                    </button>
+                </div>
+                <div class="feedback__form-policy">
+                    Отправляя форму, вы принимаете
+                    <a href="">Условия Пользовательского соглашения</a>
+                    «Люклер».
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="form__success">
+    <div class="form__success-body">
+        <div class="form__success-close">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path opacity="0.7" fill-rule="evenodd" clip-rule="evenodd" d="M19 6.4L17.6 5L12 10.6L6.4 5L5 6.4L10.6 12L5 17.6L6.4 19L12 13.4L17.6 19L19 17.6L13.4 12L19 6.4Z" fill="#E26776"/>
+            </svg>
+        </div>
+        <div class="form__success-title">
+            Спасибо!
+        </div>
+        <div class="form__success-hr">
+            <svg xmlns="http://www.w3.org/2000/svg" width="96" height="13" viewBox="0 0 96 13" fill="none">
+                <path d="M2 5.24C4.77053 7.81959 6.94023 11 12.2903 11C21.2903 11 21.2903 2 30.2903 2C39.2903 2 39.2903 11 48.2903 11C57.2903 11 57.2903 2 66.2903 2C75.2903 2 75.2903 11 84.2903 11C89.6404 11 91.8101 7.81959 94.5807 5.24" stroke="white" stroke-width="3"/>
+            </svg>
+        </div>
+        <div class="form__success-text">
+            Ваш отзыв отправлен успешно
+        </div>
+    </div>
+</div>
+
 
         <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
         <script defer src="./assets/js/slider-initialization.js"></script>

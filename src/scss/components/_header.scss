@@ -257,12 +257,8 @@ header.catalog {
 
         .mobile-menu {
 
-          &__body {
-
-            margin-right: 0;
-            display: block;
-
-          }
+          margin-right: 0;
+          display: block;
 
         }
 
@@ -278,16 +274,18 @@ header.catalog {
 
   .mobile-menu {
 
+    background: #FAEBE9;
+    display: none;
+    position: absolute;
+    top: 0;
+    margin-right: -100%;
+    right: 0;
+    width: 213px;
+
     &__body {
 
-      background: #F3D3D7;
-      border-top: 1px solid #45180E;
-      padding: 19px 30px 150px;
-      display: none;
-      position: absolute;
-      top: 100%;
-      margin-right: -100%;
-      right: 0;
+      padding: 18px 30px 100px;
+      position: relative;
 
     }
 
@@ -311,6 +309,97 @@ header.catalog {
         color: #45180E;
         border-bottom: 1px solid #45180E;
 
+      }
+
+      &.has-child {
+
+        > a {
+
+          position: relative;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+
+          &:after {
+
+            content: url("../img/header-iamges/menu-arrow.svg");
+            display: block;
+            width: 20px;
+            height: 20px;
+
+          }
+
+          &.active {
+
+            &:after {
+
+              content: url("../img/header-iamges/menu-arrow-dark.svg");
+
+            }
+
+          }
+
+        }
+
+      }
+
+    }
+
+    &__top {
+
+      padding: 7px 26px 9px;
+      border-bottom: 1px solid #45180E20;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+
+    }
+
+    &__back {
+
+      display: none;
+
+      &.active {
+        display: block;
+      }
+
+    }
+
+    &__children {
+
+      display: none;
+      position: absolute;
+      width: 100%;
+      min-height: 100%;
+      top: 0;
+      left: 0;
+      padding: 18px 30px 100px;
+      background: #FAEBE9;
+      z-index: 9;
+
+      a {
+
+        display: block;
+        width: 100%;
+
+
+        &:not(:last-child) {
+
+          margin-bottom: 10px;
+
+        }
+
+        &.active {
+
+          color: #45180E;
+          border-bottom: 1px solid #45180E;
+
+        }
+
+      }
+
+      &.opened {
+        display: block;
       }
 
     }
@@ -343,6 +432,12 @@ header.catalog {
 
     .nav__item-children {
       display: block;
+    }
+
+    > a::after {
+
+      transform: rotate(180deg);
+
     }
 
   }

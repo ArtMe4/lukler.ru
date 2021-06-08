@@ -45,7 +45,7 @@
                                         <li><a href="">Свежая выпечка</a></li>
                                         <li><a href="">Классические десерты</a></li>
                                         <li><a href="">Свежемолотый кофе</a></li>
-                                        <li><a href="">Конфетыу</a></li>
+                                        <li><a href="">Конфеты</a></li>
                                         <li><a href="">Муссы</a></li>
                                         <li><a href="">Авторские десерты</a></li>
                                     </ul>
@@ -100,18 +100,42 @@
                     </div>
                     <div class="header__mobile-menu d-lg-none">
                         <img src="./assets/img/header-iamges/mobile-menu.png" alt="">
-                        <div class="mobile-menu__body">
-                            <div class="mobile-menu__item">
-                                <a href="">Меню</a>
+                        <div class="mobile-menu">
+                            <div class="mobile-menu__top">
+                                <img class="mobile-menu__back" src="./assets/img/header-iamges/menu-back.svg" alt="">
+                                <img class="mobile-menu__close" src="./assets/img/header-iamges/menu-close.svg" alt="">
                             </div>
-                            <div class="mobile-menu__item">
-                                <a href="">Шеф-кондитер</a>
-                            </div>
-                            <div class="mobile-menu__item">
-                                <a href="">О кафе</a>
-                            </div>
-                            <div class="mobile-menu__item">
-                                <a href="">Контакты</a>
+                            <div class="mobile-menu__body">
+                                <div class="mobile-menu__item has-child">
+                                    <a class="mobile-menu__link" href="">Меню</a>
+                                    <div class="mobile-menu__children">
+                                        <a href="">Все сразу</a>
+                                        <a href="">Ароматные эклеры</a>
+                                        <a href="">Свежая выпечка</a>
+                                        <a href="">Классические десерты</a>
+                                        <a href="">Свежемолотый кофе</a>
+                                        <a href="">Конфеты</a>
+                                        <a href="">Муссы</a>
+                                        <a href="">Авторские десерты</a>
+                                    </div>
+                                </div>
+                                <div class="mobile-menu__item">
+                                    <a href="">Шеф-кондитер</a>
+                                </div>
+                                <div class="mobile-menu__item has-child">
+                                    <a class="mobile-menu__link" href="">О кафе</a>
+                                    <div class="mobile-menu__children">
+                                        <a href="">Что-то</a>
+                                        <a href="">Что-то</a>
+                                        <a href="">Что-то</a>
+                                        <a href="">Что-то</a>
+                                        <a href="">Что-то</a>
+                                        <a href="">Что-то</a>
+                                    </div>
+                                </div>
+                                <div class="mobile-menu__item">
+                                    <a href="">Контакты</a>
+                                </div>
                             </div>
                         </div>
                     </div>

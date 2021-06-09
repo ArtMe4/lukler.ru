@@ -100,3 +100,19 @@ var product_swiper = new Swiper(".product__image .swiper-container", {
         swiper: product_swiper_thumb,
     },
 });
+
+var main_swiper = new Swiper('.cakeUp .swiper-container', {
+    slidesPerView: 1,
+    spaceBetween: 20,
+    // Navigation arrows
+    navigation: {
+        nextEl: '.cakeUp-button-next',
+        prevEl: '.cakeUp-button-prev',
+    },
+    pagination: {
+        el: '.cakeUp-pagination',
+        clickable: 'true',
+    },
+});
+
+

@@ -119,6 +119,14 @@
 
   &__info {
 
+    @include laptop {
+      margin-top: 30px;
+    }
+
+    @include tablet {
+      margin-top: 20px;
+    }
+
     &-name {
 
       @include laptop {

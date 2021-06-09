@@ -54,6 +54,10 @@
 
   &-hr {
 
+    @include tablet {
+      text-align: center;
+    }
+
     margin: 15px 0;
 
   }

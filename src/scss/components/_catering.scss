@@ -17,7 +17,7 @@
 
     @include laptop {
 
-      padding: 40px 38px 100px;
+      padding: 40px 38px 50px;
       border-radius: 40px 0px;
 
     }
@@ -114,7 +114,11 @@
   &__link {
 
     @include laptop {
-      margin-top: 20px;
+      margin-top: 30px;
+    }
+
+    @include tablet {
+
     }
 
     margin-top: 30px;
@@ -129,6 +133,10 @@
         line-height: 24px;
         padding: 13px 34px;
 
+      }
+
+      @include tablet {
+        width: 100%;
       }
 
       font-style: normal;
@@ -218,18 +226,22 @@
 
   &__girl {
 
-    @include laptop {
+    img {
 
-      bottom: unset;
-      top: -13px;
-      right: 40px;
+      @include laptop {
+
+        width: 374px;
+
+      }
+
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      z-index: 0;
 
     }
 
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    z-index: 0;
+
 
   }
 
@@ -241,7 +253,7 @@
       top: 28px;
       left: -27px;
       background: #FFFFFF;
-      opacity: 0.8;
+      opacity: 0.5;
       box-shadow: 0px 8px 20px rgba(166, 128, 115, 0.3);
       display: flex;
       align-items: center;
@@ -249,6 +261,11 @@
       padding: 19px;
       z-index: 10;
       border-radius: 50%;
+      transition: .3s opacity ease;
+
+      &:hover {
+        opacity: 0.8;
+      }
 
     }
 
@@ -258,7 +275,7 @@
       top: 28px;
       right: -27px;
       background: #FFFFFF;
-      opacity: 0.8;
+      opacity: 0.5;
       box-shadow: 0px 8px 20px rgba(166, 128, 115, 0.3);
       display: flex;
       align-items: center;
@@ -267,6 +284,11 @@
       z-index: 10;
       border-radius: 50%;
       transform: rotate(180deg);
+      transition: .3s opacity ease;
+
+      &:hover {
+        opacity: 0.8;
+      }
 
     }
 

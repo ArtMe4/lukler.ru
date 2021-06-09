@@ -1,30 +1,85 @@
 .cakeUp {
 
-  @include laptop {
+  @include tablet {
+    background: linear-gradient(0deg, #F0CBD8 100%, rgba(26, 24, 24, 0) 100%);
+  }
 
-    background-image: url("../img/banner-bg-tablet.png");
-    padding: 100px 0 85px;
+  background: linear-gradient(90deg, #F0CBD8 16.67%, #FBE2E8 61.46%);
+
+  .swiper-container {
+    overflow: hidden;
+  }
+  
+  .container {
+    position: relative;
+  }
+  
+  &__img {
+
+    @include tablet {
+
+      height: 363.41px;
+      background-size: 298px;
+      z-index: -1;
+
+    }
+
+    position: relative;
+    //width: 100%;
+    //height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 
   }
 
-  @include phone {
+  &__bg {
 
-    background-image: url("../img/banner-bg-phone.png");
-    padding: 313px 0 40px;
+    &:before {
+
+      @include tablet {
+
+        content: '';
+        position: absolute;
+        right: calc((100vw - (100% + (100vw - 540px)/2)) * -1);
+        width: 100vw;
+        background: linear-gradient(0deg, #F0CBD8 63.42%, rgba(26, 24, 24, 0) 82%);
+        top: unset;
+        bottom: 0;
+        height: calc(100% - 170px);
+        z-index: -1;
+
+      }
+
+      @include phone {
+
+        right: 0;
+
+      }
+
+    }
 
   }
-
-  background-image: url("../img/banner-bg.png");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding: 220px 0 230px;
 
   &__all {
 
     @include tablet {
+
       text-align: center;
+      padding: 0 0 40px;
+
     }
+
+    @include laptop {
+
+      padding-top: 100px;
+      padding-bottom: 85px;
+
+    }
+
+    padding-top: 220px;
+    padding-bottom: 230px;
+    position: relative;
 
     &-title {
 
@@ -113,6 +168,10 @@
 
       &-need {
 
+        @include tablet {
+          width: 100%;
+        }
+
         a {
 
           @include desktop {
@@ -126,6 +185,9 @@
             width: 100%;
             margin-right: 0;
             margin-bottom: 5px;
+            text-align: center;
+            padding: 12px 0;
+            display: block;
 
           }
 
@@ -154,6 +216,10 @@
 
       &-all {
 
+        @include tablet {
+          width: 100%;
+        }
+
         a {
 
           @include desktop {
@@ -165,6 +231,9 @@
           @include tablet {
 
             width: 100%;
+            text-align: center;
+            padding: 12px 0;
+            display: block;
 
           }
 
@@ -185,6 +254,131 @@
           }
 
         }
+
+      }
+
+    }
+
+  }
+
+  &-button {
+
+    &-prev {
+
+      @include laptop {
+
+        padding: 17px;
+        left: -35px;
+
+      }
+
+      @include tablet {
+        left: 10px;
+      }
+
+      position: absolute;
+      top: calc(50% - 27px);
+      left: -27px;
+      background: #FFFFFF;
+      opacity: 0.5;
+      box-shadow: 0px 8px 20px rgba(166, 128, 115, 0.3);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 19px;
+      z-index: 10;
+      border-radius: 50%;
+      transition: .3s opacity ease;
+
+      &:hover {
+
+        opacity: 0.8;
+
+      }
+
+    }
+
+    &-next {
+
+      @include laptop {
+
+        padding: 17px;
+        right: -35px;
+
+      }
+
+      @include tablet {
+        right: 10px;
+      }
+
+      position: absolute;
+      top: calc(50% - 27px);
+      right: -27px;
+      background: #FFFFFF;
+      opacity: 0.5;
+      box-shadow: 0px 8px 20px rgba(166, 128, 115, 0.3);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 19px;
+      z-index: 10;
+      border-radius: 50%;
+      transform: rotate(180deg);
+      transition: .3s opacity ease;
+
+      &:hover {
+
+        opacity: 0.8;
+
+      }
+
+    }
+
+  }
+
+  &-pagination {
+
+    @include laptop {
+
+      bottom: 40px;
+      left: unset;
+      right: 0;
+
+    }
+
+    width: max-content;
+    bottom: 120px;
+    position: absolute;
+    left: 4px;
+
+    .swiper-pagination-bullet {
+
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: #816965;
+      opacity: 0.5;
+      position: relative;
+
+      &:not(:last-child) {
+        margin-right: 15px;
+      }
+
+    }
+
+    .swiper-pagination-bullet-active {
+
+      &:after {
+
+        content: '';
+        position: absolute;
+        top: -4px;
+        left: -4px;
+        width: 14px;
+        height: 14px;
+        border: 1px solid #E26776;
+        border-radius: 50%;
+        background: none;
 
       }
 

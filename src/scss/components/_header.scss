@@ -2,6 +2,26 @@ body {
   overflow-x: hidden;
 }
 
+@keyframes toggled {
+  from {
+    margin-right: -100%;
+  }
+
+  to {
+    margin-right: 0;
+  }
+}
+
+@keyframes toggledunset {
+  from {
+    margin-right: 0;
+  }
+
+  to {
+    margin-right: -100%;
+  }
+}
+
 header {
 
   position: absolute;
@@ -256,9 +276,18 @@ header.catalog {
       &.opened {
 
         .mobile-menu {
-
-          margin-right: 0;
           display: block;
+        }
+
+      }
+
+      &.toggle {
+
+        .mobile-menu {
+
+          animation-duration: 0.4s;
+          animation-fill-mode: forwards;
+          animation-name: toggled;
 
         }
 
@@ -274,11 +303,15 @@ header.catalog {
 
   .mobile-menu {
 
+    animation-duration: 0.4s;
+    animation-fill-mode: forwards;
+    animation-name: toggledunset;
+
     background: #FAEBE9;
     display: none;
     position: absolute;
     top: 0;
-    margin-right: -100%;
+    //margin-right: -100%;
     right: 0;
     width: 213px;
 

@@ -4,28 +4,46 @@
 
     <section class="cakeUp">
         <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-lg-7"></div>
-                <div class="col-md-6 col-lg-5">
-                    <div class="cakeUp__all">
-                        <div class="cakeUp__all-title">
-                            Влюбляем в шоколад
-                        </div>
-                        <div class="cakeUp__all-main">
-                            Тортики
-                        </div>
-                        <div class="cakeUp__all-description">
-                            Тортики ручной работы от шеф-кондитера, которые сделают праздник самым незабываемым
-                        </div>
-                        <div class="cakeUp__all-buttons">
-                            <div class="cakeUp__all-buttons-need">
-                                <a href="">Хочу!</a>
+            <div class="cakeUp-button-prev">
+                <img src="./assets/img/catalog-slider/slider-arrow.png" alt="">
+            </div>
+            <div class="cakeUp-button-next">
+                <img src="./assets/img/catalog-slider/slider-arrow.png" alt="">
+            </div>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <?php for($i = 0; $i < 4; $i++) { ?>
+                        <div class="swiper-slide">
+                            <div class="row">
+                                <div class="col-md-6 col-lg-7 cakeUp__img" style="background-image: url('./assets/img/index-banner.png');">
+    <!--                                <div class="cakeUp__img" >-->
+    <!--                                </div>-->
+                                </div>
+                                <div class="col-md-6 col-lg-5 cakeUp__bg">
+                                    <div class="cakeUp__all">
+                                        <div class="cakeUp__all-title">
+                                            Влюбляем в шоколад
+                                        </div>
+                                        <div class="cakeUp__all-main">
+                                            Тортики
+                                        </div>
+                                        <div class="cakeUp__all-description">
+                                            Тортики ручной работы от шеф-кондитера, которые сделают праздник самым незабываемым
+                                        </div>
+                                        <div class="cakeUp__all-buttons">
+                                            <div class="cakeUp__all-buttons-need">
+                                                <a href="">Хочу!</a>
+                                            </div>
+                                            <div class="cakeUp__all-buttons-all">
+                                                <a href="">Все тортики</a>
+                                            </div>
+                                        </div>
+                                        <div class="cakeUp-pagination d-none d-md-block"></div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="cakeUp__all-buttons-all">
-                                <a href="">Все тортики</a>
-                            </div>
                         </div>
-                    </div>
+                    <?php } ?>
                 </div>
             </div>
         </div>
@@ -952,9 +970,8 @@
                     </div>
                 </div>
             </div>
-            <div class="catering__girl">
-                <img class="d-none d-lg-block" src="./assets/img/catering-images/girl.png" alt="">
-                <img class="d-none d-md-block d-lg-none" src="./assets/img/catering-images/girl-tablet.png" alt="">
+            <div class="catering__girl d-none d-md-block">
+                <img src="./assets/img/catering-images/girl.png" alt="">
             </div>
         </div>
     </div>

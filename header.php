@@ -30,8 +30,10 @@
                     <img class="d-block d-lg-none" src="./assets/img/logo-tablet-white.png" alt="">
                 </div>
                 <div class="header__logo">
-                    <img class="d-none d-lg-block" src="./assets/img/logo.png" alt="">
-                    <img class="d-block d-lg-none" src="./assets/img/logo-tablet.png" alt="">
+                    <a href="/">
+                        <img class="d-none d-lg-block" src="./assets/img/logo.png" alt="">
+                        <img class="d-block d-lg-none" src="./assets/img/logo-tablet.png" alt="">
+                    </a>
                 </div>
                 <div class="header__right">
                     <div class="header__menu d-none d-lg-block">

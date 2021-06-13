@@ -1180,7 +1180,7 @@
             </div>
         </div>
         <div class="review__body-button">
-            <a href="">Оставить отзыв</a>
+            <a href="javascript:">Оставить отзыв</a>
         </div>
     </div>
 </section>

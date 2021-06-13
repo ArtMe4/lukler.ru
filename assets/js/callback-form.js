@@ -4,8 +4,37 @@ $(function() {
 
     const { required, minLength } = window.validators;
 
+    let feedbackForm = new Vue({
+        el: "#feedback",
+        data: {
+            name: '',
+            phone: '',
+            message: '',
+        },
+        validations: {
+            name: { required },
+            phone: { required, minLength: minLength(16) },
+            message: { required },
+        },
+        methods: {
+            phoneFocus() {
+                if (this.phone === '') {
+                    this.phone = '+7 ';
+                }
+                
+            },
+            submit() {
+                this.$v.$touch()
+                if (!this.$v.$invalid) {
+                    showSuccess()
+                    this.$el.dispatchEvent(new CustomEvent('validationSuccess', { bubbles: true}));
+                }
+            }
+        }
+    });
+
     let callbackForm = new Vue({
-        el: "#callback-form",
+        el: "#catalog-form",
         data: {
             name: '',
             phone: '',
@@ -19,12 +48,41 @@ $(function() {
                 if (this.phone === '') {
                     this.phone = '+7 ';
                 }
-                
+
             },
             submit() {
                 this.$v.$touch()
                 if (!this.$v.$invalid) {
-                    showSuccess()
+                    showSuccessCall()
+                    this.$el.dispatchEvent(new CustomEvent('validationSuccess', { bubbles: true}));
+                }
+            }
+        }
+    });
+
+
+    let orderForm = new Vue({
+        el: "#order-form",
+        data: {
+            name: '',
+            phone: '',
+            address: '',
+        },
+        validations: {
+            name: { required },
+            phone: { required, minLength: minLength(16) },
+            address: { required },
+        },
+        methods: {
+            phoneFocus() {
+                if (this.phone === '') {
+                    this.phone = '+7 ';
+                }
+
+            },
+            submit() {
+                this.$v.$touch()
+                if (!this.$v.$invalid) {
                     this.$el.dispatchEvent(new CustomEvent('validationSuccess', { bubbles: true}));
                 }
             }
@@ -50,4 +108,23 @@ $(function() {
             $(_this).addClass('filled');
         }
     }
+
+    function showSuccess() {
+
+        $.fancybox.close();
+        $.fancybox.open({
+            src: '#feedback-success'
+        });
+
+    }
+
+    function showSuccessCall() {
+
+        $.fancybox.close();
+        $.fancybox.open({
+            src: '#feedback-success-partner'
+        });
+
+    }
+
 });

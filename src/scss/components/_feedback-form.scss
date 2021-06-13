@@ -1,3 +1,35 @@
+#feedback {
+
+  @include laptop {
+
+    box-shadow: 20px 34px 34px rgba(95, 67, 64, 0.2);
+    border-radius: 0px 40px;
+    width: 676px;
+
+  }
+
+  @include tablet {
+
+    width: calc(100% - 32px);
+    box-shadow: 20px 34px 34px rgba(95, 67, 64, 0.2);
+    border-radius: 0px 40px;
+
+  }
+
+  width: 724px;
+  background: linear-gradient(90deg, #F0CBD8 16.67%, #FBE2E8 61.46%);
+  box-shadow: 20px 34px 34px rgba(95, 67, 64, 0.2);
+  border-radius: 0px 80px;
+  position: relative;
+  padding: 0;
+  display: none;
+
+  .fancybox-button.fancybox-close-small {
+    display: none;
+  }
+
+}
+
 .feedback__form {
 
   @include laptop {
@@ -49,7 +81,6 @@
     @include laptop {
 
       padding: 30px 58px 54px;
-      box-shadow: 20px 34px 34px rgba(95, 67, 64, 0.2);
       border-radius: 0px 40px;
       width: 676px;
 
@@ -59,15 +90,12 @@
 
       width: calc(100% - 32px);
       padding: 37px 20px 50px;
-      box-shadow: 20px 34px 34px rgba(95, 67, 64, 0.2);
       border-radius: 0px 40px;
 
     }
 
     margin: auto;
     width: 724px;
-    background: linear-gradient(90deg, #F0CBD8 16.67%, #FBE2E8 61.46%);
-    box-shadow: 20px 34px 34px rgba(95, 67, 64, 0.2);
     border-radius: 0px 80px;
     padding: 30px 60px 50px;
     position: relative;
@@ -99,7 +127,7 @@
       color: #816965;
       background: #FFFFFF;
       border-radius: 10px;
-      border: 0;
+      border: 1px solid #FFFFFF;
       padding: 15px;
       margin-bottom: 20px;
 
@@ -113,6 +141,29 @@
         outline: none;
       }
 
+      &.invalid {
+
+        border: 1px solid red;
+
+      }
+
+      &.valid {
+
+        + .check {
+
+          content: url("../img/valid.svg");
+          position: absolute;
+          display: block;
+          right: 24px;
+          top: calc(50% - 22px);
+          width: 24px;
+          height: 24px;
+          z-index: 99;
+
+        }
+
+      }
+
     }
 
     textarea {
@@ -123,7 +174,6 @@
 
       background: #FFFFFF;
       border-radius: 10px;
-      border: 0;
       margin-bottom: 30px;
       width: 100%;
       font-style: normal;
@@ -133,6 +183,7 @@
       color: #816965;
       padding: 13px 15px;
       height: 103px;
+      border: 1px solid #FFFFFF;
 
       &::placeholder {
         color: #81696560;
@@ -140,6 +191,12 @@
 
       &:focus {
         outline: none;
+      }
+
+      &.invalid {
+
+        border: 1px solid red;
+
       }
 
     }
@@ -157,6 +214,8 @@
     }
 
     width: calc(50% - 10px);
+    position: relative;
+
   }
 
 
@@ -171,6 +230,7 @@
     }
 
     width: calc(50% - 10px);
+    position: relative;
 
   }
 

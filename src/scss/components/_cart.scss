@@ -774,6 +774,7 @@
           line-height: 22px;
           color: #663E35;
           margin-top: 5px;
+          position: relative;
 
           input {
 
@@ -786,7 +787,7 @@
             line-height: 22px;
             color: #816965;
             padding: 15px 20px;
-            border: 0;
+            border: 1px solid #FFFFFF;
             margin-top: 10px;
 
             &::placeholder {
@@ -798,6 +799,29 @@
 
             &:focus {
               outline: none;
+            }
+
+            &.invalid {
+
+              border: 1px solid red;
+
+            }
+
+            &.valid {
+
+              + .check {
+
+                content: url("../img/valid.svg");
+                position: absolute;
+                display: block;
+                right: 24px;
+                top: calc(50% + 1px);
+                width: 24px;
+                height: 24px;
+                z-index: 99;
+
+              }
+
             }
 
           }
@@ -918,6 +942,10 @@
           }
 
           &__button {
+
+            @include tablet {
+              margin: 0;
+            }
 
             display: flex;
             align-items: center;

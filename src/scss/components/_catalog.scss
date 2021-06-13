@@ -346,6 +346,10 @@
     }
 
     form {
+      
+      .catalog__form-input {
+        position: relative;
+      }
 
       input {
 
@@ -363,9 +367,9 @@
         line-height: 22px;
         width: 100%;
         background: #FFFFFF;
-        color: #81696560;
+        color: #816965;
         border-radius: 10px;
-        border: 0;
+        border: 1px solid #FFFFFF;
         padding: 17px 15px;
 
         &::placeholder {
@@ -376,6 +380,29 @@
 
         &:focus {
           outline: none;
+        }
+
+        &.invalid {
+
+          border: 1px solid red;
+
+        }
+
+        &.valid {
+
+          + .check {
+
+            content: url("../img/valid.svg");
+            position: absolute;
+            display: block;
+            right: 24px;
+            top: calc(50% - 12px);
+            width: 24px;
+            height: 24px;
+            z-index: 99;
+
+          }
+
         }
 
       }
@@ -409,6 +436,16 @@
       text-align: center;
       padding: 18px 0;
       cursor: pointer;
+      border: 0;
+      width: 100%;
+      transition: .3s all ease;
+
+      &:hover {
+
+        color: #E26776;
+        background: #FFFFFF;
+
+      }
 
     }
 
@@ -539,4 +576,29 @@
 
 .content .catalog__slider {
   margin-top: 0;
+}
+
+.show-more {
+
+  text-align: center;
+  padding: 13px 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  background: #E26776;
+  box-shadow: 0px 5px 20px rgba(232, 131, 131, 0.3);
+  border-radius: 30px;
+  cursor: pointer;
+  margin-top: 30px;
+  transition: .3s all ease;
+
+  &:hover {
+
+    color: #E26776;
+    background: #FFFFFF;
+
+  }
+
 }

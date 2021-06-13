@@ -667,7 +667,7 @@ require 'header.php';
             </div>
         </section>
 
-        <section class="catalog__form">
+        <section class="catalog__form" id="catalog-form">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 col-md-9 catalog__form-body">
@@ -677,20 +677,34 @@ require 'header.php';
                         <div class="catalog__form-text">
                             Оставьте свои контактные данные и менеджер по работе с организациями свяжется с вами
                         </div>
-                        <form action="">
+                        <form
+                            data-ajax-submit-validate
+                            method="post" action="/ajax/api.php"
+                            @submit.prevent="submit"
+                            novalidate>
                             <div class="row">
-                                <div class="col-md-6">
-                                    <input type="text" placeholder="Название организации">
+                                <div class="col-md-6 catalog__form-input">
+                                    <input class="input"
+                                           name="FORM[NAME]"
+                                           type="text" v-model.trim="$v.name.$model"
+                                           placeholder="Название организации"
+                                           :class="[{invalid : $v.name.$error}, {valid : !this.$v.name.$invalid}]">
+                                    <div class="check"></div>
                                 </div>
-                                <div class="col-md-6">
-                                    <input type="tel" placeholder="Контактный телефон">
+                                <div class="col-md-6 catalog__form-input">
+                                    <input class="input"
+                                           name="FORM[PHONE]"
+                                           type="tel" v-mask="'+7 ### ###-##-##'" v-model.trim="$v.phone.$model"
+                                           placeholder="Контактный телефон"
+                                           :class="[{invalid : $v.phone.$error}, {valid : !this.$v.phone.$invalid}]" @focus="phoneFocus">
+                                    <div class="check"></div>
                                 </div>
                             </div>
                             <div class="row ">
                                 <div class="col-md-6">
-                                    <div class="catalog__form-submit">
+                                    <button class="catalog__form-submit">
                                         Отправить
-                                    </div>
+                                    </button>
                                 </div>
                                 <div class="col-md-6 catalog__form-policy">
                                     Отправляя форму, вы принимаете <a href="">Условия

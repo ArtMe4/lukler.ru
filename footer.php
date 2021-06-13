@@ -189,9 +189,10 @@
     </div>
 </footer>
 
-<div class="feedback__form">
+
+<div id="feedback">
     <div class="feedback__form-body">
-        <div class="feedback__form-close">
+        <div class="feedback__form-close" onclick="$.fancybox.close();">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                 <path opacity="0.7" fill-rule="evenodd" clip-rule="evenodd" d="M19 6.4L17.6 5L12 10.6L6.4 5L5 6.4L10.6 12L5 17.6L6.4 19L12 13.4L17.6 19L19 17.6L13.4 12L19 6.4Z" fill="#E26776"/>
             </svg>
@@ -199,15 +200,34 @@
         <div class="feedback__form-title">
             Ваш отзыв
         </div>
-        <form action="">
+        <form class="form"
+              data-ajax-submit-validate
+              method="post" action="/ajax/api.php"
+              @submit.prevent="submit"
+              novalidate>
             <div class="feedback__form-name">
-                <input type="text" name="name" placeholder="Ваше имя">
+                <input class="input"
+                       name="FORM[NAME]"
+                       type="text" v-model.trim="$v.name.$model"
+                       placeholder="Ваше имя"
+                       :class="[{invalid : $v.name.$error}, {valid : !this.$v.name.$invalid}]">
+                <div class="check"></div>
             </div>
             <div class="feedback__form-phone">
-                <input type="tel" name="phone" placeholder="Контактный телефон">
+                <input class="input"
+                       name="FORM[PHONE]"
+                       type="tel" v-mask="'+7 ### ###-##-##'" v-model.trim="$v.phone.$model"
+                       placeholder="Контактный телефон"
+                       :class="[{invalid : $v.phone.$error}, {valid : !this.$v.phone.$invalid}]" @focus="phoneFocus">
+                <div class="check"></div>
             </div>
             <div class="feedback__form-text">
-                <textarea name="message" placeholder="Ваш текст"></textarea>
+                <textarea class="input"
+                       name="FORM[MESSAGE]"
+                       v-model.trim="$v.message.$model"
+                       placeholder="Ваш текст"
+                       :class="[{invalid : $v.message.$error}, {valid : !this.$v.message.$invalid}]">
+                </textarea>
             </div>
             <div class="feedback__form-down">
                 <div class="feedback__form-button">
@@ -225,9 +245,13 @@
     </div>
 </div>
 
-<div class="form__success">
+<!--<div class="feedback__form">-->
+<!--    -->
+<!--</div>-->
+
+<div id="feedback-success">
     <div class="form__success-body">
-        <div class="form__success-close">
+        <div class="form__success-close" onclick="$.fancybox.close();">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                 <path opacity="0.7" fill-rule="evenodd" clip-rule="evenodd" d="M19 6.4L17.6 5L12 10.6L6.4 5L5 6.4L10.6 12L5 17.6L6.4 19L12 13.4L17.6 19L19 17.6L13.4 12L19 6.4Z" fill="#E26776"/>
             </svg>
@@ -246,9 +270,9 @@
     </div>
 </div>
 
-<div class="form__success partner">
+<div id="feedback-success-partner">
     <div class="form__success-body">
-        <div class="form__success-close">
+        <div class="form__success-close" onclick="$.fancybox.close();">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                 <path opacity="0.7" fill-rule="evenodd" clip-rule="evenodd" d="M19 6.4L17.6 5L12 10.6L6.4 5L5 6.4L10.6 12L5 17.6L6.4 19L12 13.4L17.6 19L19 17.6L13.4 12L19 6.4Z" fill="#E26776"/>
             </svg>
@@ -270,8 +294,13 @@
 </div>
 
 
-        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-        <script defer src="./assets/js/slider-initialization.js"></script>
-        <script defer src="./assets/js/main.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script defer src="./assets/js/slider-initialization.js"></script>
+    <script defer src="./assets/js/main.js"></script>
+    <script src="./assets/js/callback-form.js"></script>
+    <script src="./assets/js/vue.min.js"></script>
+    <script src="./assets/js/vue.validators.min.js"></script>
+    <script src="./assets/js/vue.vuelidate.min.js"></script>
+    <script src="./assets/js/vue.v-mask.min.js"></script>
     </body>
 </html>

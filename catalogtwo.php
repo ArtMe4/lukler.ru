@@ -263,7 +263,11 @@ require 'header.php';
                                     </div>
                                 </div>
                             </div>
-
+                            <div class="col-12 d-block d-md-none">
+                                <div class="show-more">
+                                    Посмотреть еще
+                                </div>
+                            </div>
                         </div>
 <!--                    </div>-->
                 </div>

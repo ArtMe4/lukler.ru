@@ -189,7 +189,7 @@ require 'header.php';
                 </div>
             </div>
         </div>
-        <div class="cart__order">
+        <div class="cart__order" id="order-form">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-7">
@@ -200,18 +200,37 @@ require 'header.php';
                             <div class="order__form-subtitle">
                                 Контактная информация
                             </div>
-                            <form action="">
+                            <form class="form"
+                                  data-ajax-submit-validate
+                                  method="post" action="/ajax/api.php"
+                                  @submit.prevent="submit"
+                                  novalidate>
                                 <div class="form__name">
                                     Имя
-                                    <input type="text" name="name" placeholder="Ваше имя">
+                                    <input class="input"
+                                           name="FORM[NAME]"
+                                           type="text" v-model.trim="$v.name.$model"
+                                           placeholder="Ваше имя"
+                                           :class="[{invalid : $v.name.$error}, {valid : !this.$v.name.$invalid}]">
+                                    <div class="check"></div>
                                 </div>
                                 <div class="form__phone">
                                     Номер телефона *
-                                    <input type="tel" name="phone" placeholder="Ваш телефон">
+                                    <input class="input"
+                                           name="FORM[PHONE]"
+                                           type="tel" v-mask="'+7 ### ###-##-##'" v-model.trim="$v.phone.$model"
+                                           placeholder="Ваш телефон"
+                                           :class="[{invalid : $v.phone.$error}, {valid : !this.$v.phone.$invalid}]" @focus="phoneFocus">
+                                    <div class="check"></div>
                                 </div>
                                 <div class="form__address">
                                     Адрес доставки *
-                                    <input type="text" name="address" placeholder="Улица, дом, квартира">
+                                    <input class="input"
+                                           name="FORM[ADDRESS]"
+                                           type="text" v-model.trim="$v.address.$model"
+                                           placeholder="Улица, дом, квартира"
+                                           :class="[{invalid : $v.address.$error}, {valid : !this.$v.address.$invalid}]">
+                                    <div class="check"></div>
                                 </div>
                                 <div class="form__comment">
                                     Комментарий к заказу

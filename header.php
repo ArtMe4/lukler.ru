@@ -17,7 +17,7 @@
 </head>
 <body>
     <?php
-        if($_SERVER['REQUEST_URI'] == '/product.php' || $_SERVER['REQUEST_URI'] == '/contacts.php' || $_SERVER['REQUEST_URI'] == '/cart.php') {
+        if($_SERVER['REQUEST_URI'] == '/product.php' || $_SERVER['REQUEST_URI'] == '/contacts.php' || $_SERVER['REQUEST_URI'] == '/cart.php' || $_SERVER['REQUEST_URI'] == '/order-success.php') {
             echo '<header class="product">';
         } else if ($_SERVER['REQUEST_URI'] == '/catalog.php' || $_SERVER['REQUEST_URI'] == '/catalogtwo.php') {
             echo '<header class="catalog">';

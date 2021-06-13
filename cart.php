@@ -9,7 +9,7 @@ require 'header.php';
                     <a href="">Главная</a>
                 </div>
                 <div class="breadcrumbs__item">
-                    <span>Контакты</span>
+                    <span>Корзина</span>
                 </div>
             </div>
         </div>

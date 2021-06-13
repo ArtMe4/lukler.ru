@@ -226,3 +226,9 @@ $(document).mouseup(function (e) {
         $('.form__success').hide();
     }
 });
+
+$('.review__body-button a').click(function () {
+    $.fancybox.open({
+        src: '#feedback'
+    });
+});

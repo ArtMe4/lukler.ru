@@ -2861,6 +2861,54 @@ header.catalog .header__mobile-menu.white {
   cursor: pointer;
 }
 
+.order-success__title {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 52px;
+  color: #45180E;
+  margin-bottom: 100px;
+}
+
+.order-success__body {
+  background: linear-gradient(90deg, #F0CBD8 16.67%, #FBE2E8 61.46%);
+  border-radius: 0px 80px 0px 0px;
+}
+
+.order-success__body-title {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 52px;
+  color: #45180E;
+  margin-bottom: 10px;
+  padding-top: 60px;
+}
+
+.order-success__body-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 32px;
+  color: #663E35;
+  padding-bottom: 100px;
+}
+
+.order-success__body-img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.order-success__body-img img {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  filter: drop-shadow(20px 4px 44px rgba(95, 67, 64, 0.2));
+}
+
 footer {
   background: #2E2625;
 }
@@ -3785,6 +3833,33 @@ footer .address__icon {
     right: 40px;
   }
 
+  .order-success__title {
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 80px;
+  }
+
+  .order-success__body {
+    background: linear-gradient(90deg, #F0CBD8 16.67%, #FBE2E8 61.46%);
+    border-radius: 0px 40px 0px 0px;
+  }
+
+  .order-success__body-title {
+    font-size: 26px;
+    line-height: 40px;
+    padding-top: 30px;
+  }
+
+  .order-success__body-text {
+    font-size: 20px;
+    line-height: 28px;
+    padding-bottom: 80px;
+  }
+
+  .order-success__body-img img {
+    width: 328px;
+  }
+
   footer .footer__upper {
     padding: 50px 0 30px;
   }
@@ -4483,6 +4558,30 @@ footer .address__icon {
   .form__success-close {
     top: 20px;
     right: 20px;
+  }
+
+  .order-success__title {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+
+  .order-success__body-title {
+    text-align: center;
+    padding-top: 40px;
+  }
+
+  .order-success__body-text {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+
+  .order-success__body-img {
+    text-align: center;
+  }
+
+  .order-success__body-img img {
+    position: relative;
+    width: 266px;
   }
 
   footer .footer__upper {

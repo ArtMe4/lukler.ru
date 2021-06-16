@@ -1,8 +1,8 @@
 {
-  "name": "korea",
+  "name": "lukler",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "../node_modules/.bin/gulp watch",
@@ -10,14 +10,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/digital-around/korean-cosmetic-layout.git"
+    "url": "git+https://github.com/ArtMe4/lukler.ru.git"
   },
-  "author": "Lexa",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/digital-around/korean-cosmetic-layout/issues"
-  },
-  "homepage": "https://github.com/digital-around/korean-cosmetic-layout#readme",
+  "author": "Artur",
+  "license": "",
+
+  "homepage": "https://github.com/ArtMe4/lukler.ru#readme",
   "dependencies": {
     "gulp": "^4.0.2",
     "gulp-sass": "^4.1.0",

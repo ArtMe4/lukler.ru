@@ -17,24 +17,27 @@
 </head>
 <body>
     <?php
+        $src = '';
+        $mod = '';
+
         if($_SERVER['REQUEST_URI'] == '/product.php' || $_SERVER['REQUEST_URI'] == '/contacts.php' || $_SERVER['REQUEST_URI'] == '/cart.php' || $_SERVER['REQUEST_URI'] == '/order-success.php') {
-            echo '<header class="product">';
+            $src = ' class="product"';
         } else if ($_SERVER['REQUEST_URI'] == '/catalog.php' || $_SERVER['REQUEST_URI'] == '/catalogtwo.php') {
-            echo '<header class="catalog">';
+            $src = ' class="catalog"';
+            $mod = '-white';
         } else {
-            echo '<header>';
+            $src = '';
         }
     ?>
+    <header <?= !empty($src) ? $src : '' ?>>
         <div class="container">
             <div class="header">
-                <div class="header__logo-white">
-                    <img class="d-none d-lg-block" src="./assets/img/logo-white.png" alt="">
-                    <img class="d-block d-lg-none" src="./assets/img/logo-tablet-white.png" alt="">
-                </div>
-                <div class="header__logo">
+                <div class="header__logo<?= $mod ?>">
                     <a href="/">
-                        <img class="d-none d-lg-block" src="./assets/img/logo.png" alt="">
-                        <img class="d-block d-lg-none" src="./assets/img/logo-tablet.png" alt="">
+                        <picture>
+                            <source srcset="./assets/img/logo-tablet<?= $mod ?>.png" media="(max-width: 991.98px)">
+                            <img src="./assets/img/logo<?= $mod ?>.png" alt="">
+                        </picture>
                     </a>
                 </div>
                 <div class="header__right">
@@ -73,61 +76,14 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="header__cart-white">
-                        <div class="header__cart-count">
-                            1
-                        </div>
-                        <img src="./assets/img/header-iamges/header-cart-white.png" alt="">
-                    </div>
                     <div class="header__cart">
                         <div class="header__cart-count">
                             1
                         </div>
-                        <img src="./assets/img/header-iamges/header-cart.png" alt="">
-                    </div>
-                    <div class="header__mobile-menu white d-lg-none">
-                        <img src="./assets/img/header-iamges/mobile-menu-white.png" alt="">
-                        <div class="mobile-menu">
-                            <div class="mobile-menu__top">
-                                <img class="mobile-menu__back" src="./assets/img/header-iamges/menu-back.svg" alt="">
-                                <img class="mobile-menu__close" src="./assets/img/header-iamges/menu-close.svg" alt="">
-                            </div>
-                            <div class="mobile-menu__body">
-                                <div class="mobile-menu__item has-child">
-                                    <a class="mobile-menu__link" href="">Меню</a>
-                                    <div class="mobile-menu__children">
-                                        <a href="">Все сразу</a>
-                                        <a href="">Ароматные эклеры</a>
-                                        <a href="">Свежая выпечка</a>
-                                        <a href="">Классические десерты</a>
-                                        <a href="">Свежемолотый кофе</a>
-                                        <a href="">Конфеты</a>
-                                        <a href="">Муссы</a>
-                                        <a href="">Авторские десерты</a>
-                                    </div>
-                                </div>
-                                <div class="mobile-menu__item">
-                                    <a href="">Шеф-кондитер</a>
-                                </div>
-                                <div class="mobile-menu__item has-child">
-                                    <a class="mobile-menu__link" href="">О кафе</a>
-                                    <div class="mobile-menu__children">
-                                        <a href="">Что-то</a>
-                                        <a href="">Что-то</a>
-                                        <a href="">Что-то</a>
-                                        <a href="">Что-то</a>
-                                        <a href="">Что-то</a>
-                                        <a href="">Что-то</a>
-                                    </div>
-                                </div>
-                                <div class="mobile-menu__item">
-                                    <a href="">Контакты</a>
-                                </div>
-                            </div>
-                        </div>
+                        <img src="./assets/img/header-iamges/header-cart<?= $mod ?>.png" alt="">
                     </div>
                     <div class="header__mobile-menu d-lg-none">
-                        <img src="./assets/img/header-iamges/mobile-menu.png" alt="">
+                        <img src="./assets/img/header-iamges/mobile-menu<?= $mod ?>.png" alt="">
                         <div class="mobile-menu">
                             <div class="mobile-menu__top">
                                 <img class="mobile-menu__back" src="./assets/img/header-iamges/menu-back.svg" alt="">

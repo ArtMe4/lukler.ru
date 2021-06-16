@@ -3,17 +3,17 @@
 ?>
 
     <section class="cakeUp">
-        <div class="container">
-            <div class="cakeUp-button-prev">
-                <img src="./assets/img/catalog-slider/slider-arrow.png" alt="">
-            </div>
-            <div class="cakeUp-button-next">
-                <img src="./assets/img/catalog-slider/slider-arrow.png" alt="">
-            </div>
-            <div class="swiper-container">
-                <div class="swiper-wrapper">
-                    <?php for($i = 0; $i < 4; $i++) { ?>
-                        <div class="swiper-slide">
+        <div class="cakeUp-button-prev">
+            <img src="./assets/img/catalog-slider/slider-arrow.png" alt="">
+        </div>
+        <div class="cakeUp-button-next">
+            <img src="./assets/img/catalog-slider/slider-arrow.png" alt="">
+        </div>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <?php for($i = 0; $i < 4; $i++) { ?>
+                    <div class="swiper-slide">
+                        <div class="container">
                             <div class="row">
                                 <div class="col-md-6 col-lg-7 cakeUp__img" style="background-image: url('./assets/img/index-banner.png');">
     <!--                                <div class="cakeUp__img" >-->
@@ -32,18 +32,25 @@
                                         </div>
                                         <div class="cakeUp__all-buttons">
                                             <div class="cakeUp__all-buttons-need">
-                                                <a href="">Хочу!</a>
+                                                <a href="" class="button-red">Хочу!</a>
                                             </div>
                                             <div class="cakeUp__all-buttons-all">
                                                 <a href="">Все тортики</a>
                                             </div>
                                         </div>
-                                        <div class="cakeUp-pagination d-none d-md-block"></div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    <?php } ?>
+                    </div>
+                <?php } ?>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-7"></div>
+                <div class="col-md-6 col-lg-5">
+                    <div class="cakeUp__pagination">
+                        <div class="cakeUp-pagination d-none d-md-block"></div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -608,7 +615,7 @@
                 </div>
             </div>
             <div class="catalog__slider-button">
-                <a href="">
+                <a href="" class="button-red">
                     Посмотреть Все меню
                 </a>
             </div>
@@ -698,7 +705,7 @@
                                 Один десерт — как целая сырная тарелка  на вашем столе. Не правда ли звучит прекрасно?
                             </b>
                         </p>
-                        <a href="#">Купить онлайн</a>
+                        <a href="#" class="button-red">Купить онлайн</a>
                     </div>
                     <div class="new__tabs-content-slider">
                         <div class="new__tabs-content-slider-bg">
@@ -758,7 +765,7 @@
                                 Один десерт — как целая сырная тарелка  на вашем столе. Не правда ли звучит прекрасно?
                             </b>
                         </p>
-                        <a href="#">Купить онлайн</a>
+                        <a href="#" class="button-red">Купить онлайн</a>
                     </div>
                     <div class="new__tabs-content-slider">
                         <div class="new__tabs-content-slider-bg">
@@ -818,7 +825,7 @@
                                 Один десерт — как целая сырная тарелка  на вашем столе. Не правда ли звучит прекрасно?
                             </b>
                         </p>
-                        <a href="#">Купить онлайн</a>
+                        <a href="#" class="button-red">Купить онлайн</a>
                     </div>
                     <div class="new__tabs-content-slider">
                         <div class="new__tabs-content-slider-bg">
@@ -878,7 +885,7 @@
                                 Один десерт — как целая сырная тарелка  на вашем столе. Не правда ли звучит прекрасно?
                             </b>
                         </p>
-                        <a href="#">Купить онлайн</a>
+                        <a href="#" class="button-red">Купить онлайн</a>
                     </div>
                     <div class="new__tabs-content-slider">
                         <div class="new__tabs-content-slider-bg">
@@ -937,7 +944,7 @@
                         Организовать сладкий фуршет стало с Люклером очень просто. Ваши гости оценят глубину вкуса авторских десертов.
                     </div>
                     <div class="catering__link">
-                        <a href="">
+                        <a href="" class="button-red">
                             Кейтеринг меню
                         </a>
                     </div>
@@ -1116,7 +1123,7 @@
                         Брендированные десерты - это то, чем вы можете удивить клиента, и быть уверенным в его лояльности.
                     </div>
                     <div class="organization__body-link">
-                        <a href="">Подробнее</a>
+                        <a href="" class="button-red">Подробнее</a>
                     </div>
                 </div>
                 <div class="col-md-5 col-lg-6 organization__right-flex">
@@ -1180,7 +1187,7 @@
             </div>
         </div>
         <div class="review__body-button">
-            <a href="javascript:">Оставить отзыв</a>
+            <a href="javascript:" class="button-red">Оставить отзыв</a>
         </div>
     </div>
 </section>

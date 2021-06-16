@@ -598,7 +598,7 @@ require 'header.php';
                     </div>
                 </div>
                 <div class="catalog__slider-button">
-                    <a href="">
+                    <a href="" class="button-red">
                         Скачать btb-меню
                     </a>
                 </div>
@@ -702,7 +702,7 @@ require 'header.php';
                             </div>
                             <div class="row ">
                                 <div class="col-md-6">
-                                    <button class="catalog__form-submit">
+                                    <button class="catalog__form-submit button-red">
                                         Отправить
                                     </button>
                                 </div>

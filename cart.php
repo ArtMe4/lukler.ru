@@ -173,7 +173,7 @@ require 'header.php';
                                         Бесплатная доставка при заказе на сумму от 2000 руб.
                                     </div>
                                     <div class="cart__count-btn">
-                                        <button>
+                                        <button class="button-red">
                                             Оформить заказ
                                         </button>
                                     </div>
@@ -256,7 +256,7 @@ require 'header.php';
                                     </div>
                                 </div>
                                 <div class="form__button">
-                                    <button>
+                                    <button class="button-red">
                                         Оформить заказ
                                     </button>
                                     <div class="form__policy">

@@ -52,6 +52,13 @@
 
     .tabs__caption {
 
+      @include tablet {
+
+        flex-wrap: nowrap;
+        overflow: auto;
+
+      }
+
       padding: 0;
       margin: 0;
       list-style: none;
@@ -61,6 +68,12 @@
       align-items: center;
 
       li {
+
+        @include tablet {
+
+          white-space: nowrap;
+
+        }
 
         font-style: normal;
         font-weight: normal;
@@ -335,28 +348,14 @@
         width: auto;
       }
 
-      font-style: normal;
-      font-weight: normal;
-      font-size: 20px;
-      line-height: 20px;
-      color: #FFFFFF;
       align-items: center;
-      padding: 18px 44px;
-      background: #E26776;
-      box-shadow: 0px 5px 20px rgba(232, 131, 131, 0.3);
-      border-radius: 30px;
       text-decoration: none;
       display: block;
       width: fit-content;
       text-align: center;
-      transition: .3s all ease;
 
       &:hover {
-
         text-decoration: none;
-        color: #E26776;
-        background: #FFFFFF;
-
       }
 
     }

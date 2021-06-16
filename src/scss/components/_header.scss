@@ -65,7 +65,7 @@ header.catalog {
 
   .nav__item.has-child {
 
-    a {
+    > a {
 
       display: flex;
       justify-content: flex-start;
@@ -87,33 +87,6 @@ header.catalog {
 
   }
 
-  .header__logo {
-    display: none;
-  }
-
-  .header__logo-white {
-    display: block;
-  }
-
-  .header__cart {
-    display: none;
-  }
-
-  .header__cart-white {
-    
-    display: block;
-    position: relative;
-    
-  }
-
-  .header__mobile-menu {
-    display: none;
-  }
-
-  .header__mobile-menu.white {
-    display: block;
-  }
-
 }
 
 .header {
@@ -126,14 +99,6 @@ header.catalog {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
-  &__logo {
-
-    &-white {
-      display: none;
-    }
-
-  }
 
   &__right {
 
@@ -162,7 +127,7 @@ header.catalog {
           font-style: normal;
           font-weight: 500;
           font-size: 14px;
-          line-height: 24px;
+          line-height: 25px;
           text-transform: uppercase;
           text-decoration: none;
 
@@ -197,7 +162,7 @@ header.catalog {
                 font-style: normal;
                 font-weight: normal;
                 font-size: 14px;
-                line-height: 24px;
+                line-height: 25px;
                 color: #816965;
                 text-transform: none;
                 transition: .3s all ease;
@@ -256,12 +221,6 @@ header.catalog {
 
     }
 
-    &-white {
-
-      display: none;
-
-    }
-
   }
 
   &__mobile {
@@ -298,10 +257,6 @@ header.catalog {
 
     }
 
-    &-menu.white {
-      display: none;
-    }
-
   }
 
   .mobile-menu {
@@ -334,7 +289,7 @@ header.catalog {
         font-style: normal;
         font-weight: normal;
         font-size: 14px;
-        line-height: 24px;
+        line-height: 25px;
         color: #816965;
         text-decoration: none;
 
@@ -457,7 +412,9 @@ header.catalog {
       &::after {
 
         content: url("../img/header-iamges/menu-arrow.png");
-        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         margin-left: 9px;
 
       }

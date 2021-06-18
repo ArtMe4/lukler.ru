@@ -1708,7 +1708,7 @@ header.catalog .nav__item.has-child > a::after {
   align-items: center;
 }
 
-.content .breadcrumbs__item a {
+.content .breadcrumbs__item > a {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -1717,12 +1717,12 @@ header.catalog .nav__item.has-child > a::after {
   text-decoration: none;
 }
 
-.content .breadcrumbs__item a:hover {
+.content .breadcrumbs__item > a:hover {
   color: #E26776;
   text-decoration: underline;
 }
 
-.content .breadcrumbs__item span {
+.content .breadcrumbs__item > span {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;

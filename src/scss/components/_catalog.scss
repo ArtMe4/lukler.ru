@@ -514,7 +514,7 @@
 
     &__item {
 
-      a {
+      > a {
 
         font-style: normal;
         font-weight: normal;
@@ -532,7 +532,7 @@
 
       }
 
-      span {
+      > span {
 
         font-style: normal;
         font-weight: normal;

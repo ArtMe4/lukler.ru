@@ -589,7 +589,6 @@ header.catalog .nav__item.has-child > a::after {
   background-size: cover;
   background-position: center;
   height: 365px;
-  cursor: pointer;
   overflow: hidden;
   max-width: 264px;
 }
@@ -683,6 +682,7 @@ header.catalog .nav__item.has-child > a::after {
   cursor: pointer;
   margin-top: 30px;
   margin-bottom: -90px;
+  text-decoration: none;
   transition: .3s all ease;
 }
 

@@ -59,7 +59,7 @@
                                 </div>
                             </li>
                             <li class="nav__item">
-                                <a href="">Шеф-кондитер</a>
+                                <a target="_blank" href="https://rodinkirill.com/">Шеф-кондитер</a>
                             </li>
                             <li class="nav__item has-child">
                                 <a href="">О кафе</a>
@@ -104,7 +104,7 @@
                                     </div>
                                 </div>
                                 <div class="mobile-menu__item">
-                                    <a href="">Шеф-кондитер</a>
+                                    <a target="_blank" href="https://rodinkirill.com/">Шеф-кондитер</a>
                                 </div>
                                 <div class="mobile-menu__item has-child">
                                     <a class="mobile-menu__link" href="">О кафе</a>

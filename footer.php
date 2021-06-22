@@ -97,7 +97,7 @@
                                 Кафе
                             </div>
                             <div class="footer__catalog-items">
-                                <a href="">Шеф-кондитер</a>
+                                <a target="_blank" href="https://rodinkirill.com/">Шеф-кондитер</a>
                                 <a href="">О Люклер</a>
                                 <a href="">Для организаций</a>
                                 <a href="">Команда</a>

@@ -35,6 +35,7 @@
   transition: .3s all ease;
 }
 
+html,
 body {
   overflow-x: hidden;
 }
@@ -344,6 +345,7 @@ header.catalog .nav__item.has-child > a::after {
 
 .cakeUp {
   background: linear-gradient(90deg, #F0CBD8 16.67%, #FBE2E8 61.46%);
+  position: relative;
 }
 
 .cakeUp .swiper-container {
@@ -439,7 +441,7 @@ header.catalog .nav__item.has-child > a::after {
 .cakeUp-button-prev {
   position: absolute;
   top: calc(50% - 27px);
-  left: -27px;
+  left: calc((100vw - 1320px)/2 - 27px);
   background: #FFFFFF;
   opacity: 0.5;
   box-shadow: 0px 8px 20px rgba(166, 128, 115, 0.3);
@@ -459,7 +461,7 @@ header.catalog .nav__item.has-child > a::after {
 .cakeUp-button-next {
   position: absolute;
   top: calc(50% - 27px);
-  right: -27px;
+  right: calc((100vw - 1320px)/2 - 27px);
   background: #FFFFFF;
   opacity: 0.5;
   box-shadow: 0px 8px 20px rgba(166, 128, 115, 0.3);
@@ -3083,6 +3085,14 @@ footer .address__icon {
 }
 
 @media screen and (max-width: 1399.98px) {
+  .cakeUp-button-prev {
+    left: calc((100vw - 1140px)/2 - 27px);
+  }
+
+  .cakeUp-button-next {
+    right: calc((100vw - 1140px)/2 - 27px);
+  }
+
   .catalog__banner-bg:before {
     width: calc(100% + (100vw - 1140px)/2);
   }
@@ -3100,6 +3110,14 @@ footer .address__icon {
 
   .cakeUp__all-buttons-all a {
     padding: 12px 23.5px;
+  }
+
+  .cakeUp-button-prev {
+    left: calc((100vw - 960px)/2 - 10px);
+  }
+
+  .cakeUp-button-next {
+    right: calc((100vw - 960px)/2 - 10px);
   }
 
   .catalog__banner-bg:before {
@@ -3141,12 +3159,12 @@ footer .address__icon {
 
   .cakeUp-button-prev {
     padding: 17px;
-    left: -35px;
+    left: calc((100vw - 720px)/2 - 10px);
   }
 
   .cakeUp-button-next {
     padding: 17px;
-    right: -35px;
+    right: calc((100vw - 720px)/2 - 10px);
   }
 
   .cakeUp-pagination {

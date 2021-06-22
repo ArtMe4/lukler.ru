@@ -158,7 +158,7 @@ $(document).ready(function() {
 
 // Меню для мобилки
 
-$('.header__mobile-menu img').click(function () {
+$('.header__mobile-menu > img').click(function () {
 
     $(this).parent().addClass('opened');
     $(this).parent().addClass('toggle');
@@ -170,7 +170,7 @@ $('.mobile-menu__close').click(function () {
     $(this).parent().parent().parent().removeClass('toggle');
     setTimeout(
         function(){
-            $(this).parent().parent().parent().removeClass('opened');
+            $('.mobile-menu__close').parent().parent().parent().removeClass('opened');
         }
         ,400 //1 second
     );

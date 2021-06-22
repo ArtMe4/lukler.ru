@@ -45,11 +45,13 @@
                     </div>
                 <?php } ?>
             </div>
-            <div class="row">
-                <div class="col-md-6 col-lg-7"></div>
-                <div class="col-md-6 col-lg-5">
-                    <div class="cakeUp__pagination">
-                        <div class="cakeUp-pagination d-none d-md-block"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-lg-7"></div>
+                    <div class="col-md-6 col-lg-5">
+                        <div class="cakeUp__pagination">
+                            <div class="cakeUp-pagination d-none d-md-block"></div>
+                        </div>
                     </div>
                 </div>
             </div>

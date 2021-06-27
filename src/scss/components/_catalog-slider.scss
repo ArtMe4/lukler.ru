@@ -39,6 +39,10 @@
     color: #663E35;
     margin-bottom: 40px;
 
+    &:first-letter {
+      text-transform: uppercase;
+    }
+
   }
 
   &-tags {

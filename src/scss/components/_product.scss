@@ -307,8 +307,8 @@
 
         &__cart {
 
-          button {
-
+          a {
+            display: block;
             font-style: normal;
             font-weight: normal;
             font-size: 20px;
@@ -319,6 +319,7 @@
             border-radius: 30px;
             padding: 18px 44px;
             border: 0;
+            text-decoration: none;
             transition: .3s all ease;
 
             &:hover {

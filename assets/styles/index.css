@@ -538,6 +538,10 @@ header.catalog .nav__item.has-child > a::after {
   margin-bottom: 40px;
 }
 
+.catalog__slider-title:first-letter {
+  text-transform: uppercase;
+}
+
 .catalog__slider-tags {
   font-style: normal;
   font-weight: normal;
@@ -1910,7 +1914,8 @@ header.catalog .nav__item.has-child > a::after {
   outline: none;
 }
 
-.product__info-buttons .buttons__cart button {
+.product__info-buttons .buttons__cart a {
+  display: block;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -1921,10 +1926,11 @@ header.catalog .nav__item.has-child > a::after {
   border-radius: 30px;
   padding: 18px 44px;
   border: 0;
+  text-decoration: none;
   transition: .3s all ease;
 }
 
-.product__info-buttons .buttons__cart button:hover {
+.product__info-buttons .buttons__cart a:hover {
   background: #FFFFFF;
   color: #E26776;
 }

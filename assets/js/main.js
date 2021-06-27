@@ -109,6 +109,8 @@ $(document).ready(function() {
         });
         $('.count__total.phone').text(totalCountPhone);
         $('.price__total.phone').text(totalPricePhone + ' ₽');
+
+        $input.trigger('change');
     }
     $('.buttons__count-minus').click(function() {
         change($(this).closest('.buttons__count'), -1);

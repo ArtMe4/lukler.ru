@@ -2,6 +2,11 @@ html, body {
   overflow-x: hidden;
 }
 
+@font-face {
+  font-family: 'Rosa Mareba';
+  src: url(../fonts/RosaMareba.ttf);
+}
+
 @keyframes toggled {
   from {
     margin-right: -100%;
@@ -92,13 +97,13 @@ header.catalog {
 .header {
 
   @include laptop {
-    padding: 14px 0;
+    padding: 14px 0 0;
   }
 
-  padding: 30px 0;
+  padding: 30px 0 0;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
 
   &__right {
 

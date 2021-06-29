@@ -40,6 +40,11 @@ body {
   overflow-x: hidden;
 }
 
+@font-face {
+  font-family: 'Rosa Mareba';
+  src: url(../fonts/RosaMareba.ttf);
+}
+
 @keyframes toggled {
   from {
     margin-right: -100%;
@@ -106,10 +111,10 @@ header.catalog .nav__item.has-child > a::after {
 }
 
 .header {
-  padding: 30px 0;
+  padding: 30px 0 0;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .header__right {
@@ -369,16 +374,16 @@ header.catalog .nav__item.has-child > a::after {
 }
 
 .cakeUp__all-title {
+  font-family: Rosa Mareba;
   font-style: normal;
   font-weight: normal;
-  font-size: 32px;
-  line-height: 32px;
+  font-size: 48px;
+  line-height: 48px;
   color: #663E35;
-  margin-bottom: 10px;
+  margin-bottom: 0;
 }
 
 .cakeUp__all-main {
-  font-family: Playfair Display;
   font-style: normal;
   font-weight: bold;
   font-size: 64px;
@@ -529,7 +534,6 @@ header.catalog .nav__item.has-child > a::after {
 }
 
 .catalog__slider-title {
-  font-family: Playfair Display;
   font-style: normal;
   font-weight: bold;
   font-size: 42px;
@@ -768,7 +772,8 @@ header.catalog .nav__item.has-child > a::after {
 }
 
 .info__title {
-  font-size: 22px;
+  font-family: "Rosa Mareba";
+  font-size: 40px;
   line-height: 32px;
   font-weight: normal;
   margin-bottom: 3px;
@@ -853,7 +858,6 @@ header.catalog .nav__item.has-child > a::after {
 }
 
 .new__title {
-  font-family: Playfair Display;
   font-style: normal;
   font-weight: bold;
   font-size: 42px;
@@ -866,12 +870,13 @@ header.catalog .nav__item.has-child > a::after {
 }
 
 .new__subtitle {
+  font-family: "Rosa Mareba";
   font-style: normal;
   font-weight: normal;
-  font-size: 24px;
-  line-height: 24px;
+  font-size: 36px;
+  line-height: 32px;
   color: #45180E;
-  margin-bottom: 112px;
+  margin-bottom: 104px;
 }
 
 .new__body {
@@ -1025,9 +1030,10 @@ header.catalog .nav__item.has-child > a::after {
 }
 
 .catering__text {
+  font-family: "Rosa Mareba";
   font-style: normal;
   font-weight: normal;
-  font-size: 22px;
+  font-size: 40px;
   line-height: 32px;
   color: #45180E;
   position: relative;
@@ -1035,7 +1041,6 @@ header.catalog .nav__item.has-child > a::after {
 }
 
 .catering__title {
-  font-family: Playfair Display;
   font-style: normal;
   font-weight: bold;
   font-size: 42px;
@@ -1079,7 +1084,6 @@ header.catalog .nav__item.has-child > a::after {
 }
 
 .catering__slider-title {
-  font-family: Playfair Display;
   font-style: normal;
   font-weight: bold;
   font-size: 32px;
@@ -1171,16 +1175,16 @@ header.catalog .nav__item.has-child > a::after {
 }
 
 .organization__body-text {
+  font-family: "Rosa Mareba";
   font-style: normal;
   font-weight: normal;
-  font-size: 22px;
+  font-size: 40px;
   line-height: 32px;
   color: #FFFFFF;
   text-align: center;
 }
 
 .organization__body-title {
-  font-family: Playfair Display;
   font-style: normal;
   font-weight: bold;
   font-size: 42px;
@@ -1292,7 +1296,6 @@ header.catalog .nav__item.has-child > a::after {
 }
 
 .contacts__title {
-  font-family: Playfair Display;
   font-style: normal;
   font-weight: bold;
   font-size: 42px;
@@ -1302,10 +1305,11 @@ header.catalog .nav__item.has-child > a::after {
 }
 
 .contacts__description {
+  font-family: "Rosa Mareba";
   font-style: normal;
   font-weight: normal;
-  font-size: 24px;
-  line-height: 24px;
+  font-size: 30px;
+  line-height: 32px;
   color: #663E35;
   margin-bottom: 40px;
 }
@@ -1369,7 +1373,6 @@ header.catalog .nav__item.has-child > a::after {
 }
 
 .review__head {
-  font-family: Playfair Display;
   font-style: normal;
   font-weight: bold;
   font-size: 42px;
@@ -1521,14 +1524,14 @@ header.catalog .nav__item.has-child > a::after {
 }
 
 .catalog__banner-text {
+  font-family: "Rosa Mareba";
   font-weight: normal;
-  font-size: 24px;
-  line-height: 24px;
+  font-size: 48px;
+  line-height: 32px;
   margin-bottom: 10px;
 }
 
 .catalog__banner-title {
-  font-family: Playfair Display;
   font-style: normal;
   font-weight: bold;
   font-size: 42px;
@@ -1605,7 +1608,6 @@ header.catalog .nav__item.has-child > a::after {
 }
 
 .catalog__form-title {
-  font-family: Playfair Display;
   font-style: normal;
   font-weight: bold;
   font-size: 32px;
@@ -1801,7 +1803,6 @@ header.catalog .nav__item.has-child > a::after {
 }
 
 .product__info-name {
-  font-family: Playfair Display;
   font-style: normal;
   font-weight: bold;
   font-size: 42px;
@@ -1986,7 +1987,6 @@ header.catalog .nav__item.has-child > a::after {
 }
 
 .static__label-title {
-  font-family: Playfair Display;
   font-style: normal;
   font-weight: bold;
   font-size: 32px;
@@ -2077,7 +2077,6 @@ header.catalog .nav__item.has-child > a::after {
 }
 
 .mainCatalog .catalog__slide.last .body__title {
-  font-family: Playfair Display;
   font-style: normal;
   font-weight: bold;
   font-size: 42px;
@@ -2656,7 +2655,6 @@ header.catalog .nav__item.has-child > a::after {
 }
 
 .feedback__form-title {
-  font-family: Playfair Display;
   font-style: normal;
   font-weight: bold;
   font-size: 42px;
@@ -2838,7 +2836,6 @@ header.catalog .nav__item.has-child > a::after {
 }
 
 .form__success-title {
-  font-family: Playfair Display;
   font-style: normal;
   font-weight: bold;
   font-size: 42px;
@@ -2876,7 +2873,6 @@ header.catalog .nav__item.has-child > a::after {
 }
 
 .order-success__title {
-  font-family: Playfair Display;
   font-style: normal;
   font-weight: bold;
   font-size: 42px;
@@ -2891,7 +2887,6 @@ header.catalog .nav__item.has-child > a::after {
 }
 
 .order-success__body-title {
-  font-family: Playfair Display;
   font-style: normal;
   font-weight: bold;
   font-size: 32px;
@@ -3137,7 +3132,7 @@ footer .address__icon {
 
 @media screen and (max-width: 991.98px) {
   .header {
-    padding: 14px 0;
+    padding: 14px 0 0;
   }
 
   .cakeUp__all {
@@ -3147,7 +3142,7 @@ footer .address__icon {
 
   .cakeUp__all-title {
     font-weight: 500;
-    font-size: 20px;
+    font-size: 28px;
     line-height: 28px;
     margin-bottom: 0;
   }
@@ -3223,7 +3218,7 @@ footer .address__icon {
   }
 
   .info__title {
-    font-size: 20px;
+    font-size: 28px;
     line-height: 28px;
     margin-bottom: 0;
   }
@@ -3272,7 +3267,7 @@ footer .address__icon {
   }
 
   .new__subtitle {
-    font-size: 20px;
+    font-size: 28px;
     line-height: 28px;
     margin-bottom: 37px;
   }
@@ -3310,7 +3305,7 @@ footer .address__icon {
   }
 
   .catering__text {
-    font-size: 20px;
+    font-size: 28px;
     line-height: 28px;
   }
 
@@ -3367,7 +3362,7 @@ footer .address__icon {
   }
 
   .organization__body-text {
-    font-size: 20px;
+    font-size: 28px;
     line-height: 28px;
     text-align: left;
   }
@@ -3421,7 +3416,7 @@ footer .address__icon {
 
   .contacts__description {
     font-weight: 500;
-    font-size: 20px;
+    font-size: 28px;
     line-height: 28px;
   }
 
@@ -3513,7 +3508,7 @@ footer .address__icon {
   }
 
   .catalog__banner-text {
-    font-size: 22px;
+    font-size: 28px;
     line-height: 32px;
   }
 
@@ -3904,6 +3899,10 @@ footer .address__icon {
     padding: 50px 0 30px;
   }
 
+  footer .footer__logo img {
+    width: 154px;
+  }
+
   footer .footer__head {
     display: none;
   }
@@ -4091,7 +4090,8 @@ footer .address__icon {
 
   .new__subtitle {
     text-align: center;
-    margin-bottom: 18px;
+    margin-bottom: 20px;
+    margin-top: 10px;
   }
 
   .new__tabs {
@@ -4240,6 +4240,8 @@ footer .address__icon {
 
   .contacts__description {
     text-align: center;
+    font-size: 30px;
+    line-height: 28px;
   }
 
   .contacts__address {
@@ -4307,6 +4309,11 @@ footer .address__icon {
   .catalog__banner-img {
     max-width: unset;
     max-height: 297px;
+  }
+
+  .catalog__banner-text {
+    font-size: 30px;
+    line-height: 32px;
   }
 
   .catalog__banner-hr {
@@ -4657,6 +4664,10 @@ footer .address__icon {
 
   footer .footer__logo {
     text-align: center;
+  }
+
+  footer .footer__logo img {
+    width: 142px;
   }
 
   footer .footer__contacts {

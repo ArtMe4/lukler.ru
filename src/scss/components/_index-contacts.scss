@@ -28,7 +28,7 @@
 
     }
 
-    font-family: Playfair Display;
+    //font-family: Playfair Display;
     font-style: normal;
     font-weight: bold;
     font-size: 42px;
@@ -43,19 +43,22 @@
     @include laptop {
 
       font-weight: 500;
-      font-size: 20px;
+      font-size: 28px;
       line-height: 28px;
 
     }
 
     @include tablet {
       text-align: center;
+      font-size: 30px;
+      line-height: 28px;
     }
 
+    font-family: "Rosa Mareba";
     font-style: normal;
     font-weight: normal;
-    font-size: 24px;
-    line-height: 24px;
+    font-size: 30px;
+    line-height: 32px;
     color: #663E35;
     margin-bottom: 40px;
 

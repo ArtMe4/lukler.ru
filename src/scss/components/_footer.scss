@@ -24,6 +24,18 @@ footer {
         text-align: center;
       }
 
+      img {
+
+        @include laptop {
+          width: 154px;
+        }
+
+        @include tablet {
+          width: 142px;
+        }
+
+      }
+
     }
 
     &__head {

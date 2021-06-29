@@ -11,7 +11,7 @@ require 'header.php';
             </div>
             <div class="col-md-6 col-lg-5 catalog__banner-bg">
                 <div class="catalog__banner-text">
-                    влбюляем в
+                    Влюбляем в
                 </div>
                 <div class="catalog__banner-title">
                     Ароматные эклеры

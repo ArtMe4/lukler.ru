@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'RosaMareba';
+    src: url('RosaMareba.eot');
+    src: url('RosaMareba.eot?#iefix') format('embedded-opentype'),
+         url('RosaMareba.woff2') format('woff2'),
+         url('RosaMareba.woff') format('woff'),
+         url('RosaMareba.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

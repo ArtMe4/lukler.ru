@@ -26,16 +26,6 @@
 
   &__body {
 
-    @include laptop {
-      margin-bottom: 60px;
-    }
-
-    @include tablet {
-      margin-bottom: 20px;
-    }
-
-    margin-bottom: 100px;
-
     &-titles {
 
       border-bottom: 1px solid #FAEBE9;
@@ -143,12 +133,14 @@
         &-image {
 
           @include tablet {
-
+            flex-basis: 85px;
             width: 85px;
             height: 105px;
 
           }
 
+          flex-shrink: 0;
+          flex-basis: 110px;
           width: 110px;
           height: 110px;
           background-position: center;
@@ -257,6 +249,12 @@
 
         &:focus {
           outline: none;
+        }
+
+        &::-webkit-inner-spin-button,
+        &::-webkit-outer-spin-button {
+          -webkit-appearance: none;
+          margin: 0
         }
 
       }
@@ -512,7 +510,8 @@
             color: #816965;
             display: flex;
             align-items: center;
-            margin-left: 35px;
+            padding-left: 35px;
+            cursor: pointer;
 
           }
 
@@ -645,17 +644,20 @@
   }
 
   &__order {
+    margin-top: 100px;
 
     @include laptop {
-      border-radius: 0px 40px 0px 0px;
+      margin-top: 60px;
+      border-radius: 0 40px 0 0;
     }
 
     @include tablet {
+      margin-top: 20px;
       border-radius: 0;
     }
 
     background: linear-gradient(90deg, #F0CBD8 16.67%, #FBE2E8 61.46%);
-    border-radius: 0px 80px 0px 0px;
+    border-radius: 0 80px 0 0;
     position: relative;
     overflow: hidden;
     
@@ -922,10 +924,10 @@
             .cart__count-radio .radio__item label {
 
               @include tablet {
-                margin-left: 27px;
+                padding-left: 27px;
               }
 
-              margin-left: 32px;
+              padding-left: 32px;
 
             }
 

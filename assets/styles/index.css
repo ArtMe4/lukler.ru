@@ -1,10 +1,6 @@
-@font-face {
-  font-family: 'Muller';
-  font-style: normal;
-  font-weight: 400;
-  src: local(""), url("./assets/fonts/MullerRegular.ttf") format("ttf"), url("../fonts/MullerRegular.ttf") format("ttf");
-  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
+@import url(../fonts/Muller/stylesheet.css);
+
+@import url(../fonts/RosaMareba/stylesheet.css);
 
 .button-red {
   font-style: normal;
@@ -37,12 +33,9 @@
 
 html,
 body {
+  font-family: 'Muller', sans-serif;
+  font-weight: 400;
   overflow-x: hidden;
-}
-
-@font-face {
-  font-family: 'Rosa Mareba';
-  src: url(../fonts/RosaMareba.ttf);
 }
 
 @keyframes toggled {
@@ -374,7 +367,7 @@ header.catalog .nav__item.has-child > a::after {
 }
 
 .cakeUp__all-title {
-  font-family: Rosa Mareba;
+  font-family: "RosaMareba";
   font-style: normal;
   font-weight: normal;
   font-size: 48px;
@@ -772,7 +765,7 @@ header.catalog .nav__item.has-child > a::after {
 }
 
 .info__title {
-  font-family: "Rosa Mareba";
+  font-family: "RosaMareba";
   font-size: 40px;
   line-height: 32px;
   font-weight: normal;
@@ -870,7 +863,7 @@ header.catalog .nav__item.has-child > a::after {
 }
 
 .new__subtitle {
-  font-family: "Rosa Mareba";
+  font-family: "RosaMareba";
   font-style: normal;
   font-weight: normal;
   font-size: 36px;
@@ -1030,7 +1023,7 @@ header.catalog .nav__item.has-child > a::after {
 }
 
 .catering__text {
-  font-family: "Rosa Mareba";
+  font-family: "RosaMareba";
   font-style: normal;
   font-weight: normal;
   font-size: 40px;
@@ -1175,7 +1168,7 @@ header.catalog .nav__item.has-child > a::after {
 }
 
 .organization__body-text {
-  font-family: "Rosa Mareba";
+  font-family: "RosaMareba";
   font-style: normal;
   font-weight: normal;
   font-size: 40px;
@@ -1305,7 +1298,7 @@ header.catalog .nav__item.has-child > a::after {
 }
 
 .contacts__description {
-  font-family: "Rosa Mareba";
+  font-family: "RosaMareba";
   font-style: normal;
   font-weight: normal;
   font-size: 30px;
@@ -1524,7 +1517,7 @@ header.catalog .nav__item.has-child > a::after {
 }
 
 .catalog__banner-text {
-  font-family: "Rosa Mareba";
+  font-family: "RosaMareba";
   font-weight: normal;
   font-size: 48px;
   line-height: 32px;
@@ -2105,10 +2098,6 @@ header.catalog .nav__item.has-child > a::after {
   margin-bottom: 60px;
 }
 
-.cart__body {
-  margin-bottom: 100px;
-}
-
 .cart__body-titles {
   border-bottom: 1px solid #FAEBE9;
   border-top: 1px solid #FAEBE9;
@@ -2176,6 +2165,8 @@ header.catalog .nav__item.has-child > a::after {
 }
 
 .cart__body-left .cart__body-image {
+  flex-shrink: 0;
+  flex-basis: 110px;
   width: 110px;
   height: 110px;
   background-position: center;
@@ -2241,6 +2232,12 @@ header.catalog .nav__item.has-child > a::after {
 
 .cart__body .buttons__count-quantity:focus {
   outline: none;
+}
+
+.cart__body .buttons__count-quantity::-webkit-inner-spin-button,
+.cart__body .buttons__count-quantity::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 
 .cart__body .buttons__count-plus {
@@ -2348,7 +2345,8 @@ header.catalog .nav__item.has-child > a::after {
   color: #816965;
   display: flex;
   align-items: center;
-  margin-left: 35px;
+  padding-left: 35px;
+  cursor: pointer;
 }
 
 .cart__count-radio .radio__item input[type="radio"] + label:before {
@@ -2421,8 +2419,9 @@ header.catalog .nav__item.has-child > a::after {
 }
 
 .cart__order {
+  margin-top: 100px;
   background: linear-gradient(90deg, #F0CBD8 16.67%, #FBE2E8 61.46%);
-  border-radius: 0px 80px 0px 0px;
+  border-radius: 0 80px 0 0;
   position: relative;
   overflow: hidden;
 }
@@ -2575,7 +2574,7 @@ header.catalog .nav__item.has-child > a::after {
 }
 
 .cart__order .order__form form .form__radio .cart__count-radio .radio__item label {
-  margin-left: 32px;
+  padding-left: 32px;
 }
 
 .cart__order .order__form form .form__button {
@@ -3695,10 +3694,6 @@ footer .address__icon {
     margin-bottom: 30px;
   }
 
-  .cart__body {
-    margin-bottom: 60px;
-  }
-
   .cart__body-delete {
     margin-left: 30px;
   }
@@ -3776,7 +3771,8 @@ footer .address__icon {
   }
 
   .cart__order {
-    border-radius: 0px 40px 0px 0px;
+    margin-top: 60px;
+    border-radius: 0 40px 0 0;
   }
 
   .cart__order .order__form {
@@ -4429,10 +4425,6 @@ footer .address__icon {
     margin-bottom: 20px;
   }
 
-  .cart__body {
-    margin-bottom: 20px;
-  }
-
   .cart__body-left-info .price__new {
     margin-bottom: 0;
     font-size: 16px;
@@ -4444,6 +4436,7 @@ footer .address__icon {
   }
 
   .cart__body-left .cart__body-image {
+    flex-basis: 85px;
     width: 85px;
     height: 105px;
   }
@@ -4501,6 +4494,7 @@ footer .address__icon {
   }
 
   .cart__order {
+    margin-top: 20px;
     border-radius: 0;
   }
 
@@ -4535,7 +4529,7 @@ footer .address__icon {
   }
 
   .cart__order .order__form form .form__radio .cart__count-radio .radio__item label {
-    margin-left: 27px;
+    padding-left: 27px;
   }
 
   .cart__order .order__form form .form__button {

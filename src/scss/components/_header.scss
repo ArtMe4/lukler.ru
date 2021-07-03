@@ -1,10 +1,7 @@
 html, body {
+  font-family: 'Muller', sans-serif;
+  font-weight: 400;
   overflow-x: hidden;
-}
-
-@font-face {
-  font-family: 'Rosa Mareba';
-  src: url(../fonts/RosaMareba.ttf);
 }
 
 @keyframes toggled {

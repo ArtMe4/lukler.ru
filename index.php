@@ -12,12 +12,13 @@
         <div class="swiper-container">
             <div class="swiper-wrapper">
                 <?php for($i = 0; $i < 4; $i++) { ?>
-                    <div class="swiper-slide">
+                    <div class="swiper-slide cakeUp__main-slider" style="background-image: url('./assets/img/slider1.png');">
+
+
                         <div class="container">
                             <div class="row">
-                                <div class="col-md-6 col-lg-7 cakeUp__img" style="background-image: url('./assets/img/index-banner.png');">
-    <!--                                <div class="cakeUp__img" >-->
-    <!--                                </div>-->
+                                <div class="col-md-6 col-lg-7 cakeUp__img">
+
                                 </div>
                                 <div class="col-md-6 col-lg-5 cakeUp__bg">
                                     <div class="cakeUp__all">

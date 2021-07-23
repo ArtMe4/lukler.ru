@@ -410,7 +410,7 @@
 
       background-position: center;
       background-repeat: no-repeat;
-      background-size: calc(100% + 70px);
+      background-size: calc(100% + 70px) calc(100% + 70px);
 
     }
 
@@ -454,11 +454,11 @@
 
 @keyframes bg-animation {
   from {
-    background-size: calc(100% + 70px);
+    background-size: calc(100% + 70px) calc(100% + 70px);
   }
 
   to {
-    background-size: 100%;
+    background-size: 100% 100%;
   }
 }
 

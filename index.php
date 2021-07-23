@@ -12,8 +12,8 @@
         <div class="swiper-container">
             <div class="swiper-wrapper">
                 <?php for($i = 0; $i < 4; $i++) { ?>
-                    <div class="swiper-slide cakeUp__main-slider" style="background-image: url('./assets/img/slider1.png');">
-
+                    <div class="swiper-slide cakeUp__main-slider">
+                        <img src="./assets/img/slider1.png">
 
                         <div class="container">
                             <div class="row">

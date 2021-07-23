@@ -522,13 +522,16 @@ header.catalog .nav__item.has-child > a::after {
   position: relative;
 }
 
-.cakeUp__main-slider {
+.cakeUp__main-slider img {
+  object-fit: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: calc(100% + 70px) calc(100% + 70px);
+  width: calc(100% + 70px);
+  height: calc(100% + 70px);
+  position: absolute;
 }
 
-.cakeUp__main-slider.swiper-slide-active {
+.cakeUp__main-slider.swiper-slide-active img {
   animation-duration: 4s;
   animation-fill-mode: forwards;
   animation-name: bg-animation;
@@ -555,11 +558,13 @@ header.catalog .nav__item.has-child > a::after {
 
 @keyframes bg-animation {
   from {
-    background-size: calc(100% + 70px) calc(100% + 70px);
+    width: calc(100% + 70px);
+    height: calc(100% + 70px);
   }
 
   to {
-    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
   }
 }
 

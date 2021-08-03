@@ -1,0 +1,39 @@
+.--light {
+    .logo {
+        &_dark {
+            display: none;
+        }
+
+        &_light {
+            display: block;
+        }
+    }
+
+    .header {
+        &__menu-nav {
+            .nav__item {
+                > a {
+                    color: #ffffff;
+                }
+
+                &.has-child > a:after {
+                    content: url("../img/header-iamges/menu-arrow-white.png");
+                    display: block;
+                    margin-left: 9px;
+                }
+            }
+        }
+
+        &__mobile-menu-icon {
+            background-image: url("../img/header-iamges/mobile-menu-white.png");
+        }
+
+        &__cart-icon {
+            fill: #fff;
+        }
+    }
+
+    .cakeUp__all {
+        color: #ffffff;
+    }
+}

@@ -1,16 +1,16 @@
 .catalog {
 
   &__banner {
-
-    @include tablet {
-      background: linear-gradient(0deg, #1A1818 72.42%, rgba(26, 24, 24, 0) 100%);
-    }
-
-    background: linear-gradient(270deg, #231C1C 78.12%, rgba(35, 28, 28, 0) 100%);
+    background: var(--bannerColor);
     color: #FFFFFF;
     font-style: normal;
     position: relative;
     z-index: 1;
+    transition: opacity .14s ease;
+
+    &:not(.shows) {
+      opacity: 0;
+    }
 
     &-bg {
 
@@ -46,7 +46,7 @@
 
           right: calc((100vw - (100% + (100vw - 540px)/2)) * -1);
           width: 100vw;
-          background: linear-gradient(0deg, #1A1818 72.42%, rgba(26, 24, 24, 0) 100%);
+          background: linear-gradient(0deg, var(--bannerColor) 72.42%, rgba(26, 24, 24, 0) 100%);
           top: unset;
           bottom: 0;
           height: calc(100% - 170px);
@@ -63,7 +63,7 @@
         content: '';
         position: absolute;
         width: calc(100% + (100vw - 1320px)/2);
-        background: linear-gradient(270deg, #231C1C 78.12%, rgba(35, 28, 28, 0) 100%);
+        background: linear-gradient(270deg, var(--bannerColor) 78.12%, rgba(35, 28, 28, 0) 100%);
         height: 100%;
         top: 0;
         right: 0;
